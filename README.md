@@ -8,4 +8,4 @@ zcat GRM.grm-pa{a..q}.gz | gzip -cf > GRM.grm.gz
 
 Those parts were originally generated from the following,
 
-gunzip < GRM.grm.gz | split - --line-bytese=50M GRM.grm-p; gzip GRM.grm.p*
+gunzip < GRM.grm.gz | split - --bytes=50M GRM.grm-p; gzip GRM.grm.p*
