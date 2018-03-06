@@ -4,7 +4,7 @@ A template for a newly created repository. It was named while the Physalia cours
 
 It is currently used to provide information for the J Stat Soft paper, particularly the GRM.
 
-The GRM.grm.gz can be reassembled via the following command,
+Once the repository is downloaded, the GRM.grm.gz can be reassembled via the following command,
 ```
 zcat GRM.grm-{0..4}.gz | gzip -cf > GRM.grm.gz
 ```
