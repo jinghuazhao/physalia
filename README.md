@@ -11,7 +11,7 @@ zcat GRM.grm-{0..4}.gz | gzip -cf > GRM.grm.gz
 where GRM.grm-{0..4} were originally generated from,
 ```
 export N=$(($(gunzip -c GRM.grm.gz | wc -l)/5+1))
-gunzip < GRM.grm.gz | split - --numeric-suffixes --lines=$N --suffix-length=1 GRM.grm-
+gunzip < GRM.grm.gz | split - --lines=$N --numeric-suffixes --suffix-length=1 GRM.grm-
 gzip GRM.grm-*
 ```
 
