@@ -1,0 +1,7 @@
+[user]
+	name = jinghuazhao
+	email = jinghuazhao@hotmail.com
+[url "https://jinghuazhao@github.com"]
+	insteadOf = https://github.com
+[credential]
+	helper = cache --timeout=86400
