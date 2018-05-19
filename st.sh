@@ -1,9 +1,11 @@
-# 2-5-2018 MRC-Epid JHZ
+# 19-5-2018 MRC-Epid JHZ
 
 git add README.md
 git commit -m "README"
 git add setup.sh
 git commit -m "setup.sh"
+git add ssh.sh
+git commit -m "ssh.sh"
 git add 2367.zip BLR.zip
 git commit -m "JSS paper"
 git add st.sh
