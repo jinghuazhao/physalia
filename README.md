@@ -1,8 +1,8 @@
 # physalia
 
-A template for a newly created repository. It was named while the Physalia course, GWAS-course, in preparation.
+A template for a newly created repository. It was named while the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course), in preparation.
 
-It is currently used to provide information for the J Stat Soft paper, particularly the GRM.
+It is currently used to provide information for the [J Stat Soft](https://www.jstatsoft.org/index) paper, particularly the GRM.
 
 Once the repository is downloaded, the GRM.grm.gz can be reassembled via the following command,
 ```
