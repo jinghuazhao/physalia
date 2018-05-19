@@ -8,6 +8,8 @@ git add ssh.sh
 git commit -m "ssh.sh"
 git add 2367.zip BLR.zip
 git commit -m "JSS paper"
+git add .gitconfig
+git commit -m ".gitconfig"
 git add st.sh
 git commit -m "st.sh"
 git add GRM.grm.id
