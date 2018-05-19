@@ -1,8 +1,5 @@
 # notes to set up ssh connection
 
-git config --global user.email "jinghuazhao@hotmail.com"
-git config --global user.name "jinghuazhao@github.com"
-
 # https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 ls -al ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "jinghua@hotmail.com"
