@@ -1,4 +1,6 @@
-# notes to set up ssh connection
+# 19-5-2018 JHZ
+
+# Adapted from the following URL,
 # https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 ls -al ~/.ssh
@@ -10,11 +12,14 @@ ssh-add ~/.ssh/id_rsa
 sudo apt install xsel
 xsel --clipboard < ~/.ssh/id_rsa.pub
 
-# clip is actually avaiable from Windows
+# clip is actually a Windows application
 # clip < ~/.ssh/id_rsa.pub
-# Ubuntu 18.04 gives the wrong suggestions: sudo apt install geomview
+# Ubuntu 18.04 gives the (wrong but otherwise useful) suggestion:
+# sudo apt install geomview
 
 ssh -T git@github.com
-# ssh-keygen -p
 
 ssh-add -l -E md5
+
+# later change in paraphrase
+# ssh-keygen -p
