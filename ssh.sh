@@ -5,7 +5,7 @@ git config --global user.name "jinghuazhao@github.com"
 
 # https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "jinghuazhao@hotmail.com"
+ssh-keygen -t rsa -b 4096 -C "jinghua@github.com"
 # paraphrase, name
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
