@@ -2,7 +2,7 @@
 
 A template for a newly created repository. It was named while the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course), in preparation.
 
-It is currently used to provide information for [the paper to appear](2367.zip) on [J Stat Soft](https://www.jstatsoft.org/index), particularly the GRM.
+It is currently used to provide information for [the paper to appear](2367.zip) on [J Stat Soft](https://www.jstatsoft.org/index), particularly the GRM and the [BLR example](BLR.zip).
 
 Once the repository is downloaded, the GRM.grm.gz can be reassembled via the following command,
 ```
@@ -15,4 +15,4 @@ gunzip < GRM.grm.gz | split - --lines=$N --numeric-suffixes --suffix-length=1 GR
 gzip GRM.grm-*
 ```
 
-For more information on rar, please visit [https://rarlab.com/](https://rarlab.com/).
+The Sweave version is [an rar file](jss2367.rar), whose format is described at [https://rarlab.com/](https://rarlab.com/).
