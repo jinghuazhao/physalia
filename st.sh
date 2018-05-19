@@ -6,7 +6,7 @@ git add setup.sh
 git commit -m "setup.sh"
 git add ssh.sh
 git commit -m "ssh.sh"
-git add 2367.zip BLR.zip
+git add 2367.zip BLR.zip jss2367.rar
 git commit -m "JSS paper"
 git add .gitconfig
 git commit -m ".gitconfig"
