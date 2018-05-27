@@ -11,4 +11,4 @@ A template for a newly created repository. It was named while the Physalia cours
  ssh.sh | setup for SSH
  st.sh | automatic push
 
-NB .gitconfig functions like ssh in the sense that no username/password is rarely necessary.
+NB .gitconfig functions like ssh in the sense that login with username/password is rarely necessary.
