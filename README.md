@@ -4,6 +4,8 @@ A template for a newly created repository. It was named while the Physalia cours
 
  File | description
  -----|------------------------------------
+ .gitconfig | $HOME/.gitconfig due to setup.sh
+ .gitignore | files not synchronised with GitHub
  README.md | this file
  setup.sh | setup for a standard repository
  ssh.sh | setup for SSH
