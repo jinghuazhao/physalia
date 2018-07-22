@@ -19,3 +19,5 @@ git push -u origin master
 
 git checkout $(git rev-list -n 1 HEAD -- "R-packages")^ -- "R-packages"
 
+# or zsh with the EXTENDED_GLOB option enabled for $file
+git checkout $(git rev-list -n 1 HEAD -- "$file")~1 -- "$file"
