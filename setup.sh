@@ -1,4 +1,4 @@
-# 19-5-2018 JHZ
+# 22-7-2018 JHZ
 
 # git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
 # This looks to avoid use of ssh
@@ -14,4 +14,8 @@ git add README.md
 git commit -m "README.md"
 git remote add origin https://github.com/jinghuazhao/physalia.git
 git push -u origin master
+
+# recover directory R-packages that have been deleted
+
+git checkout $(git rev-list -n 1 HEAD -- "R-packages")^ -- "R-packages"
 
