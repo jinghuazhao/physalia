@@ -1,6 +1,6 @@
 # physalia
 
-A template for a newly created repository. It was named while the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course), in preparation.
+A template for a newly created repository. It was named while the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course), was in preparation.
 
  **File** | **Description**
  -----|------------------------------------
@@ -13,7 +13,7 @@ A template for a newly created repository. It was named while the Physalia cours
 
 NB .gitconfig functions like ssh in the sense that login with username/password is rarely necessary.
 
-Efforts are highly welcome for this site's enrichment as a long-term project, to be used as templates for many other traits.
+Efforts are highly welcome for the site's enrichment as a long-term project, to be used as a framework for other traits.
 
 ## How to contribute (adapted from [Apress](https://github.com/apress))
 
