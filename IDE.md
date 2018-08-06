@@ -1,6 +1,8 @@
-## IDE -- integrated development environment
+# IDE -- integrated development environment
 
-**GitKraken** is avaialeble from https://www.gitkraken.com/, e.g.,
+## GitKraken
+
+Hosted at https://www.gitkraken.com/ and made available with
 ```bash
 sudo apt install libgnome-keyring-common
 sudo apt install libgnome-keyring-dev
@@ -11,7 +13,9 @@ gitkraken &
 
 ```
 
-**SmartGit** is available from https://www.syntevo.com/smartgit/, e.g., 
+## SmartGit
+
+Hosted at https://www.syntevo.com/smartgit/ and made available with
 ```bash
 wget -qO- https://www.syntevo.com/downloads/smartgit/smartgit-linux-18_1_4.tar.gz | tar fvxz -
 cd smartgit
@@ -19,7 +23,9 @@ ln -s $PWD/bin/smartgit.sh $HOME/bin/smartgit.sh
 smartgit.sh &
 ```
 
-**Git-Cola**, https://git-cola.github.io/, can be installed with 
+## Git-Cola
+
+Hosted at https://git-cola.github.io/ and made available with
 ```bash
 sudo apt install git-cola
 git-cola &
