@@ -2,6 +2,8 @@
 
 git add IDE.md
 git commit -m "IDE for repository development"
+git add NOTES.md
+git commit -m "important notes"
 git add README.md
 git commit -m "README"
 git add setup.sh
