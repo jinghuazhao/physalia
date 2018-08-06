@@ -1,5 +1,7 @@
-# 27-5-2018 MRC-Epid JHZ
+# 6-8-2018 MRC-Epid JHZ
 
+git add IDE.md
+git commit -m "IDE for repository development"
 git add README.md
 git commit -m "README"
 git add setup.sh
