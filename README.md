@@ -24,7 +24,7 @@ cat README.md | codedown bash
 
 ## How to contribute (adapted from [Apress](https://github.com/apress))
 
-Efforts are highly welcome for the sites' enrichment as a long-term project, via the following steps:
+Efforts are highly welcome for improvement over [the repositories](https://github.com/jinghuazhao?tab=repositories) as a long-term project, via the following steps:
 
 1. Make sure you have a GitHub account.
 2. Fork a repository.
