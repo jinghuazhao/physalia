@@ -3,8 +3,8 @@
 A template for a newly created repository. It was named while the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course), was in preparation.
 
  **File** | **Description**
- -----|---------------------------------------------------------------
- [.gitconfig](.gitconfig) | at $HOME from setup.sh for automatic login
+ -----|-------------------------------------------------------------------------
+ [.gitconfig](.gitconfig) | at $HOME by setup.sh for automatic repository access
  [.gitignore](.gitignore) | files not synchronised with GitHub
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [README.md](README.md) | this file
