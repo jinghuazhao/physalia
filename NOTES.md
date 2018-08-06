@@ -1,4 +1,6 @@
-# MarkDown code extraction
+# Important notes
+
+## MarkDown code extraction
 
 To extract `bash` code from GitHub markdown, the following is helpful,
 
