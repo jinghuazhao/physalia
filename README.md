@@ -16,7 +16,7 @@ NB .gitconfig functions like ssh in the sense that login with username/password 
 
 Efforts are highly welcome for the site's enrichment as a long-term project, to be used as a framework for other projects.
 
-## A note on Code extraction
+## Code extraction
 
 To extract `bash` code from GitHub markdown, the following is helpful,
 
