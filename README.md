@@ -4,13 +4,13 @@ A template for a newly created repository. It was named while the Physalia cours
 
  **File** | **Description**
  -----|------------------------------------
- .gitconfig | $HOME/.gitconfig due to setup.sh
- .gitignore | files not synchronised with GitHub
- IDE.md | GUI for GitHub repository maintenance
- README.md | this file
- setup.sh | setup for a standard repository
- ssh.sh | setup for SSH
- st.sh | automatic push
+ [.gitconfig](.gitconfig) | $HOME/.gitconfig due to setup.sh
+ [.gitignore](.gitignore) | files not synchronised with GitHub
+ [IDE.md](IDE.md) | GUI for GitHub repository maintenance
+ [README.md](README.md) | this file
+ [setup.sh](setup.sh) | setup for a standard repository
+ [ssh.sh](setup.sh) | setup for SSH
+ [st.sh](st.sh) | automatic push
 
 NB .gitconfig functions like ssh in the sense that login with username/password is rarely necessary.
 
