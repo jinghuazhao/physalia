@@ -1,6 +1,6 @@
 # physalia
 
-A template for a newly created repository, named after the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course).
+A template for a newly created repository, named after the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course) when it was in preparation.
 
  **File** | **Description**
  -----|-------------------------------------------------------------------------
