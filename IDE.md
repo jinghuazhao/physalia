@@ -1,4 +1,4 @@
-## IDE
+## IDE -- integrated development environment
 
 **GitKraken** is avaialeble from https://www.gitkraken.com/, e.g.,
 ```bash
