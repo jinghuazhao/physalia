@@ -14,8 +14,6 @@ A template for a newly created repository. It was named while the Physalia cours
 
 NB .gitconfig functions like ssh in the sense that login with username/password is rarely necessary.
 
-Efforts are highly welcome for the site's enrichment as a long-term project, to be used as a framework for other projects.
-
 ## MarkDown code extraction
 
 To extract `bash` code from GitHub markdown, the following is helpful,
@@ -27,6 +25,8 @@ cat README.md | codedown bash
 ```
 
 ## How to contribute (adapted from [Apress](https://github.com/apress))
+
+Efforts are highly welcome for the sites' enrichment as a long-term project, via the following steps:
 
 1. Make sure you have a GitHub account.
 2. Fork a repository.
