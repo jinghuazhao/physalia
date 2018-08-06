@@ -7,20 +7,11 @@ A template for a newly created repository. It was named while the Physalia cours
  [.gitconfig](.gitconfig) | at $HOME by setup.sh for automatic repository access
  [.gitignore](.gitignore) | files not synchronised with GitHub
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
+ [NOTES.md](NOTES.md) | Important notes
  [README.md](README.md) | this file
  [setup.sh](setup.sh) | setup for a standard repository
  [ssh.sh](setup.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
-
-## MarkDown code extraction
-
-To extract `bash` code from GitHub markdown, the following is helpful,
-
-```bash
-sudo apt install npm
-sudo npm install -g codedown
-cat README.md | codedown bash
-```
 
 ## How to contribute (adapted from [Apress](https://github.com/apress))
 
