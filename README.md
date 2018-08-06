@@ -10,7 +10,7 @@ A template for a newly created repository. It was named while the Physalia cours
  [README.md](README.md) | this file
  [setup.sh](setup.sh) | setup for a standard repository
  [ssh.sh](setup.sh) | setup for SSH
- [st.sh](st.sh) | automatic push
+ [st.sh](st.sh) | batch file for add/commit/push operations
 
 ## MarkDown code extraction
 
