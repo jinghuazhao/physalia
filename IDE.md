@@ -1,5 +1,7 @@
 # IDE -- integrated development environment
 
+IDEs such as RStudio, [Visual Studio Code](https://code.visualstudio.com/) are able to work with Git, these are specific,
+
 ## GitKraken
 
 Hosted at https://www.gitkraken.com/ and made available with
