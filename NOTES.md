@@ -10,7 +10,7 @@ sudo npm install -g codedown
 cat README.md | codedown bash
 ```
 
-## Usage notes
+## Useful tips
 
 ```bash
 # https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository
