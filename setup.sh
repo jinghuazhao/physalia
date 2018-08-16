@@ -14,19 +14,3 @@ git add README.md
 git commit -m "README.md"
 git remote add origin https://github.com/jinghuazhao/physalia.git
 git push -u origin master
-
-###
-
-# https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository
-# recover directory R-packages that has been deleted
-
-git checkout $(git rev-list -n 1 HEAD -- "R-packages")^ -- "R-packages"
-
-# or zsh with the EXTENDED_GLOB option enabled for $file
-git checkout $(git rev-list -n 1 HEAD -- "$file")~1 -- "$file"
-
-# to find out differences
-git diff README.md
-
-# recursive clone, e.g.,
-git clone --recursive https://github.com/ekg/vcflib/
