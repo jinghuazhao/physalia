@@ -13,7 +13,7 @@ A template for a newly created repository, named after the Physalia course, [GWA
  [ssh.sh](setup.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
 
-## How to contribute [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
+## How to contribute to [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
 
 Efforts are highly welcome as a long-term project, via the following steps:
 
