@@ -1,6 +1,6 @@
 # IDE -- integrated development environment
 
-IDEs such as RStudio, [Visual Studio Code](https://code.visualstudio.com/) are able to work with Git, these are specific,
+IDEs such as [RStudio](https://www.rstudio.com/) and [Visual Studio Code](https://code.visualstudio.com/) are able to work with Git, but the following GUIs are specific.
 
 ## GitKraken
 
