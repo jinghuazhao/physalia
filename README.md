@@ -13,9 +13,9 @@ A template for a newly created repository, named after the Physalia course, [GWA
  [ssh.sh](setup.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
 
-## How to contribute (adapted from [Apress](https://github.com/apress))
+## How to contribute [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
 
-Efforts are highly welcome for improvement over [the repositories](https://github.com/jinghuazhao?tab=repositories) as a long-term project, via the following steps:
+Efforts are highly welcome as a long-term project, via the following steps:
 
 1. Make sure you have a GitHub account.
 2. Fork a repository.
