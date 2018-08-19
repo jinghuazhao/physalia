@@ -1,18 +1,18 @@
-# 20-5-2018 JHZ
+# 19-5-2018 JHZ
 
 ssh-keygen -t rsa -b 4096 -C "jinghua@hotmail.com"
 # paraphrase, name
 eval $(ssh-agent -s)
-ls -al ~/.ssh
 ssh-add ~/.ssh/id_rsa
-ssh-add -l -E md5
+ls -al ~/.ssh
 
 sudo apt install xsel
 xsel --clipboard < ~/.ssh/id_rsa.pub
-# xsel -b
 # paste into GitHub settings for SSH
 
 ssh -T git@github.com
+
+ssh-add -l -E md5
 
 # later change in paraphrase
 # ssh-keygen -p
@@ -23,9 +23,3 @@ ssh -T git@github.com
 # clip < ~/.ssh/id_rsa.pub
 # Ubuntu 18.04 gives the (wrong but otherwise useful) suggestion:
 # sudo apt install geomview
-# In fact, there is xclip, https://sourceforge.net/projects/xclip/
-# sudo apt install xclip
-# xclip -i <input>
-# Under OS X, there is pbcopy
-# everything in one go:
-# https://github.com/sindresorhus/clipboard-cli
