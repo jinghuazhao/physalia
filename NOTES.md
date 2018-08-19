@@ -25,7 +25,7 @@ git checkout $(git rev-list -n 1 HEAD -- "$file")~1 -- "$file"
 
 git clone --recursive https://github.com/ekg/vcflib/
 
-# Identificaiton of differences
+# diff
 
 git diff README.md
 
