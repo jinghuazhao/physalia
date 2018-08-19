@@ -21,19 +21,19 @@ git checkout $(git rev-list -n 1 HEAD -- "R-packages")^ -- "R-packages"
 # or zsh with the EXTENDED_GLOB option enabled for $file
 git checkout $(git rev-list -n 1 HEAD -- "$file")~1 -- "$file"
 
+# Recursive clone
+
+git clone --recursive https://github.com/ekg/vcflib/
+```
+
 # Identificaiton of differences
 
 git diff README.md
-
-# rm
-
-git rm README.md
 
 # mv
 
 git mv README.md NOTES.md
 
-# Recursive clone
+# rm
 
-git clone --recursive https://github.com/ekg/vcflib/
-```
+git rm README.md
