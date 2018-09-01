@@ -10,7 +10,7 @@ A template for a newly created repository, named after the Physalia course, [GWA
  [NOTES.md](NOTES.md) | Important notes
  [README.md](README.md) | this file
  [setup.sh](setup.sh) | setup for a standard repository
- [ssh.sh](setup.sh) | setup for SSH
+ [ssh.sh](ssh.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
 
 ## How to contribute to [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
