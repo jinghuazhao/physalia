@@ -1,4 +1,4 @@
-# 19-5-2018 JHZ
+# 1-9-2018 JHZ
 
 ssh-keygen -t rsa -b 4096 -C "jinghua@hotmail.com"
 # paraphrase, name
