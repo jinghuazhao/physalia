@@ -39,7 +39,7 @@ git diff README.md
 
 # mv
 
-git mv README.md NOTES.md
+git mv -f README.md NOTES.md
 
 # pull
 
