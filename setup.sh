@@ -1,7 +1,7 @@
-# 16-8-2018 JHZ
+# 8-9-2018 JHZ
 
 # git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
-# This looks to avoid use of ssh
+# This simplifies matters since only one login is required per session to push commits.
 # check ~/.gitconfig
 
 git config --global user.email "jinghuazhao@hotmail.com"
