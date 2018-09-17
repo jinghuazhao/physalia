@@ -23,6 +23,13 @@ ssh-add -l
 # OpenSSH 6.8 or newer
 ssh-add -l -E md5
 
+# test SSH over the HTTPS port
+ssh -T -p 443 git@ssh.github.com
+# or .ssh/config
+# Host github.com
+#  Hostname ssh.github.com
+#  Port 443
+
 # later change in paraphrase
 # ssh-keygen -p
 
