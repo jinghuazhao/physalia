@@ -1,7 +1,11 @@
 # 17-9-2018 JHZ
 
 ssh-keygen -t rsa -b 4096 -C "jinghuazhao@hotmail.com"
+# ensure ssh-agent running
+# start the ssh-agent in the background
+eval $(ssh-agent -s)
 # paraphrase, name
+# add private key to ssh-agent
 ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
 
