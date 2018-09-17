@@ -1,8 +1,7 @@
-# 1-9-2018 JHZ
+# 17-9-2018 JHZ
 
 ssh-keygen -t rsa -b 4096 -C "jinghua@hotmail.com"
 # paraphrase, name
-eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
 
@@ -10,8 +9,18 @@ sudo apt install xsel
 xsel --clipboard < ~/.ssh/id_rsa.pub
 # paste into GitHub settings for SSH
 
+# Check that you are connecting to the correct server
+# make sure connection to the right domain
 ssh -T git@github.com
+ssh -vT git@github.com
 
+# Make sure you have a key that is being used
+# 1. start the ssh-agent in the background
+eval $(ssh-agent -s)
+# 2. Verify that you have a private key generated and loaded into SSH
+#  OpenSSH 6.7 or older
+ssh-add -l
+# OpenSSH 6.8 or newer
 ssh-add -l -E md5
 
 # later change in paraphrase
