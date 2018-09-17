@@ -1,6 +1,6 @@
 # 17-9-2018 JHZ
 
-ssh-keygen -t rsa -b 4096 -C "jinghua@hotmail.com"
+ssh-keygen -t rsa -b 4096 -C "jinghuazhao@hotmail.com"
 # paraphrase, name
 ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
