@@ -49,6 +49,10 @@ git pull
 
 git push
 
+# reset
+
+git reset -hard
+
 # rm
 
 git rm README.md
