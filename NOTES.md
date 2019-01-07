@@ -52,4 +52,9 @@ git push
 # rm
 
 git rm README.md
+
+# clean
+
+git clean -d -f -x
+
 ```
