@@ -51,7 +51,7 @@ git push
 
 # reset
 
-git reset -hard
+git reset --hard
 
 # rm
 
