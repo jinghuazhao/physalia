@@ -24,7 +24,3 @@ Efforts are highly welcome as a long-term project, via the following steps:
 3. Create a new branch on which to make your change, e.g. `git checkout -b my_code_contribution`
 4. Commit your change. Include a commit message describing the correction. Please note that if your commit message is not clear, the correction will not be accepted.
 5. Submit a pull request.
-
-## Octotree
-
-Employ this add-on for a drop-down menu within your browser for GitHub repositories.
