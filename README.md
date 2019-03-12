@@ -2,7 +2,7 @@
 
 The purposes for this repository, named after the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course) when it was in preparation, was to record basic uses of GitHub as well as call for contributions to GitHub repositories.
 
-The first of which serves as a template for a newly created repository,
+## A template for a newly created repository
 
  **File** | **Description**
  -----|-------------------------------------------------------------------------
