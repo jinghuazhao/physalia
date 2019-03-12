@@ -1,5 +1,9 @@
 # Important notes
 
+## Octotree
+
+Employ this add-on for a drop-down menu within your browser for GitHub repositories.
+
 ## MarkDown code extraction
 
 To extract `bash` code from GitHub markdown, the following is helpful,
