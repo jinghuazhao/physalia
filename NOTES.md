@@ -7,10 +7,19 @@ To extract `bash` code from GitHub markdown, the following is helpful,
 ```bash
 sudo apt install npm
 sudo npm install -g codedown
-cat README.md | codedown bash
+cat README.md | \
+codedown bash
 ```
 
-## Useful tips
+## Getting helps
+```
+man git
+man git-add
+...
+```
+The latter will give more specific command-line options available.
+
+## Additional tips
 
 ```bash
 # https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository
