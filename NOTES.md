@@ -75,3 +75,4 @@ git rm README.md
 git clean -d -f -x
 
 ```
+As with many repositories here, a collection of the commands can be built into a batch file to save typing.
