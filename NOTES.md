@@ -16,6 +16,9 @@ codedown bash
 ```
 
 ## Getting helps
+
+Consult [documentation](https://git-scm.com/docs/),
+
 ```
 man git
 man git-add
