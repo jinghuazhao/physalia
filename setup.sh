@@ -1,4 +1,4 @@
-# 8-9-2018 JHZ
+# 25-4-2019 JHZ
 
 # git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
 # This simplifies matters since only one login is required per session to push commits.
@@ -8,6 +8,9 @@ git config --global user.email "jinghuazhao@hotmail.com"
 git config --global user.name "jinghuazhao@github.com"
 git config --global url."https://jinghuazhao@github.com".insteadOf "https://github.com"
 git config --global credential.helper 'cache --timeout=86400'
+
+# create README.md if not ticked from GitHub homepage
+# echo README.md > README.md
 
 git init
 git add README.md
