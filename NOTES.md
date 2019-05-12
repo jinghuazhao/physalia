@@ -20,7 +20,6 @@ codedown bash
 The following code sets up remarkable.
 ```bash
 wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
-sudo apt-get install gir1.2-webkit-3.0
 sudo apt-get update
 sudo apt-get install gir1.2-webkit-3.0
 sudo dpkg -i remarkable_1.87_all.deb
