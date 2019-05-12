@@ -26,6 +26,11 @@ sudo dpkg -i remarkable_1.87_all.deb
 sudo apt-get install -f
 git clone https://github.com/mathjax/MathJax.git MathJax
 ```
+The last step enables mathtype formatting with
+```js
+<script type="text/javascript" src="/home/jhz22/MathJax//MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="/home/jhz22/jinghuq/MathJax/MathJax.js"></script>
+```
 
 ## Getting helps
 
