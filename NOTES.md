@@ -15,6 +15,19 @@ cat README.md | \
 codedown bash
 ```
 
+## MarkDown editor
+
+The following code sets up remarkable.
+```bash
+wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
+sudo apt-get install gir1.2-webkit-3.0
+sudo apt-get update
+sudo apt-get install gir1.2-webkit-3.0
+sudo dpkg -i remarkable_1.87_all.deb
+sudo apt-get install -f
+git clone https://github.com/mathjax/MathJax.git MathJax
+```
+
 ## Getting helps
 
 Consult [documentation](https://git-scm.com/docs/),
