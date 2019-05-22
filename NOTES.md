@@ -45,7 +45,7 @@ DISPLAY= git push
 
 ## Getting helps
 
-Consult [documentation](https://git-scm.com/docs/),
+Consult [git-scm command reference](https://git-scm.com/docs/),
 
 ```
 man git
