@@ -32,7 +32,7 @@ The last step enables mathtype formatting with
 <script type="text/javascript" src="/home/jhz22/jinghuq/MathJax/MathJax.js"></script>
 ```
 
-## pop-up windows
+## Pop-up windows
 
 A window may pop up for password, which could cause problems with command-line interface but this is can be disabled with
 ```bash
