@@ -38,7 +38,10 @@ A window may pop up for password, which could cause problems with command-line i
 ```bash
  unset SSH_ASKPASS
 ```
-or `unset GIT_ASKPASS` which could be part of `.bashrc`.
+or `unset GIT_ASKPASS` which could be part of `.bashrc`. Alternatively, this could be achieved with disabling DISPLAY, i.e.,
+```bash
+DISPLAY= git push
+```
 
 ## Getting helps
 
