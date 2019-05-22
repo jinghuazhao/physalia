@@ -45,7 +45,7 @@ DISPLAY= git push
 
 ## Git Bash for Windows
 
-It is helpful to note that c:\ and u:\ are referred as /c and /u, respectively.
+It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.
 
 ## Getting helps
 
