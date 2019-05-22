@@ -43,6 +43,10 @@ or `unset GIT_ASKPASS` which could be part of `.bashrc`. Alternatively, this cou
 DISPLAY= git push
 ```
 
+## Git Bash for Windows
+
+It is helpful to note that c:\ and u:\ are referred as /c and /u, respectively.
+
 ## Getting helps
 
 Consult [git-scm command reference](https://git-scm.com/docs/),
