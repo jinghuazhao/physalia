@@ -32,6 +32,14 @@ The last step enables mathtype formatting with
 <script type="text/javascript" src="/home/jhz22/jinghuq/MathJax/MathJax.js"></script>
 ```
 
+## pop-up windows
+
+A window may pop up for password, which could cause problems with command-line interface but this is can be disabled with
+```bash
+ unset SSH_ASKPASS
+```
+or `unset GIT_ASKPASS` which could be part of `.bashrc`.
+
 ## Getting helps
 
 Consult [documentation](https://git-scm.com/docs/),
