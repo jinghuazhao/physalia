@@ -1,4 +1,4 @@
-# 11-5-2019 JHZ
+# 24-5-2019 JHZ
 
 # git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
 # This simplifies matters since only one login is required per session to push commits.
@@ -11,7 +11,9 @@ git config --global credential.helper 'cache --timeout=86400'
 
 # Suggestions from web setup
 # create a new repository on the command line
-git init
+git init physalia
+cd physalia
+echo README > README.md
 git add README.md
 git commit -m "README.md"
 git remote add origin https://github.com/jinghuazhao/physalia.git
@@ -25,8 +27,9 @@ git push -u origin master
 
 The option above is with respect to https, and for ssh it would be 
 
+git init GitHub-matters
+cd GitHub-matters
 echo "# GitHub-matters" >> README.md
-git init
 git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:cambridge-ceu/GitHub-matters.git
