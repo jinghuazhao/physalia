@@ -1,7 +1,5 @@
 <img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="180" height="250" align="right">
 
-# physalia
-
 The purpose for this repository, named after the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course) when in preparation, was to record basic uses of GitHub as well as call for contributions to GitHub repositories.
 
 ## A template for a newly created repository
