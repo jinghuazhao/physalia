@@ -1,4 +1,4 @@
-<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="200" height="300" align="left">
+<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="160" height="200" align="left">
 
 # physalia
 
