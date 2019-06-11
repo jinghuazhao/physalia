@@ -6,7 +6,7 @@ The purpose for this repository, named after the Physalia course, [GWAS-course](
 
  **File** | **Description**
  -----|-------------------------------------------------------------------------
- [.gitconfig](.gitconfig) | at $HOME by setup.sh for automatic repository access
+ [.gitconfig](.gitconfig) | at $HOME for automatic repository access
  [.gitignore](.gitignore) | files not synchronised with GitHub
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [NOTES.md](NOTES.md) | Important notes
