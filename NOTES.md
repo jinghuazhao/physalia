@@ -101,6 +101,10 @@ git push
 
 git reset --hard
 
+# revert
+
+git revert
+
 # rm
 
 git rm README.md
