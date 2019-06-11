@@ -25,7 +25,7 @@ git push -u origin master
 
 # import code from another repository
 
-The option above is with respect to https, and for ssh it would be 
+# The option above is with respect to https, and for ssh it would be 
 
 git init GitHub-matters
 cd GitHub-matters
@@ -35,7 +35,7 @@ git commit -m "first commit"
 git remote add origin git@github.com:cambridge-ceu/GitHub-matters.git
 git push -u origin master
 
-…or push an existing repository from the command line
+# …or push an existing repository from the command line
 
 git remote add origin git@github.com:cambridge-ceu/GitHub-matters.git
 git push -u origin master
