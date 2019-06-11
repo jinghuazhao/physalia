@@ -97,6 +97,10 @@ git pull
 
 git push
 
+# rebase
+
+git rebase
+
 # reset
 
 git reset --hard
