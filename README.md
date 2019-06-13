@@ -2,8 +2,6 @@ The purpose for this repository, named after the Physalia course, [GWAS-course](
 
 ## A template for a newly created repository
 
-<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="100" height="150" align="right">
-
  **File** | **Description**
  -----|-------------------------------------------------------------------------
  [.gitconfig](.gitconfig) | at $HOME by setup.sh for automatic repository access
@@ -14,6 +12,8 @@ The purpose for this repository, named after the Physalia course, [GWAS-course](
  [setup.sh](setup.sh) | setup for a standard repository
  [ssh.sh](ssh.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
+
+<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="100" height="150" align="right">
 
 ## How to contribute to [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
 
