@@ -13,9 +13,9 @@ The purpose for this repository, named after the Physalia course, [GWAS-course](
  [ssh.sh](ssh.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
 
-<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="100" height="150" align="right">
-
 ## How to contribute to [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
+
+<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="100" height="150" align="right">
 
 Efforts are highly welcome as a long-term project, via the following steps:
 
