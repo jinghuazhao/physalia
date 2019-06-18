@@ -34,7 +34,7 @@ The last step enables mathtype formatting with
 
 ## Pop-up windows
 
-A window may pop up for password, which could cause problems with command-line interface but this is can be disabled with
+A window may pop up for password, which could cause problems with command-line interface but this can be disabled with
 ```bash
  unset SSH_ASKPASS
 ```
