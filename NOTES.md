@@ -40,7 +40,8 @@ A window may pop up for password, which could cause problems with command-line i
 ```
 or `unset GIT_ASKPASS` which could be part of `.bashrc`. Alternatively, this could be achieved with disabling DISPLAY, i.e.,
 ```bash
-DISPLAY= git push
+DISPLAY=
+git push
 ```
 
 ## Git Bash for Windows
