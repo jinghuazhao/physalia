@@ -81,6 +81,12 @@ git clone --recursive https://github.com/ekg/vcflib/
 
 git add README.md
 
+# config
+
+git config --global --unset-all core.editor
+git config --unset-all core.editor
+git config --global core.editor "pico -w"
+
 # commit
 
 git commit -m "README"
