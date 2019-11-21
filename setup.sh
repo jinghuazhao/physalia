@@ -12,8 +12,6 @@ git commit -m "README.md"
 git remote add origin https://github.com/jinghuazhao/physalia.git
 git push -u origin master
 
-# import code from another repository
-
 # git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
 # This simplifies matters since only one login is required per session to push commits.
 # check ~/.gitconfig
