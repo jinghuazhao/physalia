@@ -10,6 +10,7 @@ git commit -m "README.md"
 
 # push from the command line
 git remote add origin https://github.com/jinghuazhao/physalia.git
+git push --set-upstream origin master
 git push -u origin master
 
 # git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
