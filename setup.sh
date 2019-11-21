@@ -1,5 +1,14 @@
 # 21-11-2019 JHZ
 
+# git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
+# This simplifies matters since only one login is required per session to push commits.
+# check ~/.gitconfig
+
+git config --global user.email "jinghuazhao@hotmail.com"
+git config --global user.name "jinghuazhao@github.com"
+git config --global url."https://jinghuazhao@github.com".insteadOf "https://github.com"
+git config --global credential.helper 'cache --timeout=86400'
+
 # create a repository on the command line
 
 git init physalia
@@ -12,12 +21,3 @@ git commit -m "README.md"
 git remote add origin https://github.com/jinghuazhao/physalia.git
 git push --set-upstream origin master
 git push -u origin master
-
-# git config remote.origin.url https://jinghuazhao:{PASSWORD}@github.com/jinghuazhao/physalia.git
-# This simplifies matters since only one login is required per session to push commits.
-# check ~/.gitconfig
-
-git config --global user.email "jinghuazhao@hotmail.com"
-git config --global user.name "jinghuazhao@github.com"
-git config --global url."https://jinghuazhao@github.com".insteadOf "https://github.com"
-git config --global credential.helper 'cache --timeout=86400'
