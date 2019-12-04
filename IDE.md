@@ -2,6 +2,11 @@
 
 [Git](https://git-scm.com/) comes with its own GUI as well as a shell, which has a Linux flavour to enable operations under Linux/Unix, Mac and Windows.
 
+* [git gui](https://git-scm.com/docs/git-gui) and [gitk](https://git-scm.com/docs/gitk).
+* [Atom](https://atom.io/).
+* [GitHub Destkop](https://desktop.github.com/).
+* [Visual Studio Code](https://code.visualstudio.com/).
+
 IDEs such as [RStudio](https://www.rstudio.com/) and [Visual Studio Code](https://code.visualstudio.com/) are able to work with Git, but the following GUIs are purposely built.
 
 ## GitKraken
