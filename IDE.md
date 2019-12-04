@@ -11,7 +11,7 @@ IDEs such as [RStudio](https://www.rstudio.com/) and [Visual Studio Code](https:
 
 ## GitKraken
 
-Hosted at https://www.gitkraken.com/ and made available with
+Hosted at [https://www.gitkraken.com/](https://www.gitkraken.com/) and made available with
 ```bash
 sudo apt install libgnome-keyring-common
 sudo apt install libgnome-keyring-dev
@@ -24,7 +24,7 @@ gitkraken &
 
 ## SmartGit
 
-Hosted at https://www.syntevo.com/smartgit/ and made available with
+Hosted at [https://www.syntevo.com/smartgit/](https://www.syntevo.com/smartgit/) and made available with
 ```bash
 wget -qO- https://www.syntevo.com/downloads/smartgit/smartgit-linux-18_1_4.tar.gz | tar fvxz -
 cd smartgit
@@ -34,7 +34,7 @@ smartgit.sh &
 
 ## Git-Cola
 
-Hosted at https://git-cola.github.io/ and made available with
+Hosted at [https://git-cola.github.io/](https://git-cola.github.io/) and made available with
 ```bash
 sudo apt install git-cola
 git-cola &
