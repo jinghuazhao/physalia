@@ -129,3 +129,8 @@ git clean -d -f -x
 
 ```
 As with many repositories here, a collection of the commands can be built into a batch file to save typing.
+
+## Utilities
+
+* [git recall](git clone https://github.com/Fakerr/git-recall.git).
+* [git-extras](https://github.com/tj/git-extras).
