@@ -1,4 +1,4 @@
-# 17-9-2018 JHZ
+#!/usr/bin/bash
 
 ssh-keygen -t rsa -b 4096 -C "jinghuazhao@hotmail.com"
 # ensure ssh-agent running
@@ -9,7 +9,7 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
 
-sudo apt install xsel
+# sudo apt install xsel
 xsel --clipboard < ~/.ssh/id_rsa.pub
 # paste into GitHub settings for SSH
 
