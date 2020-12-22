@@ -14,6 +14,8 @@ sudo npm install -g codedown
 cat README.md | \
 codedown bash
 ```
+This also works when the keyword is wrapped in braces, e.g., {r}.
+
 Additional information on npm (Node Package Manager) is available from https://www.w3schools.com/whatis/whatis_npm.asp.
 
 Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from https://nodejs.org/en/download/.
