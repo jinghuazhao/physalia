@@ -33,10 +33,10 @@ sudo dpkg -i remarkable_1.87_all.deb
 sudo apt-get install -f
 git clone https://github.com/mathjax/MathJax.git MathJax
 ```
-The last step enables mathtype formatting with
+The last step enables mathtype formatting in the html format (e.g., via pandoc) with
 ```js
-<script type="text/javascript" src="/home/jhz22/MathJax//MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/javascript" src="/home/jhz22/jinghuq/MathJax/MathJax.js"></script>
+<script type="text/javascript" src="MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="MathJax/MathJax.js"></script>
 ```
 
 ## Pop-up windows
