@@ -22,6 +22,8 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, availa
 
 ## MarkDown editor
 
+One may prefer Typora, available from https://typora.io/.
+
 The following code sets up remarkable.
 ```bash
 wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
