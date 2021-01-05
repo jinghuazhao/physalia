@@ -24,7 +24,7 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, availa
 
 One may prefer Typora, available from https://typora.io/. In particular, it supports mermaid, e.g., https://mermaid-js.github.io/mermaid-live-editor/. An example,
 
-![](https://tinyurl.com/yy97vaes)
+![](https://tinyurl.com/y6cmwvn6)
 
 The following code sets up remarkable.
 ```bash
