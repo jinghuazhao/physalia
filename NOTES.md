@@ -24,6 +24,8 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, availa
 
 One may prefer Typora, available from https://typora.io/. In particular, it supports mermaid, e.g., https://mermaid-js.github.io/mermaid-live-editor/.
 
+An example, https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFI7XG5BW3NldHVwXSAtLT5CKDEpO1xuICAgIEIgLS0-IEN7Mn07IEIgLS0-IEYoaWRtYXAuZG8pOyBCIC0tPiBJKHdncy5zYik7XG4gICAgQyAtLT58MiwxfCBEW2RvXTtcbiAgICBDIC0tPnwyLjJ8IEVbZG9dOyBFIC0tPiBMKHdlcy5SKTsgRSAtLT4gTSh3Z3MuUik7IEUgLS0-IE4od2Vzd2dzLlIpO1xuICAgIEQgLS0-IEcoc3BhLnNiKTsgRCAtLT4gSyhiZ2VuLnNiKTtcbiAgICBFIC0tPiBIKHJ2YS5zYik7IEUgLS0-IEoocHJ1bmUud3JhcCk7XG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0.
+
 The following code sets up remarkable.
 ```bash
 wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
