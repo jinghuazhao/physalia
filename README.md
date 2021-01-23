@@ -24,3 +24,7 @@ Efforts are highly welcome as a long-term project, via the following steps:
  [setup.sh](setup.sh) | setup for a standard repository
  [ssh.sh](ssh.sh) | setup for SSH
  [st.sh](st.sh) | batch file for add/commit/push operations
+
+## Related site
+
+* [GitHub-matters](https://github.com/cambridge-ceu/GitHub-matters)
