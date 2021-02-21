@@ -27,4 +27,4 @@ Efforts are highly welcome as a long-term project, via the following steps:
 
 ## Related site
 
-* [GitHub-matters](https://github.com/cambridge-ceu/GitHub-matters)
+* [GitHub-matters](https://cambridge-ceu.github.io/GitHub-matters/)
