@@ -22,7 +22,7 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, availa
 
 ## MarkDown editor
 
-One may prefer Typora, available from https://typora.io/. In particular, it supports mermaid, e.g., https://mermaid-js.github.io/mermaid-live-editor/. An example,
+One may prefer Typora, available from https://typora.io/. In particular, it supports mermaid, e.g., https://mermaid-js.github.io/mermaid-live-editor/. The following is an example generated from the link to SVG,
 
 ![](https://tinyurl.com/y6cmwvn6)
 
