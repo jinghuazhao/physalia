@@ -26,7 +26,9 @@ One may prefer Typora, available from [https://typora.io/](https://typora.io/). 
 
 ![](https://tinyurl.com/y6cmwvn6)
 
-An example of generation on the fly is here, https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html..
+An example of generation on the fly is here, 
+[https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html) and also MathJax,
+[https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
 
 The following code sets up remarkable.
 ```bash
