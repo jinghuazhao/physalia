@@ -26,6 +26,8 @@ One may prefer Typora, available from [https://typora.io/](https://typora.io/). 
 
 ![](https://tinyurl.com/y6cmwvn6)
 
+An example of generation on the fly is here, https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html..
+
 The following code sets up remarkable.
 ```bash
 wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
