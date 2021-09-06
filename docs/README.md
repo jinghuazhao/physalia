@@ -17,8 +17,8 @@ Efforts are highly welcome as a long-term project, via the following steps:
 ## A summary of files
 
  **File** | **Description**
- -----|-------------------------------------------------------------------------
- [.gitconfig](.gitconfig) | at $HOME by setup.sh for automatic repository access
+ -----|---------------------------------------------------------------------------
+ [.gitconfig](https://raw.githubusercontent.com/jinghuazhao/physalia/master/docs/.gitconfig) | at $HOME by `setup.sh` for automatic repository access[^longnote]
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [NOTES.md](NOTES.md) | Important notes
  [README.md](README.md) | this file
@@ -29,3 +29,5 @@ Efforts are highly welcome as a long-term project, via the following steps:
 ## Related site
 
 * [GitHub-matters](https://cambridge-ceu.github.io/GitHub-matters/)
+
+[^longnote]: Somehow this file is only invisiable from the GitHub page but GitHub repository. This is now supersed with direct access with ssh, see notes at GitHub-matters.

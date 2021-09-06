@@ -1,15 +1,19 @@
 # Important notes
 
-## MathJax and mermaid
+## Getting helps
 
-On the fly examples for html are here,
+Consult [git-scm command reference](https://git-scm.com/docs/),
 
-* MathJax, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
-* mermaid, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html).
+```
+man git
+man git-add
+...
+```
+The latter will give more specific command-line options available.
 
-## Octotree
+## Git Bash for Windows
 
-Employ this add-on for a drop-down menu within your browser for GitHub repositories.
+It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.
 
 ## MarkDown code extraction
 
@@ -48,6 +52,17 @@ The last step enables mathtype formatting in the html format (e.g., via pandoc) 
 <script type="text/javascript" src="MathJax/MathJax.js"></script>
 ```
 
+## MathJax and mermaid
+
+On-the-fly examples for html are here,
+
+* MathJax, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
+* mermaid, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html).
+
+## Octotree
+
+Employ this add-on for a drop-down menu within your browser for GitHub repositories.
+
 ## Pop-up windows
 
 A window may pop up for password, which could cause problems with command-line interface but this can be disabled with
@@ -59,21 +74,6 @@ or `unset GIT_ASKPASS` which could be part of `.bashrc`. Alternatively, this cou
 DISPLAY=
 git push
 ```
-
-## Git Bash for Windows
-
-It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.
-
-## Getting helps
-
-Consult [git-scm command reference](https://git-scm.com/docs/),
-
-```
-man git
-man git-add
-...
-```
-The latter will give more specific command-line options available.
 
 ## Additional tips
 
