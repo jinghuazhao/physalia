@@ -2,7 +2,9 @@
 
 The purpose for this repository, named after the Physalia course, [GWAS-course](https://github.com/jinghuazhao/GWAS-course) when in preparation, was to record basic uses of GitHub as well as call for contributions to GitHub repositories.
 
-## How to contribute to [the repositories](https://github.com/jinghuazhao?tab=repositories) (adapted from [Apress](https://github.com/apress))
+## How to contribute 
+
+(adapted from [Apress](https://github.com/apress))
 
 Efforts are highly welcome as a long-term project, via the following steps:
 
