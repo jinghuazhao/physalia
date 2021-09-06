@@ -79,11 +79,11 @@
 <ul class="nav flex-column">
 <li class="nav-item" data-level="1"><a class="nav-link" href="#important-notes">Important notes</a>
 <ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#mathjax-and-mermaid">MathJax and mermaid</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#getting-helps">Getting helps</a>
 <ul class="nav flex-column">
 </ul>
 </li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#octotree">Octotree</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#git-bash-for-windows">Git Bash for Windows</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -95,15 +95,15 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#mathjax-and-mermaid">MathJax and mermaid</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#octotree">Octotree</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 <li class="nav-item" data-level="2"><a class="nav-link" href="#pop-up-windows">Pop-up windows</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#git-bash-for-windows">Git Bash for Windows</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#getting-helps">Getting helps</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -122,14 +122,15 @@
 </div></div>
 <div class="col-md-9" role="main">
 <h1 id="important-notes">Important notes</h1>
-<h2 id="mathjax-and-mermaid">MathJax and mermaid</h2>
-<p>On the fly examples for html are here,</p>
-<ul>
-<li>MathJax, <a href="https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html">https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html</a>.</li>
-<li>mermaid, <a href="https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html">https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html</a>.</li>
-</ul>
-<h2 id="octotree">Octotree</h2>
-<p>Employ this add-on for a drop-down menu within your browser for GitHub repositories.</p>
+<h2 id="getting-helps">Getting helps</h2>
+<p>Consult <a href="https://git-scm.com/docs/">git-scm command reference</a>,</p>
+<pre><code>man git
+man git-add
+...
+</code></pre>
+<p>The latter will give more specific command-line options available.</p>
+<h2 id="git-bash-for-windows">Git Bash for Windows</h2>
+<p>It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.</p>
 <h2 id="markdown-code-extraction">MarkDown code extraction</h2>
 <p>To extract <code>bash</code> code from GitHub markdown, the following is helpful,</p>
 <pre><code class="language-bash">sudo apt install npm
@@ -155,6 +156,14 @@ git clone https://github.com/mathjax/MathJax.git MathJax
 <pre><code class="language-js">&lt;script type="text/javascript" src="MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="MathJax/MathJax.js"&gt;&lt;/script&gt;
 </code></pre>
+<h2 id="mathjax-and-mermaid">MathJax and mermaid</h2>
+<p>On-the-fly examples for html are here,</p>
+<ul>
+<li>MathJax, <a href="https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html">https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html</a>.</li>
+<li>mermaid, <a href="https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html">https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html</a>.</li>
+</ul>
+<h2 id="octotree">Octotree</h2>
+<p>Employ this add-on for a drop-down menu within your browser for GitHub repositories.</p>
 <h2 id="pop-up-windows">Pop-up windows</h2>
 <p>A window may pop up for password, which could cause problems with command-line interface but this can be disabled with</p>
 <pre><code class="language-bash"> unset SSH_ASKPASS
@@ -163,15 +172,6 @@ git clone https://github.com/mathjax/MathJax.git MathJax
 <pre><code class="language-bash">DISPLAY=
 git push
 </code></pre>
-<h2 id="git-bash-for-windows">Git Bash for Windows</h2>
-<p>It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.</p>
-<h2 id="getting-helps">Getting helps</h2>
-<p>Consult <a href="https://git-scm.com/docs/">git-scm command reference</a>,</p>
-<pre><code>man git
-man git-add
-...
-</code></pre>
-<p>The latter will give more specific command-line options available.</p>
 <h2 id="additional-tips">Additional tips</h2>
 <pre><code class="language-bash"># https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository
 # recover directory R-packages that has been deleted
