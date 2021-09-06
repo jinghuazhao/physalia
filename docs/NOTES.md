@@ -1,5 +1,12 @@
 # Important notes
 
+## MathJax and mermaid
+
+On the fly examples for html are here,
+
+* mermaid, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html).
+* MathJax, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
+
 ## Octotree
 
 Employ this add-on for a drop-down menu within your browser for GitHub repositories.
@@ -25,10 +32,6 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, availa
 One may prefer Typora, available from [https://typora.io/](https://typora.io/). In particular, it supports mermaid, e.g., [https://mermaid-js.github.io/mermaid-live-editor/](https://mermaid-js.github.io/mermaid-live-editor/). The following is an example generated from the link to SVG,
 
 ![](https://tinyurl.com/y6cmwvn6)
-
-An example of generation on the fly is here, 
-[https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html) and also MathJax,
-[https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
 
 The following code sets up remarkable.
 ```bash
