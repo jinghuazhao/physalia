@@ -4,7 +4,7 @@ The purpose for this repository, named after the Physalia course, [GWAS-course](
 
 ## How to contribute 
 
-(adapted from [Apress](https://github.com/apress))
+(Adapted from [Apress](https://github.com/apress))
 
 Efforts are highly welcome as a long-term project, via the following steps:
 

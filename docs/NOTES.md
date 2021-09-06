@@ -4,8 +4,8 @@
 
 On the fly examples for html are here,
 
-* mermaid, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html).
 * MathJax, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
+* mermaid, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html).
 
 ## Octotree
 
