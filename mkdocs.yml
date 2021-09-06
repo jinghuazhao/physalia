@@ -1,4 +1,4 @@
-site_name: gwas2
+site_name: physalia
 nav:
   - Home: README.md
   - IDE: IDE.md
