@@ -18,7 +18,7 @@ Efforts are highly welcome as a long-term project, via the following steps:
 
  **File** | **Description**
  -----|---------------------------------------------------------------------------
- [.gitconfig](https://raw.githubusercontent.com/jinghuazhao/physalia/master/docs/.gitconfig) | at $HOME by `setup.sh` for automatic repository access[^longnote]
+ [.gitconfig](https://raw.githubusercontent.com/jinghuazhao/physalia/master/docs/.gitconfig) | at $HOME by `setup.sh` for automatic repository access[^1]
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [NOTES.md](NOTES.md) | Important notes
  [README.md](README.md) | this file
@@ -30,4 +30,4 @@ Efforts are highly welcome as a long-term project, via the following steps:
 
 * [GitHub-matters](https://cambridge-ceu.github.io/GitHub-matters/)
 
-[^longnote]: This is now supersed with direct access with ssh, see notes at GitHub-matters.
+[^1]: This is now supersed with direct access with ssh, see notes at GitHub-matters.
