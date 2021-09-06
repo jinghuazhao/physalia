@@ -19,13 +19,12 @@ Efforts are highly welcome as a long-term project, via the following steps:
  **File** | **Description**
  -----|-------------------------------------------------------------------------
  [.gitconfig](.gitconfig) | at $HOME by setup.sh for automatic repository access
- [.gitignore](.gitignore) | files not synchronised with GitHub
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [NOTES.md](NOTES.md) | Important notes
  [README.md](README.md) | this file
  [setup.sh](setup.sh) | setup for a standard repository
  [ssh.sh](ssh.sh) | setup for SSH
- [st.sh](st.sh) | batch file for add/commit/push operations
+ [docs.sh](docs.sh) | batch file for add/commit/push operations
 
 ## Related site
 
