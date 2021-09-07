@@ -30,4 +30,4 @@ Efforts are highly welcome as a long-term project, via the following steps:
 
 * [GitHub-matters](https://cambridge-ceu.github.io/GitHub-matters/)
 
-[^1]: This is now supersed with direct access via ssh, see notes at GitHub-matters above.
+[^1]: This is now superseded with direct access via ssh, see notes at GitHub-matters above.
