@@ -9,6 +9,14 @@
 
 IDEs such as [RStudio](https://www.rstudio.com/) and [Visual Studio Code](https://code.visualstudio.com/) are able to work with Git, but the following GUIs are purposely built.
 
+## Git-Cola
+
+Hosted at [https://git-cola.github.io/](https://git-cola.github.io/) and made available with
+```bash
+sudo apt install git-cola
+git-cola &
+```
+
 ## GitKraken
 
 Hosted at [https://www.gitkraken.com/](https://www.gitkraken.com/) and made available with
@@ -32,10 +40,6 @@ ln -s $PWD/bin/smartgit.sh $HOME/bin/smartgit.sh
 smartgit.sh &
 ```
 
-## Git-Cola
+## sourcetree
 
-Hosted at [https://git-cola.github.io/](https://git-cola.github.io/) and made available with
-```bash
-sudo apt install git-cola
-git-cola &
-```
+web: [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)
