@@ -1,6 +1,6 @@
 site_name: physalia
 nav:
-  - Home: README.md
+  - "": README.md
   - IDE: IDE.md
   - NOTES: NOTES.md
 theme:
