@@ -1,4 +1,6 @@
 site_name: physalia
+repo_url: https://github.com/jinghuazhao/physalia
+edit_uri: ""
 nav:
   - "": README.md
   - IDE: IDE.md
