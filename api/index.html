@@ -5,15 +5,14 @@
 <meta charset="utf-8"/>
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="None" name="description"/>
-<link href="img/favicon.ico" rel="shortcut icon"/>
-<title>physalia</title>
-<link href="css/bootstrap.min.css" rel="stylesheet"/>
-<link href="css/font-awesome.min.css" rel="stylesheet"/>
-<link href="css/base.css" rel="stylesheet"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>api - physalia</title>
+<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome.min.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet"/>
-<script defer="" src="js/jquery-1.10.2.min.js"></script>
-<script defer="" src="js/bootstrap.min.js"></script>
+<script defer="" src="../js/jquery-1.10.2.min.js"></script>
+<script defer="" src="../js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/Bash.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/HTML.min.js"></script>
@@ -26,10 +25,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </head>
-<body class="homepage">
+<body>
 <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
-<a class="navbar-brand" href=".">physalia</a>
+<a class="navbar-brand" href="..">physalia</a>
 <!-- Expander button -->
 <button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -38,17 +37,17 @@
 <div class="navbar-collapse collapse" id="navbar-collapse">
 <!-- Main navigation -->
 <ul class="nav navbar-nav">
+<li class="navitem">
+<a class="nav-link" href=".."></a>
+</li>
+<li class="navitem">
+<a class="nav-link" href="../IDE/">IDE</a>
+</li>
+<li class="navitem">
+<a class="nav-link" href="../NOTES/">NOTES</a>
+</li>
 <li class="navitem active">
-<a class="nav-link" href="."></a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="IDE/">IDE</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="NOTES/">NOTES</a>
-</li>
-<li class="navitem">
-<a class="nav-link" href="api/">api</a>
+<a class="nav-link" href="./">api</a>
 </li>
 </ul>
 <ul class="nav navbar-nav ml-auto">
@@ -58,12 +57,12 @@
                             </a>
 </li>
 <li class="nav-item">
-<a class="nav-link disabled" rel="prev">
+<a class="nav-link" href="../NOTES/" rel="prev">
 <i class="fa fa-arrow-left"></i> Previous
                                 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="IDE/" rel="next">
+<a class="nav-link disabled" rel="next">
                                     Next <i class="fa fa-arrow-right"></i>
 </a>
 </li>
@@ -84,15 +83,7 @@
 </div>
 <div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
 <ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#how-to-contribute">How to contribute</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#a-summary-of-files">A summary of files</a>
-<ul class="nav flex-column">
-</ul>
-</li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#related-site">Related site</a>
+<li class="nav-item" data-level="1"><a class="nav-link" href="#api">API</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -100,69 +91,33 @@
 </div>
 </div></div>
 <div class="col-md-9" role="main">
-<p><img align="right" height="300" src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="150"/></p>
-<p>The purpose for this repository, named after the Physalia course, <a href="https://github.com/jinghuazhao/GWAS-course">GWAS-course</a> when in preparation, was to record basic uses of GitHub as well as call for contributions to GitHub repositories.</p>
-<h2 id="how-to-contribute">How to contribute</h2>
-<p>(Adapted from <a href="https://github.com/apress">Apress</a>)</p>
-<p>Efforts are highly welcome as a long-term project, via the following steps:</p>
-<ol>
-<li>Make sure you have a GitHub account.</li>
-<li>Fork a repository.</li>
-<li>Create a new branch on which to make your change, e.g. <code>git checkout -b my_code_contribution</code></li>
-<li>Commit your change. Include a commit message describing the correction. Please note that if your commit message is not clear, the correction will not be accepted.</li>
-<li>Submit a pull request.</li>
-</ol>
-<h2 id="a-summary-of-files">A summary of files</h2>
-<table>
-<thead>
-<tr>
-<th><strong>File</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://raw.githubusercontent.com/jinghuazhao/physalia/master/docs/.gitconfig">.gitconfig</a></td>
-<td>at $HOME by <code>setup.sh</code> for automatic repository access<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
-</tr>
-<tr>
-<td><a href="IDE/">IDE.md</a></td>
-<td>GUI for GitHub repository maintenance</td>
-</tr>
-<tr>
-<td><a href="NOTES/">NOTES.md</a></td>
-<td>Important notes</td>
-</tr>
-<tr>
-<td><a href=".">README.md</a></td>
-<td>this file</td>
-</tr>
-<tr>
-<td><a href="setup.sh">setup.sh</a></td>
-<td>setup for a standard repository</td>
-</tr>
-<tr>
-<td><a href="ssh.sh">ssh.sh</a></td>
-<td>setup for SSH</td>
-</tr>
-<tr>
-<td><a href="docs.sh">docs.sh</a></td>
-<td>batch file for add/commit/push operations</td>
-</tr>
-</tbody>
-</table>
-<h2 id="related-site">Related site</h2>
-<ul>
-<li><a href="https://cambridge-ceu.github.io/GitHub-matters/">GitHub-matters</a></li>
-</ul>
-<div class="footnote">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>This is now superseded with direct access via ssh, see notes at GitHub-matters above. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
-</li>
-</ol>
-</div></div>
+<h1 id="api">API</h1>
+<p>This is an exmaple of generating a repository.</p>
+<pre><code class="language-bash">#!/usr/bin/bash
+
+export user=jinghuazhao
+export token=$(cat ~/doc/access)
+export API=https://api.github.com
+export header="Accept: application/vnd.github.v3+json"
+export name=Believe
+
+# 1. create the repository
+curl -X POST -u $user:$token -H "$header" -d '{"name": "'"$name"'"}' $API/user/repos
+
+# 2. local addition
+git init
+git config --global user.email "jinghuazhao@hotmail.com"
+git config --global user.name "jinghuazhao@github.com"
+git config --global url."https://jinghuazhao@github.com".insteadOf "https://github.com"
+
+git remote add origin https://github.com/jinghuazhao/Believe.git
+git push --set-upstream origin master
+git push -u origin master
+</code></pre>
+<p>At one one, the <code>git remote origin</code> had a typo which is fixed with </p>
+<blockquote>
+<p>git remote remove origin</p>
+</blockquote></div>
 </div>
 </div>
 <footer class="col-md-12">
@@ -170,14 +125,14 @@
 <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
 </footer>
 <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-<script defer="" src="js/base.js"></script>
-<script defer="" src="javascripts/config.js"></script>
+<script defer="" src="../js/base.js"></script>
+<script defer="" src="../javascripts/config.js"></script>
 <script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer="" src="search/main.js"></script>
+<script defer="" src="../search/main.js"></script>
 <div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
@@ -243,7 +198,3 @@
 </div>
 </body>
 </html>
-<!--
-MkDocs version : 1.1.2
-Build Date UTC : 2022-05-23 13:02:50.466811+00:00
--->
