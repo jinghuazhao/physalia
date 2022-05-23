@@ -5,6 +5,7 @@ nav:
   - "": README.md
   - IDE: IDE.md
   - NOTES: NOTES.md
+  - api: api.md
 theme:
     name: mkdocs
     nav_style: dark
