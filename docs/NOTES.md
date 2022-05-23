@@ -143,6 +143,10 @@ git clean -d -f -x
 ```
 As with many repositories here, a collection of the commands can be built into a batch file to save typing.
 
+## Token
+
+Login at [https://github.com/settings/tokens](https://github.com/settings/tokens) and regenerate; make sure to make a copy afterwards.
+
 ## Utilities
 
 * [git recall](https://github.com/Fakerr/git-recall.git).
