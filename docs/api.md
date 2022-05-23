@@ -1,6 +1,6 @@
 # API
 
-This is an exmaple of generating a repository.
+This is an exmaple of generating a repository from the command-line.
 
 ```bash
 #!/usr/bin/bash
