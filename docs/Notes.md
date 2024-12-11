@@ -1,4 +1,4 @@
-# Important notes
+# Notes
 
 ## Getting helps
 

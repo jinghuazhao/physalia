@@ -1,4 +1,4 @@
-# IDE -- integrated development environment
+# IDE
 
 [Git](https://git-scm.com/) comes with its own GUI as well as a shell, which has a Linux flavour to enable operations under Linux/Unix, Mac and Windows.
 
