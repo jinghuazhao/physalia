@@ -18,10 +18,11 @@ Efforts are highly welcome as a long-term project, via the following steps:
 
  **File** | **Description**
  -----|---------------------------------------------------------------------------
- [.gitconfig](https://raw.githubusercontent.com/jinghuazhao/physalia/master/docs/.gitconfig) | at $HOME by `setup.sh` for automatic repository access[^1]
+ [api.md](api.md) | Command-line repository creation
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
- [NOTES.md](NOTES.md) | Important notes
+ [Notes.md](Notes.md) | Important notes
  [README.md](README.md) | this file
+ [csd3.sh](csd3.sh) | A package-building example
  [setup.sh](setup.sh) | setup for a standard repository
  [ssh.sh](ssh.sh) | setup for SSH
  [docs.sh](docs.sh) | batch file for add/commit/push operations
@@ -29,5 +30,3 @@ Efforts are highly welcome as a long-term project, via the following steps:
 ## Related site
 
 * [GitHub-matters](https://cambridge-ceu.github.io/GitHub-matters/)
-
-[^1]: This is now superseded with direct access via ssh, see notes at GitHub-matters above.
