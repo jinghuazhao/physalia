@@ -3,15 +3,12 @@ repo_url: https://github.com/jinghuazhao/physalia
 edit_uri: ""
 nav:
   - "": README.md
-  - IDE: IDE.md
-  - NOTES: NOTES.md
-  - api: api.md
+  - api.md
+  - IDE.md
+  - Notes.md
 theme:
     name: mkdocs
     nav_style: dark
-    static_templates:
-        - sitemap.html
-    include_sidebar: false
     highlightjs: true
     hljs_languages:
         - Bash
