@@ -10,7 +10,7 @@ ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
 
 # sudo apt install xsel
-xsel --clipboard < ~/.ssh/id_rsa.pub
+xclip < ~/.ssh/id_rsa.pub
 # paste into GitHub "personal account" SSH/GPG settings
 # copy repository address from `Code`/ssh of a repository and replace url from its .git/config
 
