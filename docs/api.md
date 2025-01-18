@@ -25,6 +25,6 @@ git push --set-upstream origin master
 git push -u origin master
 ```
 
-At one one, the `git remote origin` had a typo which is fixed with 
+At one time, the `git remote origin` command had a typo which is fixed with 
 
 > git remote remove origin
