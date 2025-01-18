@@ -18,8 +18,8 @@ git remote -v
 git remote set-url origin git@github.com:jinghuazhao/physalia.git
 # create a repository on the command line
 
-git init physalia
 cd physalia
+git init
 echo README > README.md
 git add README.md
 git commit -m "README.md"
