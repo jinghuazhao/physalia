@@ -95,6 +95,14 @@
             
             <li class="nav-item" data-level="1"><a href="#api" class="nav-link">API</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#benchmark" class="nav-link">Benchmark</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#generic-version" class="nav-link">Generic version</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -104,6 +112,7 @@
 
 <h1 id="api">API</h1>
 <p>This is an exmaple of generating a repository from the command-line.</p>
+<h2 id="benchmark">Benchmark</h2>
 <pre><code class="language-bash">#!/usr/bin/bash
 
 export user=jinghuazhao
@@ -130,7 +139,37 @@ git push -u origin main
 <p>At one time, the <code>git remote origin</code> command had a typo which is fixed with </p>
 <blockquote>
 <p>git remote remove origin</p>
-</blockquote></div>
+</blockquote>
+<h2 id="generic-version">Generic version</h2>
+<p>As noted elsewhere at this site, you can use <code>codedown</code> to extract the script and adapt as follows,</p>
+<pre><code class="language-bash">cat docs/api.md | \
+codedown bash | \
+sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;s/jinghuazhao/your-github-username/g;s/Believe/your-repository-name/'
+</code></pre>
+<p>the a rather generic version:</p>
+<pre><code class="language-bash">#!/usr/bin/bash
+
+export user=your-github-username
+export token=$(cat ~/doc/access)
+export API=https://api.github.com
+export header=&quot;Accept: application/vnd.github.v3+json&quot;
+export name=your-repository-name
+
+# 1. create the repository
+curl -X POST -u $user:$token -H &quot;$header&quot; -d '{&quot;name&quot;: &quot;'&quot;$name&quot;'&quot;}' $API/user/repos
+
+# 2. local addition
+git init
+git config --global user.email &quot;your-email-address@yourdomain&quot;
+git config --global user.name &quot;your-github-username@github.com&quot;
+git config --global url.&quot;https://your-github-username@github.com&quot;.insteadOf &quot;https://github.com&quot;
+
+git remote add origin https://github.com/your-github-username/your-repository-name.git
+git push --set-upstream origin main
+git add .
+git commit -m &quot;your-repository-name&quot;
+git push -u origin main
+</code></pre></div>
             </div>
         </div>
 
