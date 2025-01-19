@@ -72,10 +72,15 @@ The last step enables mathtype formatting in the html format (e.g., via pandoc) 
 
 ## MathJax and mermaid
 
-On-the-fly examples for html are here,
+On-the-fly examples for html are initially here from the SCALLOP-Seq projects,
 
-* MathJax, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html).
-* mermaid, [https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html](https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html).
+* MathJax, "https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html"
+* mermaid, "https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html"
+
+and found their new home here,
+
+* MathJax, <https://jinghuazhao.github.io/physalia/tests/mathjax.html>
+* mermaid, <https://jinghuazhao.github.io/physalia/tests/mermaid.html>
 
 ## Octotree
 
