@@ -21,8 +21,10 @@ git config --global user.name "jinghuazhao@github.com"
 git config --global url."https://jinghuazhao@github.com".insteadOf "https://github.com"
 
 git remote add origin https://github.com/jinghuazhao/Believe.git
-git push --set-upstream origin master
-git push -u origin master
+git push --set-upstream origin main
+git add .
+git commit -m "Believe"
+git push -u origin main
 ```
 
 At one time, the `git remote origin` command had a typo which is fixed with 
