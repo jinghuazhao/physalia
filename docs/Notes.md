@@ -22,7 +22,7 @@ It may be necessary to map network drives, as is noted here, <https://jinghuazha
 ```bash
 sudo mkdir /mnt/u
 sudo mount -t drvfs U: /mnt/u
-sudo umount /mnt/d
+sudo umount /mnt/u
 ```
 
 or
