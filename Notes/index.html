@@ -91,6 +91,10 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#windows-subsystem-for-linux-wsl">Windows subsystem for Linux (WSL)</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 <li class="nav-item" data-level="2"><a class="nav-link" href="#markdown-code-extraction">MarkDown code extraction</a>
 <ul class="nav flex-column">
 </ul>
@@ -139,6 +143,17 @@ man git-add
 <p>The latter will give more specific command-line options available.</p>
 <h2 id="git-bash-for-windows">Git Bash for Windows</h2>
 <p>It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.</p>
+<h2 id="windows-subsystem-for-linux-wsl">Windows subsystem for Linux (WSL)</h2>
+<p>It may be necessary to map network drives, as is noted here, <a href="https://jinghuazhao.github.io/Computational-Statistics/SYSTEMS/#wsl">https://jinghuazhao.github.io/Computational-Statistics/SYSTEMS/#wsl</a>.</p>
+<pre><code class="language-bash">sudo mkdir /mnt/u
+sudo mount -t drvfs U: /mnt/u
+sudo umount /mnt/d
+</code></pre>
+<p>or</p>
+<pre><code class="language-bash">sudo mkdir /mnt/u
+sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
+sudo mount -t drvfs U: /mnt/u
+</code></pre>
 <h2 id="markdown-code-extraction">MarkDown code extraction</h2>
 <p>To extract <code>bash</code> code from GitHub markdown, the following is helpful,</p>
 <pre><code class="language-bash">sudo apt install npm
