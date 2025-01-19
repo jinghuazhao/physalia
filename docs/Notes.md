@@ -15,6 +15,24 @@ The latter will give more specific command-line options available.
 
 It is helpful to note that c:/ and u:/ can be used as well as /c and /u, respectively.
 
+## Windows subsystem for Linux (WSL)
+
+It may be necessary to map network drives, as is noted here, <https://jinghuazhao.github.io/Computational-Statistics/SYSTEMS/#wsl>.
+
+```bash
+sudo mkdir /mnt/u
+sudo mount -t drvfs U: /mnt/u
+sudo umount /mnt/d
+```
+
+or
+
+```bash
+sudo mkdir /mnt/u
+sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
+sudo mount -t drvfs U: /mnt/u
+```
+
 ## MarkDown code extraction
 
 To extract `bash` code from GitHub markdown, the following is helpful,
