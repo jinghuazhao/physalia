@@ -2,6 +2,6 @@
 
 This directory consists of early experiments on MathJax and Mermaid. Over time, it is fortunate that GitHub now supports both.
 
-## <a href="tests/mathjax.html">Mathjax</a>
+## <a href="mathjax.html">Mathjax</a>
 
-## <a href="tests/mermaid.html">Mermaid</a>
+## <a href="mermaid.html">Mermaid</a>

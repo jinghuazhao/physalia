@@ -43,7 +43,7 @@ codedown bash | \
 sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;s/jinghuazhao/your-github-username/g;s/Believe/your-repository-name/'
 ```
 
-the a rather generic version:
+for a rather generic version:
 
 ```bash
 #!/usr/bin/bash
