@@ -141,10 +141,12 @@ git push -u origin main
 <p>git remote remove origin</p>
 </blockquote>
 <h2 id="generic-version">Generic version</h2>
-<p>As noted elsewhere at this site, you can use <code>codedown</code> to extract the script and adapt as follows,</p>
-<pre><code class="language-bash">cat docs/api.md | \
+<p>As noted elsewhere at this site, you can use <code>codedown</code> to extract the script before line 32, and adapt as follows,</p>
+<pre><code class="language-bash">sed '32,$d' docs/api.md | \
 codedown bash | \
-sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;s/jinghuazhao/your-github-username/g;s/Believe/your-repository-name/'
+sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;
+     s/jinghuazhao/your-github-username/g;
+     s/Believe/your-repository-name/'
 </code></pre>
 <p>for a rather generic version:</p>
 <pre><code class="language-bash">#!/usr/bin/bash
