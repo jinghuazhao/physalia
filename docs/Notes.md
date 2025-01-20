@@ -43,15 +43,44 @@ sudo npm install -g codedown
 cat README.md | \
 codedown bash
 ```
-This also works when the keyword is wrapped in braces, e.g., {r}.
+This also works when the keyword is wrapped in braces, e.g., {r}. In fact, we it is a rather short implementation:
 
-Additional information on npm (Node Package Manager) is available from https://www.w3schools.com/whatis/whatis_npm.asp.
+```bash
+#!/usr/bin/env node
 
-Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from https://nodejs.org/en/download/.
+var marked   = require('marked');
+var readline = require('readline');
+var codedown = require('./lib/codedown.js');
+
+if (process.argv.length >= 3) {
+
+  var source = [];
+
+  readline.createInterface({
+    terminal: false,
+    input: process.stdin,
+  }).on('line', function (line) {
+    source.push(line);
+  }).on('close', function () {
+    var lang = process.argv[2];
+    var separator = process.argv[3];
+    output = codedown(source.join('\n'), lang, separator);
+    console.log(output);
+  });
+
+} else {
+  console.log('usage: codedown <lang> [<separator>]');
+  console.log('ex: codedown haskell');
+}
+```
+
+Additional information on npm (Node Package Manager) is available from <https://www.w3schools.com/whatis/whatis_npm.asp>.
+
+Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from <https://nodejs.org/en/download/>.
 
 ## MarkDown editor
 
-One may prefer Typora, available from [https://typora.io/](https://typora.io/). In particular, it supports mermaid, e.g., [https://mermaid-js.github.io/mermaid-live-editor/](https://mermaid-js.github.io/mermaid-live-editor/). The following is an example generated from the link to SVG,
+One may prefer Typora, available from <https://typora.io/>. In particular, it supports mermaid, e.g., <https://mermaid-js.github.io/mermaid-live-editor/>. The following is an example generated from the link to SVG,
 
 ![](https://tinyurl.com/y6cmwvn6)
 
@@ -74,8 +103,8 @@ The last step enables mathtype formatting in the html format (e.g., via pandoc) 
 
 On-the-fly examples for html are initially here from the SCALLOP-Seq projects,
 
-* MathJax, "https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html"
-* mermaid, "https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html"
+* MathJax, **https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html**
+* mermaid, **https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html**
 
 and found their new home here,
 
@@ -168,7 +197,7 @@ As with many repositories here, a collection of the commands can be built into a
 
 ## Token
 
-Login at [https://github.com/settings/tokens](https://github.com/settings/tokens) and regenerate; make sure to make a copy afterwards.
+Login at <https://github.com/settings/tokens> and regenerate; make sure to make a copy afterwards.
 
 ## Utilities
 
