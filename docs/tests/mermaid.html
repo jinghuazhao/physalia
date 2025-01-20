@@ -1,48 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>Test of mermaid</title>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Test of Mermaid</title>
 </head>
-We now expect to see a diagram here, simply because GitHub supports them.
-<div class="mermaid" id="mermaidChart0">
-graph TB;
-setup ==> 1 ==> 2;
-    1 --> idmap.do; 1 --> wgs.wrap;
-    2 --> 2.1 --> spa.sb; 2.1 --> bgen.sb;
-    2 --> 2.2 --> wes.R; 2.2 --> wgs.R; 2.2 --> weswgs.R; 2.2 --> rva.sb; 2.2 --> prune.wrap;
-</div>
+<body>
+  <h2>Programs</h2>
+  <table>
+    <thead>
+      <tr><th>Sequence</th><th>Filename</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>weswgs.sh</td><td>WES/WGS preprocessing</td></tr>
+      <tr><td>2.1</td><td>spa.sh</td><td>Single-point analysis</td></tr>
+      <tr><td>2.2</td><td>rva.sh</td><td>Rare-variant analysis</td></tr>
+    </tbody>
+  </table>
+  <p>Remarks on variant lists and results submitted centrally are described in INTERVAL.md.</p>
 
-Otherwise `mermaid.min.js` needs to be loaded within the .html file,
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" crossorigin="anonymous"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-<script>
-let graphStr = `
-graph TB;
-setup ==> 1 ==> 2; 
-    1 --> idmap.do; 1 --> wgs.wrap;
-    2 --> 2.1 --> spa.sb; 2.1 --> bgen.sb;
-    2 --> 2.2 --> wes.R; 2.2 --> wgs.R; 2.2 --> weswgs.R; 2.2 --> rva.sb; 2.2 --> prune.wrap`;
-onload = () => {
-  mermaid.render("mermaid", graphStr, document.getElementsByTagName("div")[0]);
-}
-</script>
-<style>
- .mermaid {width:200% !important}
-</style>
-<body><h2>Programs</h2>
-<figure>
-<table>
-<thead>
-<tr><th>Sequence</th><th>Filename</th><th>Description</th></tr>
-</thead>
-<tbody>
-<tr><td>1</td><td>weswgs.sh</td><td>WES/WGS preprocessing</td></tr>
-<tr><td>2.1</td><td>spa.sh</td><td>Single-point analysis</td></tr>
-<tr><td>2.2</td><td>rva.sh</td><td>Rare-variant analysis</td></tr>
-</tbody>
-</table>
-</figure>
-Remarks on variant lists and results submitted centrally are described in INTERVAL.md.</p>
+  <h3>Diagram</h3>
+  <p>We now expect to see a diagram here, simply because GitHub supports them.</p>
+  <div class="mermaid" id="mermaidChart0">
+  graph TB;
+  setup ==> 1 ==> 2;
+      1 --> idmap.do; 1 --> wgs.wrap;
+      2 --> 2.1 --> spa.sb; 2.1 --> bgen.sb;
+      2 --> 2.2 --> wes.R; 2.2 --> wgs.R; 2.2 --> weswgs.R; 2.2 --> rva.sb; 2.2 --> prune.wrap;
+  </div>
+  
+  <p>Otherwise, `mermaid.min.js` needs to be explicitly loaded within the `.html` file, as shown below.</p>
+  
+  <!-- Style to adjust Mermaid rendering -->
+  <style>
+    .mermaid {
+      width: 100%; 
+      max-width: 800px; 
+      margin: auto;
+    }
+  </style>
+
+  <!-- Loading Mermaid.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" crossorigin="anonymous"></script>
+
+  <!-- Initialize Mermaid -->
+  <script>
+    // Initialize Mermaid for diagrams in the document
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+  <!-- Optional: Explicit Mermaid rendering -->
+  <script>
+    // Optional: Demonstrating explicit rendering
+    let graphStr = `
+    graph TB;
+    setup ==> 1 ==> 2;
+        1 --> idmap.do; 1 --> wgs.wrap;
+        2 --> 2.1 --> spa.sb; 2.1 --> bgen.sb;
+        2 --> 2.2 --> wes.R; 2.2 --> wgs.R; 2.2 --> weswgs.R; 2.2 --> rva.sb; 2.2 --> prune.wrap`;
+
+    onload = () => {
+      // Explicitly render the diagram
+      mermaid.render("mermaidChart0", graphStr, document.getElementById("mermaidChart0"));
+    };
+  </script>
 </body>
 </html>
