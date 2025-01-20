@@ -60,7 +60,7 @@
 
     onload = () => {
       // Explicitly render the diagram
-      mermaid.render("mermaid", graphStr, document.getElementById("div")[0]);
+      mermaid.render("mermaid", graphStr, document.getElementsByTagName("div")[0]);
     };
   </script>
 </body>
