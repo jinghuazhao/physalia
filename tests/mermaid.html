@@ -42,7 +42,6 @@
 
   <!-- Loading Mermaid.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" crossorigin="anonymous"></script>
-
   <!-- Initialize Mermaid -->
   <script>
     // Initialize Mermaid for diagrams in the document
@@ -61,7 +60,7 @@
 
     onload = () => {
       // Explicitly render the diagram
-      mermaid.render("mermaidChart0", graphStr, document.getElementById("mermaidChart0"));
+      mermaid.render("mermaid", graphStr, document.getElementById("div")[0]);
     };
   </script>
 </body>
