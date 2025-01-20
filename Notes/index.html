@@ -164,9 +164,36 @@ sudo npm install -g codedown
 cat README.md | \
 codedown bash
 </code></pre>
-<p>This also works when the keyword is wrapped in braces, e.g., {r}.</p>
-<p>Additional information on npm (Node Package Manager) is available from https://www.w3schools.com/whatis/whatis_npm.asp.</p>
-<p>Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from https://nodejs.org/en/download/.</p>
+<p>This also works when the keyword is wrapped in braces, e.g., {r}. In fact, we it is a rather short implementation:</p>
+<pre><code class="language-bash">#!/usr/bin/env node
+
+var marked   = require('marked');
+var readline = require('readline');
+var codedown = require('./lib/codedown.js');
+
+if (process.argv.length &gt;= 3) {
+
+  var source = [];
+
+  readline.createInterface({
+    terminal: false,
+    input: process.stdin,
+  }).on('line', function (line) {
+    source.push(line);
+  }).on('close', function () {
+    var lang = process.argv[2];
+    var separator = process.argv[3];
+    output = codedown(source.join('\n'), lang, separator);
+    console.log(output);
+  });
+
+} else {
+  console.log('usage: codedown &lt;lang&gt; [&lt;separator&gt;]');
+  console.log('ex: codedown haskell');
+}
+</code></pre>
+<p>Additional information on npm (Node Package Manager) is available from <a href="https://www.w3schools.com/whatis/whatis_npm.asp">https://www.w3schools.com/whatis/whatis_npm.asp</a>.</p>
+<p>Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>.</p>
 <h2 id="markdown-editor">MarkDown editor</h2>
 <p>One may prefer Typora, available from <a href="https://typora.io/">https://typora.io/</a>. In particular, it supports mermaid, e.g., <a href="https://mermaid-js.github.io/mermaid-live-editor/">https://mermaid-js.github.io/mermaid-live-editor/</a>. The following is an example generated from the link to SVG,</p>
 <p><img alt="" src="https://tinyurl.com/y6cmwvn6"/></p>
@@ -185,8 +212,8 @@ git clone https://github.com/mathjax/MathJax.git MathJax
 <h2 id="mathjax-and-mermaid">MathJax and mermaid</h2>
 <p>On-the-fly examples for html are initially here from the SCALLOP-Seq projects,</p>
 <ul>
-<li>MathJax, "https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html"</li>
-<li>mermaid, "https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html"</li>
+<li>MathJax, <strong>https://jinghuazhao.github.io/SCALLOP-Seq/tests/mathjax.html</strong></li>
+<li>mermaid, <strong>https://jinghuazhao.github.io/SCALLOP-Seq/tests/mermaid.html</strong></li>
 </ul>
 <p>and found their new home here,</p>
 <ul>
