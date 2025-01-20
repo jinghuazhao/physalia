@@ -4,6 +4,16 @@
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 <title>Test of mermaid</title>
 </head>
+We now expect to see a diagram here, simply because GitHub supports them.
+<div class="mermaid" id="mermaidChart0">
+graph TB;
+setup ==> 1 ==> 2;
+    1 --> idmap.do; 1 --> wgs.wrap;
+    2 --> 2.1 --> spa.sb; 2.1 --> bgen.sb;
+    2 --> 2.2 --> wes.R; 2.2 --> wgs.R; 2.2 --> weswgs.R; 2.2 --> rva.sb; 2.2 --> prune.wrap;
+</div>
+
+Otherwise this arrangement is required within the .html document,
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" crossorigin="anonymous"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 <script>
@@ -34,14 +44,5 @@ onload = () => {
 </table>
 </figure>
 Remarks on variant lists and results submitted centrally are described in INTERVAL.md.</p>
-
-We see a replicate here now, simply because GitHub supports them.
-<div class="mermaid" id="mermaidChart0">
-graph TB;
-setup ==> 1 ==> 2; 
-    1 --> idmap.do; 1 --> wgs.wrap;
-    2 --> 2.1 --> spa.sb; 2.1 --> bgen.sb;
-    2 --> 2.2 --> wes.R; 2.2 --> wgs.R; 2.2 --> weswgs.R; 2.2 --> rva.sb; 2.2 --> prune.wrap;
-</div>
 </body>
 </html>

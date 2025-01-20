@@ -2,9 +2,9 @@
 
 This directory consists of early experiments on MathJax and Mermaid. Over time, it is fortunate that GitHub now supports both.
 
-## <a href="mathjax.html">Mathjax</a>
+## MathJax
 
-We have,
+We have <a href="mathjax.html">mathjax.html</a>
 
 $$
 \begin{aligned}
@@ -24,9 +24,10 @@ $$
 $$
 
 
-## <a href="mermaid.html">Mermaid</a>
+## Mermaid
 
-We have,
+We have <a href="mermaid.html">mermaid.html</a>
+
 
 ```mermaid
 graph TB;

@@ -35,12 +35,14 @@ At one time, the `git remote origin` command had a typo which is fixed with
 
 ## Generic version
 
-As noted elsewhere at this site, you can use `codedown` to extract the script and adapt as follows,
+As noted elsewhere at this site, you can use `codedown` to extract the script before line 32, and adapt as follows,
 
 ```bash
-cat docs/api.md | \
+sed '32,$d' docs/api.md | \
 codedown bash | \
-sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;s/jinghuazhao/your-github-username/g;s/Believe/your-repository-name/'
+sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;
+     s/jinghuazhao/your-github-username/g;
+     s/Believe/your-repository-name/'
 ```
 
 for a rather generic version:
