@@ -2,6 +2,8 @@
 
 Preentation slides are greatly faciliated by Markdown, as is shown here.
 
+It is notable that the LaTeX environment needs to be made available, e.g., `module load texlive`.
+
 ## PDF
 
 The slides in PDF are rendered as follows,
