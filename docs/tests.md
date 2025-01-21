@@ -28,7 +28,6 @@ $$
 
 We have <a href="mermaid.html">mermaid.html</a>
 
-
 ```mermaid
 graph TB;
 setup ==> 1 ==> 2;
