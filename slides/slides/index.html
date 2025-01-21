@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>API - physalia</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Presentation Title - physalia</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Bash.min.js"></script>
@@ -29,7 +29,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="..">physalia</a>
+                <a class="navbar-brand" href="../..">physalia</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -40,22 +40,22 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link"></a>
-                            </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">API</a>
+                                <a href="../.." class="nav-link"></a>
                             </li>
                             <li class="navitem">
-                                <a href="../IDE/" class="nav-link">IDE</a>
+                                <a href="../../api/" class="nav-link">API</a>
                             </li>
                             <li class="navitem">
-                                <a href="../Notes/" class="nav-link">Notes</a>
+                                <a href="../../IDE/" class="nav-link">IDE</a>
                             </li>
                             <li class="navitem">
-                                <a href="../tests/" class="nav-link">Tests</a>
+                                <a href="../../Notes/" class="nav-link">Notes</a>
                             </li>
                             <li class="navitem">
-                                <a href="../slides/" class="nav-link">Slides</a>
+                                <a href="../../tests/" class="nav-link">Tests</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../" class="nav-link">Slides</a>
                             </li>
                         </ul>
 
@@ -65,16 +65,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../IDE/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                             <li class="nav-item">
                                 <a href="https://github.com/jinghuazhao/physalia" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
                             </li>
@@ -96,16 +86,22 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#api" class="nav-link">API</a>
+            <li class="nav-item" data-level="1"><a href="#slide-1-title" class="nav-link">Slide 1 Title</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#benchmark" class="nav-link">Benchmark</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#generic-version" class="nav-link">Generic version</a>
+            <li class="nav-item" data-level="2"><a href="#slide-2-title" class="nav-link">Slide 2 Title</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#slide-with-image" class="nav-link">Slide with Image</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#code-example" class="nav-link">Code Example</a>
+              <ul class="nav flex-column">
               </ul>
             </li>
         </ul>
@@ -113,68 +109,51 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="api">API</h1>
-<p>This is an exmaple of generating a repository from the command-line.</p>
-<h2 id="benchmark">Benchmark</h2>
-<pre><code class="language-bash">#!/usr/bin/bash
-
-export user=jinghuazhao
-export token=$(cat ~/doc/access)
-export API=https://api.github.com
-export header=&quot;Accept: application/vnd.github.v3+json&quot;
-export name=Believe
-
-# 1. create the repository
-curl -X POST -u $user:$token -H &quot;$header&quot; -d '{&quot;name&quot;: &quot;'&quot;$name&quot;'&quot;}' $API/user/repos
-
-# 2. local addition
-git init
-git config --global user.email &quot;jinghuazhao@hotmail.com&quot;
-git config --global user.name &quot;jinghuazhao@github.com&quot;
-git config --global url.&quot;https://jinghuazhao@github.com&quot;.insteadOf &quot;https://github.com&quot;
-
-git remote add origin https://github.com/jinghuazhao/Believe.git
-git push --set-upstream origin main
-git add .
-git commit -m &quot;Believe&quot;
-git push -u origin main
+<h1 id="slide-1-title">Slide 1 Title</h1>
+<p>Content for the first slide.</p>
+<ul>
+<li>Point 1</li>
+<li>Point 2</li>
+<li>Point 3</li>
+</ul>
+<hr />
+<h2 id="slide-2-title">Slide 2 Title</h2>
+<ol>
+<li>Ordered list item</li>
+<li>Another item</li>
+<li>A third item</li>
+</ol>
+<hr />
+<h1 id="slide-with-image">Slide with Image</h1>
+<p><img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="150" height="300" align="right"></p>
+<hr />
+<h1 id="code-example">Code Example</h1>
+<pre><code class="language-python"># Sample Python code
+def hello_world():
+    print(&quot;Hello, world!&quot;)
 </code></pre>
-<p>At one time, the <code>git remote origin</code> command had a typo which is fixed with </p>
-<blockquote>
-<p>git remote remove origin</p>
-</blockquote>
-<h2 id="generic-version">Generic version</h2>
-<p>As noted elsewhere at this site, you can use <code>codedown</code> to extract the script before line 32, and adapt as follows,</p>
-<pre><code class="language-bash">sed '32,$d' docs/api.md | \
-codedown bash | \
-sed 's/jinghuazhao@hotmail.com/your-email-address@yourdomain/;
-     s/jinghuazhao/your-github-username/g;
-     s/Believe/your-repository-name/'
-</code></pre>
-<p>for a rather generic version:</p>
-<pre><code class="language-bash">#!/usr/bin/bash
-
-export user=your-github-username
-export token=$(cat ~/doc/access)
-export API=https://api.github.com
-export header=&quot;Accept: application/vnd.github.v3+json&quot;
-export name=your-repository-name
-
-# 1. create the repository
-curl -X POST -u $user:$token -H &quot;$header&quot; -d '{&quot;name&quot;: &quot;'&quot;$name&quot;'&quot;}' $API/user/repos
-
-# 2. local addition
-git init
-git config --global user.email &quot;your-email-address@yourdomain&quot;
-git config --global user.name &quot;your-github-username@github.com&quot;
-git config --global url.&quot;https://your-github-username@github.com&quot;.insteadOf &quot;https://github.com&quot;
-
-git remote add origin https://github.com/your-github-username/your-repository-name.git
-git push --set-upstream origin main
-git add .
-git commit -m &quot;your-repository-name&quot;
-git push -u origin main
-</code></pre></div>
+<hr />
+<h3 id="key-features-of-the-template"><strong>Key Features of the Template</strong></h3>
+<ol>
+<li><strong>YAML Front Matter</strong>:</li>
+<li>Set metadata like the title, author, theme, and transitions using the front matter.</li>
+<li><strong>Headings</strong>:</li>
+<li>Use <code>#</code> for slide titles, <code>##</code> or <code>###</code> for smaller headers.</li>
+<li><strong>Horizontal Slide Separation</strong>:</li>
+<li>Use <code>---</code> to separate individual slides.</li>
+<li><strong>Code Blocks</strong>:</li>
+<li>Wrap code in triple backticks for syntax highlighting.</li>
+<li><strong>Images</strong>:</li>
+<li>Embed images using the standard Markdown syntax: <code>![alt text](path)</code>.</li>
+</ol>
+<hr />
+<h3 id="tools-to-render-markdown-slides"><strong>Tools to Render Markdown Slides</strong></h3>
+<ul>
+<li><strong>Reveal.js</strong>: Use <a href="https://revealjs.com/">Reveal.js</a> for beautiful web-based presentations. Convert your Markdown using <code>reveal-md</code>.</li>
+<li><strong>Marp</strong>: A tool for creating slides directly from Markdown and exporting them to PDF or PowerPoint.</li>
+<li><strong>Pandoc</strong>: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.</li>
+</ul>
+<hr /></div>
             </div>
         </div>
 
@@ -182,17 +161,17 @@ git push -u origin main
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../js/jquery-3.6.0.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js"></script>
-        <script src="../javascripts/config.js"></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../javascripts/config.js"></script>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script src="../search/main.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
