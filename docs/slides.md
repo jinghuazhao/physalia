@@ -22,4 +22,4 @@ This is done as follows,
 pandoc -t revealjs --variable theme:metropolis -s slides.md -o slides.html
 ```
 
-See <a href="slides.html>slides.html</a>.
+See <a href="slides.html">slides.html</a>.
