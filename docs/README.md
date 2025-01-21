@@ -23,7 +23,7 @@ Efforts are highly welcome as a long-term project, via the following steps:
  [api.md](api.md) | Command-line repository creation
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [Notes.md](Notes.md) | Important notes
- [tests.md](tests.md) | Tests
+ [tests.md](tests.md) | Tests of MathJax and mermaid
  [README.md](README.md) | this file
  [csd3.sh](csd3.sh) | A package-building example
  [setup.sh](setup.sh) | setup for a standard repository
