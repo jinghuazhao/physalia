@@ -116,6 +116,7 @@
 <h1 id="slides">Slides</h1>
 <p>Preentation slides are greatly faciliated by Markdown, as is shown here.</p>
 <p>It is notable that the LaTeX environment needs to be made available, e.g., <code>module load texlive</code>.</p>
+<p>The toy slides are in <a href="slides/">slides.md</a>.</p>
 <h2 id="pdf">PDF</h2>
 <p>The slides in PDF are rendered as follows,</p>
 <pre><code class="language-bash">#!/usr/bin/bash
@@ -124,8 +125,9 @@ pandoc -t beamer --variable theme:metropolis slides.md -o slides.pdf
 </code></pre>
 <p>See <a href="slides.pdf">slides.pdf</a>.</p>
 <h2 id="html">html</h2>
-<p>This is done as follows,</p>
+<p>This could be done as follows via <code>pandoc</code> but <code>marp</code> appears to be far better,</p>
 <pre><code class="language-bash">pandoc -t revealjs --variable theme:metropolis -s slides.md -o slides.html
+marp slides.md
 </code></pre>
 <p>See <a href="slides.html">slides.html</a>.</p></div>
             </div>
