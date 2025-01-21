@@ -24,6 +24,7 @@ Efforts are highly welcome as a long-term project, via the following steps:
  [IDE.md](IDE.md) | GUI for GitHub repository maintenance
  [Notes.md](Notes.md) | Important notes
  [tests.md](tests.md) | Tests of MathJax and mermaid
+ [slides.md](slides.md) | A showcase of Markdown slides
  [README.md](README.md) | this file
  [csd3.sh](csd3.sh) | A package-building example
  [setup.sh](setup.sh) | setup for a standard repository
