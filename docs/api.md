@@ -1,6 +1,6 @@
 # API
 
-This is an exmaple of generating a repository from the command-line.
+This is an exmaple of generating a repository from the command line. This approach enables git operation with ease at any given location.
 
 ## Benchmark
 
