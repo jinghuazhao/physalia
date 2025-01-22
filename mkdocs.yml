@@ -6,8 +6,8 @@ nav:
   - api.md
   - IDE.md
   - Notes.md
-  - tests.md
   - slides.md
+  - tests.md
 theme:
     name: mkdocs
     nav_style: dark
