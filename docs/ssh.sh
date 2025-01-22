@@ -8,11 +8,12 @@ eval $(ssh-agent -s)
 # add private key to ssh-agent
 ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
-
-# sudo apt install xsel
 xclip < ~/.ssh/id_rsa.pub
 # paste into GitHub "personal account" SSH/GPG settings
 # copy repository address from `Code`/ssh of a repository and replace url from its .git/config
+# clip described at GitHub is actually a Windows application
+# clip < ~/.ssh/id_rsa.pub
+# sudo apt install xsel
 
 # Check that you are connecting to the correct server
 # make sure connection to the right domain
@@ -40,7 +41,5 @@ ssh -T -p 443 git@ssh.github.com
 
 # For additional information, see
 # https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
-# clip described at GitHub is actually a Windows application
-# clip < ~/.ssh/id_rsa.pub
 # Ubuntu 18.04 gives the (wrong but otherwise useful) suggestion:
 # sudo apt install geomview
