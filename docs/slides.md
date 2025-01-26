@@ -28,3 +28,36 @@ marp slides.md
 ```
 
 See <a href="slides.html">slides.html</a>.
+
+## Bibliography
+
+This is extracted from a successful one.
+
+```
+bibliography: REFERENCES.bib
+filter: pandoc-citeproc
+csl: /home/jhz22/R/gap/vignettes/nature-genetics.csl
+```
+
+which is processed with
+
+```bash
+module load texlive
+pandoc -t beamer --citeproc --mathjax --standalone --toc --variable theme:metropolis -o gaawr2.pdf gaawr2.md
+```
+
+This is an attempt to enable `gotham`.
+
+```bash
+wget https://mirrors.ctan.org/macros/latex/contrib/beamer-contrib/themes/beamertheme-gotham.zip
+unzip beamertheme-gotham.zip
+cd beamertheme-gotham/
+latex gotham.ins
+mkdir -p ~/texmf/tex/latex/beamertheme-gotham
+mv *.sty ~/texmf/tex/latex/beamertheme-gotham
+texhash ~/texmf
+kpsewhich beamerthemegotham.sty
+tlmgr install --user-mode l3kernel
+kpsewhich expl3.sty
+fc-list
+```
