@@ -106,6 +106,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#bibliography" class="nav-link">Bibliography</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -129,7 +133,30 @@ pandoc -t beamer --variable theme:metropolis slides.md -o slides.pdf
 <pre><code class="language-bash">pandoc -t revealjs --variable theme:metropolis -s slides.md -o slides.html
 marp slides.md
 </code></pre>
-<p>See <a href="slides.html">slides.html</a>.</p></div>
+<p>See <a href="slides.html">slides.html</a>.</p>
+<h2 id="bibliography">Bibliography</h2>
+<p>This is extracted from a successful one.</p>
+<pre><code>bibliography: REFERENCES.bib
+filter: pandoc-citeproc
+csl: /home/jhz22/R/gap/vignettes/nature-genetics.csl
+</code></pre>
+<p>which is processed with</p>
+<pre><code class="language-bash">module load texlive
+pandoc -t beamer --citeproc --mathjax --standalone --toc --variable theme:metropolis -o gaawr2.pdf gaawr2.md
+</code></pre>
+<p>This is an attempt to enable <code>gotham</code>.</p>
+<pre><code class="language-bash">wget https://mirrors.ctan.org/macros/latex/contrib/beamer-contrib/themes/beamertheme-gotham.zip
+unzip beamertheme-gotham.zip
+cd beamertheme-gotham/
+latex gotham.ins
+mkdir -p ~/texmf/tex/latex/beamertheme-gotham
+mv *.sty ~/texmf/tex/latex/beamertheme-gotham
+texhash ~/texmf
+kpsewhich beamerthemegotham.sty
+tlmgr install --user-mode l3kernel
+kpsewhich expl3.sty
+fc-list
+</code></pre></div>
             </div>
         </div>
 
