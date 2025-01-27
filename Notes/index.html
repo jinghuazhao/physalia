@@ -223,6 +223,19 @@ git clone https://github.com/mathjax/MathJax.git MathJax
 <li>MathJax, <a href="https://jinghuazhao.github.io/physalia/tests/mathjax.html">https://jinghuazhao.github.io/physalia/tests/mathjax.html</a></li>
 <li>mermaid, <a href="https://jinghuazhao.github.io/physalia/tests/mermaid.html">https://jinghuazhao.github.io/physalia/tests/mermaid.html</a></li>
 </ul>
+<p>It is somewhat unwieldy to create a mermaid diagram in PDF via <code>pandoc</code>. Suppose our diagram is in <code>gaawr2.mmd</code>,</p>
+<pre><code class="language-bash">module load ceuadmin/node
+npm install -g @mermaid-js/mermaid-cli
+which mmdc
+mmdc -p puppeteer-config.json -i gaawr2.mmd -o gawwr2.png
+</code></pre>
+<p>where our <code>puppeteer-config.json</code> is as follows,</p>
+<pre><code class="language-json">{
+  "executablePath": "/usr/local/Cluster-Apps/ceuadmin/chrome/132.0.6834.110/chrome",
+  "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+}
+</code></pre>
+<p>When <code>gaawr2.mmd</code> contains <code>mermaid</code> directives as in Markdown, many image files can be generated.</p>
 <h2 id="octotree">Octotree</h2>
 <p>Employ this add-on for a drop-down menu within your browser for GitHub repositories.</p>
 <h2 id="pop-up-windows">Pop-up windows</h2>
