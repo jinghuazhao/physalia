@@ -31,7 +31,7 @@ See <a href="slides.html">slides.html</a>.
 
 ## Bibliography
 
-This is extracted from a successful one.
+This is part of a YAML header.
 
 ```
 bibliography: REFERENCES.bib
@@ -46,7 +46,7 @@ module load texlive
 pandoc -t beamer --citeproc --mathjax --standalone --toc --variable theme:metropolis -o gaawr2.pdf gaawr2.md
 ```
 
-This is an attempt to enable `gotham`.
+This is to make `beamerthemegotham.sty` available.
 
 ```bash
 wget https://mirrors.ctan.org/macros/latex/contrib/beamer-contrib/themes/beamertheme-gotham.zip
