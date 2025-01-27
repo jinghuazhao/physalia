@@ -46,6 +46,8 @@ module load texlive
 pandoc -t beamer --citeproc --mathjax --standalone --toc --variable theme:metropolis -o gaawr2.pdf gaawr2.md
 ```
 
+## CTAN
+
 This is to make `beamerthemegotham.sty` available.
 
 ```bash
