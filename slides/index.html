@@ -110,6 +110,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#ctan" class="nav-link">CTAN</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -144,6 +148,7 @@ csl: /home/jhz22/R/gap/vignettes/nature-genetics.csl
 <pre><code class="language-bash">module load texlive
 pandoc -t beamer --citeproc --mathjax --standalone --toc --variable theme:metropolis -o gaawr2.pdf gaawr2.md
 </code></pre>
+<h2 id="ctan">CTAN</h2>
 <p>This is to make <code>beamerthemegotham.sty</code> available.</p>
 <pre><code class="language-bash">wget https://mirrors.ctan.org/macros/latex/contrib/beamer-contrib/themes/beamertheme-gotham.zip
 unzip beamertheme-gotham.zip
