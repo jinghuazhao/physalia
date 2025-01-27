@@ -111,6 +111,26 @@ and found their new home here,
 * MathJax, <https://jinghuazhao.github.io/physalia/tests/mathjax.html>
 * mermaid, <https://jinghuazhao.github.io/physalia/tests/mermaid.html>
 
+It is somewhat unwieldy to create a mermaid diagram in PDF via `pandoc`. Suppose our diagram is in `gaawr2.mmd`,
+
+```bash
+module load ceuadmin/node
+npm install -g @mermaid-js/mermaid-cli
+which mmdc
+mmdc -p puppeteer-config.json -i gaawr2.mmd -o gawwr2.png
+```
+
+where our `puppeteer-config.json` is as follows,
+
+```json
+{
+  "executablePath": "/usr/local/Cluster-Apps/ceuadmin/chrome/132.0.6834.110/chrome",
+  "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+}
+```
+
+When `gaawr2.mmd` contains `mermaid` directives as in Markdown, many image files can be generated.
+
 ## Octotree
 
 Employ this add-on for a drop-down menu within your browser for GitHub repositories.
