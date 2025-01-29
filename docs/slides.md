@@ -13,7 +13,7 @@ The slides in PDF are rendered as follows,
 ```bash
 #!/usr/bin/bash
 
-pandoc -t beamer --variable theme:metropolis slides.md -o slides.pdf
+pandoc -H premeable.tex -t beamer --variable theme:metropolis slides.md -o slides.pdf
 ```
 
 See <a href="slides.pdf">slides.pdf</a>.
@@ -23,7 +23,7 @@ See <a href="slides.pdf">slides.pdf</a>.
 This could be done as follows via `pandoc` but `marp` appears to be far better,
 
 ```bash
-pandoc -t revealjs --variable theme:metropolis -s slides.md -o slides.html
+pandoc -H premeable.tex -t revealjs --variable theme:metropolis -s slides.md -o slides.html
 marp slides.md
 ```
 

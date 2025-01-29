@@ -4,6 +4,12 @@ author: Your Name
 date: January 21, 2025
 theme: default
 transition: slide
+colorlinks: true
+linkcolor: red
+linkstyle: bold
+urlcolor: red
+filecolor: red
+fontsize: 16pt
 ---
 
 # Slide 1 Title
