@@ -2,8 +2,6 @@
 
 Preentation slides are greatly faciliated by Markdown, as is shown here.
 
-It is notable that the LaTeX environment needs to be made available, e.g., `module load texlive`.
-
 The toy slides are in [slides.md](slides/slides.md).
 
 ## PDF
@@ -13,6 +11,7 @@ The slides in PDF are rendered as follows,
 ```bash
 #!/usr/bin/bash
 
+module load texlive
 pandoc -H premeable.tex -t beamer --variable theme:metropolis slides.md -o slides.pdf
 ```
 
@@ -24,6 +23,7 @@ This could be done as follows via `pandoc` but `marp` appears to be far better,
 
 ```bash
 pandoc -H premeable.tex -t revealjs --variable theme:metropolis -s slides.md -o slides.html
+module load ceuadmin/node
 marp slides.md
 ```
 
