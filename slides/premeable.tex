@@ -1,6 +1,18 @@
-\setbeamertemplate{background canvas}{%
-  \begin{tikzpicture}
-     \useasboundingbox (0,0) rectangle (\the\paperwidth,\the\paperheight);
-     \shade[left color=white, right color=cyan!30] (0,0) rectangle (\the\paperwidth,\the\paperheight);
-  \end{tikzpicture}%
+\usepackage{graphicx}
+\logo{\includegraphics[height=0.5cm]{MN.png}}
+
+% Set the transition effect
+\usepackage{pgfpages}
+\setbeamertemplate{background canvas}[vertical shading][top=white,bottom=cyan!30]
+
+% Apply transition (optional, choose the one you like)
+\setbeamertemplate{navigation symbols}{}
+\AtBeginSection[] {
+  \begin{frame}<beamer>
+    \transdissolve
+    \frametitle{Section Start}
+  \end{frame}
 }
+
+% Add slide transition globally
+\transdissolve
