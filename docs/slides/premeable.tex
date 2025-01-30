@@ -1,18 +1,26 @@
 \usepackage{graphicx}
-\logo{\includegraphics[height=0.5cm]{sunflower.jpg}}
-
-% Set the transition effect
 \usepackage{pgfpages}
+\usetheme{metropolis}
 \setbeamertemplate{background canvas}[vertical shading][top=white,bottom=cyan!30]
-
-% Apply transition (optional, choose the one you like)
 \setbeamertemplate{navigation symbols}{}
-\AtBeginSection[] {
-  \begin{frame}<beamer>
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex,right]{footline}%
+    Page \insertframenumber{} / \inserttotalframenumber
+  \end{beamercolorbox}%
+}
+\setbeamertemplate{frametitle}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=1ex]{frametitle}
+    \hspace*{1em}
+    \usebeamerfont{frametitle}\insertframetitle
+    \hfill
+    \raisebox{-0.7ex}{\includegraphics[height=0.7cm]{sunflower.jpg}}
+  \end{beamercolorbox}%
+}
+\transdissolve
+\AtBeginSection[]{
+  \begin{frame}
     \transdissolve
-    \frametitle{Section Start}
+    \frametitle{Section Start: \insertsection}
+    \vspace{0.5cm}
   \end{frame}
 }
-
-% Add slide transition globally
-\transdissolve
