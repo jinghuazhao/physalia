@@ -42,7 +42,7 @@ Content for the first slide.
 
 # Slide with Image
 
-![](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
+![physalis](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
 
 ---
 
@@ -88,6 +88,22 @@ $$
    - Cite a paper @zhao06a, color URLs, number tables.
 
 ---
+
+# A table
+
+Table: A summary of files
+
+File | Description
+-----|-----------------------------
+nature-genetics.csl | style
+premeable.tex | premeable
+REFERENCES.bib | reference library
+slides.html | .html output
+slides.md | markdown file
+slides.pdf | .pdf output
+slides.sh* | Bash command file
+sunflower.jpg* | sunflower as a logo
+
 
 # **Tools to Render Markdown Slides**
 - **Reveal.js**: Use [Reveal.js](https://revealjs.com/) for beautiful web-based presentations. Convert your Markdown using `reveal-md`.
