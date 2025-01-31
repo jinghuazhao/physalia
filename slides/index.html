@@ -123,18 +123,18 @@
 
 <h1 id="slides">Slides</h1>
 <p>Preentation slides are greatly faciliated by Markdown, as is shown here.</p>
-<p>The toy slides are in <a href="slides/">slides.md</a>.</p>
+<p>The template is in <a href="slides/">slides.md</a>.</p>
 <h2 id="pdf">PDF</h2>
 <p>The slides in PDF are rendered as follows, </p>
 <pre><code class="language-bash">#!/usr/bin/bash
 
 module load texlive
-pandoc -t beamer --citeproc -V theme:metropolis slides.md -o slides.pdf
+pandoc -t beamer --citeproc --mathjax -s -V theme:metropolis slides.md -o slides.pdf
 </code></pre>
 <p>See <a href="slides.pdf">slides.pdf</a>.</p>
 <h2 id="html">html</h2>
 <p>This could be done as follows via <code>pandoc</code> but <code>marp</code> appears to be far better,</p>
-<pre><code class="language-bash">pandoc -t revealjs --citeproc -V theme:metropolis -s slides.md -o slides.html
+<pre><code class="language-bash">pandoc -t revealjs --citeproc --mathjax -s -V theme:metropolis -s slides.md -o slides.html
 module load ceuadmin/node
 marp slides.md
 </code></pre>
@@ -142,8 +142,7 @@ marp slides.md
 <h2 id="bibliography">Bibliography</h2>
 <p>This is part of a YAML header.</p>
 <pre><code>bibliography: REFERENCES.bib
-filter: pandoc-citeproc
-csl: /home/jhz22/R/gap/vignettes/nature-genetics.csl
+csl: nature-genetics.csl
 </code></pre>
 <p>which is processed with</p>
 <pre><code class="language-bash">module load texlive
