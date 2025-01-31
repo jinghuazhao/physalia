@@ -41,21 +41,6 @@ Content for the first slide.
 
 # Slide with Image
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['\\(','\\)']],
-      displayMath: [['$$','$$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 ![](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
 
 $$
