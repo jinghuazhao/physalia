@@ -22,7 +22,6 @@ See <a href="slides.pdf">slides.pdf</a>.
 This could be done as follows via `pandoc` but `marp` appears to be far better,
 
 ```bash
-pandoc -t revealjs --citeproc --mathjax -s -V theme:metropolis -s slides.md -o slides.html
 module load ceuadmin/node
 marp slides.md
 ```
