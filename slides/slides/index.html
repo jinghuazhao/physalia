@@ -91,7 +91,7 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#slide-2-title" class="nav-link">Slide 2 Title</a>
+            <li class="nav-item" data-level="1"><a href="#key-features-of-the-template" class="nav-link">Key Features of the Template</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -101,12 +101,7 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#codemath-example" class="nav-link">Code/Math Example</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#key-features-of-the-template" class="nav-link">Key Features of the Template</a>
+            <li class="nav-item" data-level="1"><a href="#codemathfigure-example" class="nav-link">Code/Math/Figure Example</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -131,24 +126,37 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="slide-1-title">Slide 1 Title</h1>
-<p>Content for the first slide.</p>
+<p>Bullet points</p>
 <ul>
 <li>Point 1</li>
 <li>Point 2</li>
 <li>Point 3</li>
 </ul>
-<hr />
-<h1 id="slide-2-title">Slide 2 Title</h1>
+<p>Ordered list</p>
 <ol>
-<li>Ordered list item</li>
+<li>First item</li>
 <li>Another item</li>
 <li>A third item</li>
 </ol>
 <hr />
-<h1 id="slide-with-image">Slide with Image</h1>
-<p><img alt="physalis" src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" /></p>
+<h1 id="key-features-of-the-template"><strong>Key Features of the Template</strong></h1>
+<ol>
+<li><strong>YAML Front Matter</strong>:</li>
+<li>Set metadata like the title, author, theme, and transitions.</li>
+<li><strong>Headings</strong>:</li>
+<li>Use <code>#</code> for slide titles, <code>##</code> or <code>###</code> for smaller headers.</li>
+<li><strong>Horizontal Slide Separation</strong>:</li>
+<li>Use <code>---</code> to separate individual slides.</li>
+<li><strong>Code Blocks</strong>:</li>
+<li>Wrap code in triple backticks for syntax highlighting.</li>
+<li><strong>Others</strong>:</li>
+<li>Embed images as <code>![alt text](path)</code>, vite a paper @zhao06a, color URLs, number figures and tables.</li>
+</ol>
 <hr />
-<h1 id="codemath-example">Code/Math Example</h1>
+<h1 id="slide-with-image">Slide with Image</h1>
+<p><img alt="physalis\label{fig:physalia}" src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" /></p>
+<hr />
+<h1 id="codemathfigure-example">Code/Math/Figure Example</h1>
 <pre><code class="language-python"># Sample Python code
 def hello_world():
     print(&quot;Hello, world!&quot;)
@@ -169,22 +177,7 @@ def hello_world():
     \end{array} \right)
 \end{aligned}
 \]</div>
-<hr />
-<h1 id="key-features-of-the-template"><strong>Key Features of the Template</strong></h1>
-<ol>
-<li><strong>YAML Front Matter</strong>:</li>
-<li>Set metadata like the title, author, theme, and transitions using the front matter.</li>
-<li><strong>Headings</strong>:</li>
-<li>Use <code>#</code> for slide titles, <code>##</code> or <code>###</code> for smaller headers.</li>
-<li><strong>Horizontal Slide Separation</strong>:</li>
-<li>Use <code>---</code> to separate individual slides.</li>
-<li><strong>Code Blocks</strong>:</li>
-<li>Wrap code in triple backticks for syntax highlighting.</li>
-<li><strong>Images</strong>:</li>
-<li>Embed images using the standard Markdown syntax: <code>![alt text](path)</code>.</li>
-<li><strong>Others</strong>:</li>
-<li>Cite a paper @zhao06a, color URLs, number tables.</li>
-</ol>
+<p>Figure \ref{fig:physalia} is shown on last page.</p>
 <hr />
 <h1 id="a-table">A table</h1>
 <p>Table: A summary of files</p>
