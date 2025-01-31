@@ -125,7 +125,11 @@
 <p>Preentation slides are greatly faciliated by Markdown, as is shown here.</p>
 <p>The toy slides are in <a href="slides/">slides.md</a>.</p>
 <h2 id="pdf">PDF</h2>
-<p>The slides in PDF are rendered as follows,</p>
+<p>The slides in PDF are rendered as follows, noting when adding</p>
+<pre><code>header-includes:
+ - \input{premeable.tex}
+</code></pre>
+<p>to YAML at the header section, the commands proceed without <code>-H premeable.tex</code>.</p>
 <pre><code class="language-bash">#!/usr/bin/bash
 
 module load texlive
