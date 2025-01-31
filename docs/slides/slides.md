@@ -24,29 +24,42 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 
 # Slide 1 Title
 
-Content for the first slide.
+Bullet points
 
 - Point 1
 - Point 2
 - Point 3
 
----
+Ordered list
 
-# Slide 2 Title
-
-1. Ordered list item
+1. First item
 2. Another item
 3. A third item
 
 ---
 
-# Slide with Image
+# **Key Features of the Template**
 
-![physalis](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
+1. **YAML Front Matter**:
+   - Set metadata like the title, author, theme, and transitions.
+2. **Headings**:
+   - Use `#` for slide titles, `##` or `###` for smaller headers.
+3. **Horizontal Slide Separation**:
+   - Use `---` to separate individual slides.
+4. **Code Blocks**:
+   - Wrap code in triple backticks for syntax highlighting.
+5. **Others**:
+   - Embed images as `![alt text](path)`, vite a paper @zhao06a, color URLs, number figures and tables.
 
 ---
 
-# Code/Math Example
+# Slide with Image
+
+![physalis\label{fig:physalia}](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
+
+---
+
+# Code/Math/Figure Example
 
 ```python
 # Sample Python code
@@ -71,21 +84,7 @@ $$
 \end{aligned}
 $$
 
----
-
-# **Key Features of the Template**
-1. **YAML Front Matter**:
-   - Set metadata like the title, author, theme, and transitions using the front matter.
-2. **Headings**:
-   - Use `#` for slide titles, `##` or `###` for smaller headers.
-3. **Horizontal Slide Separation**:
-   - Use `---` to separate individual slides.
-4. **Code Blocks**:
-   - Wrap code in triple backticks for syntax highlighting.
-5. **Images**:
-   - Embed images using the standard Markdown syntax: `![alt text](path)`.
-6. **Others**:
-   - Cite a paper @zhao06a, color URLs, number tables.
+Figure \ref{fig:physalia} is shown on last page.
 
 ---
 
