@@ -134,8 +134,7 @@ pandoc -t beamer --citeproc --mathjax -s -V theme:metropolis slides.md -o slides
 <p>See <a href="slides.pdf">slides.pdf</a>.</p>
 <h2 id="html">html</h2>
 <p>This could be done as follows via <code>pandoc</code> but <code>marp</code> appears to be far better,</p>
-<pre><code class="language-bash">pandoc -t revealjs --citeproc --mathjax -s -V theme:metropolis -s slides.md -o slides.html
-module load ceuadmin/node
+<pre><code class="language-bash">module load ceuadmin/node
 marp slides.md
 </code></pre>
 <p>See <a href="slides.html">slides.html</a>.</p>
