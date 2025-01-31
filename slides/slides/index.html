@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Presentation Title - physalia</title>
+        <title>My Henry-Stewart Talk - physalia</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -88,10 +88,11 @@
             
             <li class="nav-item" data-level="1"><a href="#slide-1-title" class="nav-link">Slide 1 Title</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#slide-2-title" class="nav-link">Slide 2 Title</a>
-              <ul class="nav flex-column">
               </ul>
             </li>
+            
+            <li class="nav-item" data-level="1"><a href="#slide-2-title" class="nav-link">Slide 2 Title</a>
+              <ul class="nav flex-column">
               </ul>
             </li>
             
@@ -101,6 +102,21 @@
             </li>
             
             <li class="nav-item" data-level="1"><a href="#code-example" class="nav-link">Code Example</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#key-features-of-the-template" class="nav-link">Key Features of the Template</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#tools-to-render-markdown-slides" class="nav-link">Tools to Render Markdown Slides</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#reference" class="nav-link">Reference</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -117,7 +133,7 @@
 <li>Point 3</li>
 </ul>
 <hr />
-<h2 id="slide-2-title">Slide 2 Title</h2>
+<h1 id="slide-2-title">Slide 2 Title</h1>
 <ol>
 <li>Ordered list item</li>
 <li>Another item</li>
@@ -125,7 +141,38 @@
 </ol>
 <hr />
 <h1 id="slide-with-image">Slide with Image</h1>
-<p><img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="150" height="300" align="right"></p>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['\\(','\\)']],
+      displayMath: [['$$','$$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<p><img alt="" src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" /></p>
+<div class="arithmatex">\[
+\begin{aligned}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{aligned}
+\]</div>
 <hr />
 <h1 id="code-example">Code Example</h1>
 <pre><code class="language-python"># Sample Python code
@@ -133,7 +180,7 @@ def hello_world():
     print(&quot;Hello, world!&quot;)
 </code></pre>
 <hr />
-<h3 id="key-features-of-the-template"><strong>Key Features of the Template</strong></h3>
+<h1 id="key-features-of-the-template"><strong>Key Features of the Template</strong></h1>
 <ol>
 <li><strong>YAML Front Matter</strong>:</li>
 <li>Set metadata like the title, author, theme, and transitions using the front matter.</li>
@@ -145,15 +192,18 @@ def hello_world():
 <li>Wrap code in triple backticks for syntax highlighting.</li>
 <li><strong>Images</strong>:</li>
 <li>Embed images using the standard Markdown syntax: <code>![alt text](path)</code>.</li>
+<li><strong>Reference</strong>:</li>
+<li>I could cite a paper @zhao06a</li>
 </ol>
 <hr />
-<h3 id="tools-to-render-markdown-slides"><strong>Tools to Render Markdown Slides</strong></h3>
+<h1 id="tools-to-render-markdown-slides"><strong>Tools to Render Markdown Slides</strong></h1>
 <ul>
 <li><strong>Reveal.js</strong>: Use <a href="https://revealjs.com/">Reveal.js</a> for beautiful web-based presentations. Convert your Markdown using <code>reveal-md</code>.</li>
 <li><strong>Marp</strong>: A tool for creating slides directly from Markdown and exporting them to PDF or PowerPoint.</li>
 <li><strong>Pandoc</strong>: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.</li>
 </ul>
-<hr /></div>
+<hr />
+<h1 id="reference">Reference</h1></div>
             </div>
         </div>
 

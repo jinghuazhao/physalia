@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 
-pandoc -H premeable.tex -t beamer --variable theme:metropolis slides.md -o slides.pdf
-pandoc -H premeable.tex -t revealjs --variable theme:metropolis -s slides.md -o slides.html
+# pandoc
+module load texlive
+pandoc -t beamer --citeproc --mathjax -s -V theme:metropolis slides.md -o slides.pdf
+pandoc -t revealjs --citeproc --mathjax -s -V theme:metropolis -s slides.md -o slides.html
+
+# marp
 module load ceuadmin/node
 marp slides.md
