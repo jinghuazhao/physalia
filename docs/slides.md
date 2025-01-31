@@ -6,20 +6,13 @@ The toy slides are in [slides.md](slides/slides.md).
 
 ## PDF
 
-The slides in PDF are rendered as follows, noting when adding
-
-```
-header-includes:
- - \input{premeable.tex}
-```
-
-to YAML at the header section, the commands proceed without `-H premeable.tex`.
+The slides in PDF are rendered as follows, 
 
 ```bash
 #!/usr/bin/bash
 
 module load texlive
-pandoc -H premeable.tex -t beamer --variable theme:metropolis slides.md -o slides.pdf
+pandoc -t beamer --citeproc -V theme:metropolis slides.md -o slides.pdf
 ```
 
 See <a href="slides.pdf">slides.pdf</a>.
@@ -29,7 +22,7 @@ See <a href="slides.pdf">slides.pdf</a>.
 This could be done as follows via `pandoc` but `marp` appears to be far better,
 
 ```bash
-pandoc -H premeable.tex -t revealjs --variable theme:metropolis -s slides.md -o slides.html
+pandoc -t revealjs --citeproc -V theme:metropolis -s slides.md -o slides.html
 module load ceuadmin/node
 marp slides.md
 ```
