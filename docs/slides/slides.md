@@ -1,24 +1,25 @@
 ---
-title: My Henry-Stewart Talk
-author: Jing Hua Zhao
+title: "Genetic Association Analysis with R (II)"
+author: "Jing Hua Zhao"
 date: "31 January 2025"
 institute: "University of Cambridge"
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
-output:
-  beamer_presentation:
-    theme: "metropolis"
-    colortheme: "seahorse"
-    fonttheme: "structurebold"
-    transition: "transdissolve"
-    fontsize: 16pt
-    mainfont: "Palatino"
-    monofont: "Courier"
+theme: "metropolis"
+transition: "transdissolve"
+colorlinks: true
+linkcolor: red
+linkstyle: bold
+urlcolor: red
+filecolor: red
+fontsize: 16pt
+mainfont: "Palatino"
+monofont: "Courier"
 header-includes:
  - \input{premeable.tex}
 abstract: |
-  This is a template for a Henry-Stewart Talk.
-keywords: ["beamer", "Markdown", "literate programming"]
+  This is an update to Henry-Stewart Talk in 2009.
+keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS"]
 ---
 
 # Slide 1 Title
@@ -83,8 +84,8 @@ $$
    - Wrap code in triple backticks for syntax highlighting.
 5. **Images**:
    - Embed images using the standard Markdown syntax: `![alt text](path)`.
-6. **Reference**:
-   - I could cite a paper @zhao06a
+6. **Others**:
+   - Cite a paper @zhao06a, color URLs, number tables.
 
 ---
 
