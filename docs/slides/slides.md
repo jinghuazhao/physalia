@@ -42,6 +42,17 @@ Content for the first slide.
 # Slide with Image
 
 ![](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
+
+---
+
+# Code/Math Example
+
+```python
+# Sample Python code
+def hello_world():
+    print("Hello, world!")
+```
+
 $$
 \begin{aligned}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -58,16 +69,6 @@ $$
     \end{array} \right)
 \end{aligned}
 $$
-
----
-
-# Code Example
-
-```python
-# Sample Python code
-def hello_world():
-    print("Hello, world!")
-```
 
 ---
 
