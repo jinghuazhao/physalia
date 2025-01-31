@@ -6,7 +6,14 @@ The toy slides are in [slides.md](slides/slides.md).
 
 ## PDF
 
-The slides in PDF are rendered as follows,
+The slides in PDF are rendered as follows, noting when adding
+
+```
+header-includes:
+ - \input{premeable.tex}
+```
+
+to YAML at the header section, the commands proceed without `-H premeable.tex`.
 
 ```bash
 #!/usr/bin/bash
