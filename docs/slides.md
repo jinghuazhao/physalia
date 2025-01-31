@@ -2,7 +2,7 @@
 
 Preentation slides are greatly faciliated by Markdown, as is shown here.
 
-The toy slides are in [slides.md](slides/slides.md).
+The template is in [slides.md](slides/slides.md).
 
 ## PDF
 
@@ -12,7 +12,7 @@ The slides in PDF are rendered as follows,
 #!/usr/bin/bash
 
 module load texlive
-pandoc -t beamer --citeproc -V theme:metropolis slides.md -o slides.pdf
+pandoc -t beamer --citeproc --mathjax -s -V theme:metropolis slides.md -o slides.pdf
 ```
 
 See <a href="slides.pdf">slides.pdf</a>.
@@ -22,7 +22,7 @@ See <a href="slides.pdf">slides.pdf</a>.
 This could be done as follows via `pandoc` but `marp` appears to be far better,
 
 ```bash
-pandoc -t revealjs --citeproc -V theme:metropolis -s slides.md -o slides.html
+pandoc -t revealjs --citeproc --mathjax -s -V theme:metropolis -s slides.md -o slides.html
 module load ceuadmin/node
 marp slides.md
 ```
@@ -35,8 +35,7 @@ This is part of a YAML header.
 
 ```
 bibliography: REFERENCES.bib
-filter: pandoc-citeproc
-csl: /home/jhz22/R/gap/vignettes/nature-genetics.csl
+csl: nature-genetics.csl
 ```
 
 which is processed with
