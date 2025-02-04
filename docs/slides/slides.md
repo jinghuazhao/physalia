@@ -29,7 +29,7 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 
 :::: {.column width=50%}
 
-Bullet points
+## Bullet points
 
 - Point 1
 - Point 2
@@ -39,7 +39,7 @@ Bullet points
 
 :::: {.column width=40%}
 
-Ordered list
+## Ordered list
 
 1. First item
 2. Another item
