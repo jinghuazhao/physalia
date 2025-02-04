@@ -91,19 +91,6 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#two-columns" class="nav-link">Two columns</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#bullet-points" class="nav-link">Bullet points</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#ordered-list" class="nav-link">Ordered list</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
             <li class="nav-item" data-level="1"><a href="#slide-with-image" class="nav-link">Slide with Image</a>
               <ul class="nav flex-column">
               </ul>
@@ -116,6 +103,19 @@
             
             <li class="nav-item" data-level="1"><a href="#a-table" class="nav-link">A table</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#two-columns" class="nav-link">Two columns</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#bullet-points" class="nav-link">Bullet points</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ordered-list" class="nav-link">Ordered list</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
             
@@ -133,39 +133,14 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="key-features-of-the-template"><strong>Key Features of the Template</strong></h1>
-<ol>
-<li><strong>YAML Front Matter</strong>:</li>
-<li>Set metadata like the title, author, theme, and transitions.</li>
-<li><strong>Headings</strong>:</li>
-<li>Use <code>#</code> for slide titles, <code>##</code> or <code>###</code> for smaller headers.</li>
-<li><strong>Horizontal Slide Separation</strong>:</li>
-<li>Use <code>---</code> to separate individual slides.</li>
-<li><strong>Code Blocks</strong>:</li>
-<li>Wrap code in triple backticks for syntax highlighting.</li>
-<li><strong>Others</strong>:</li>
-<li>Title page image, icon on titles, multiple columns, embedded images, a citation @zhao06a, colored URLs, numbered figures and tables.</li>
-</ol>
-<hr />
-<h1 id="two-columns">Two columns</h1>
-<p>::: columns</p>
-<p>:::: {.column width=50%}</p>
-<h2 id="bullet-points">Bullet points</h2>
+<h1 id="key-features-of-the-template">Key Features of the Template</h1>
 <ul>
-<li>Point 1</li>
-<li>Point 2</li>
-<li>Point 3</li>
+<li><strong>YAML Front Matter</strong>: Set metadata like the title, author, theme, and transitions.</li>
+<li><strong>Headings</strong>: Use <code>#</code> for slide titles, <code>##</code> or <code>###</code> for smaller headers.</li>
+<li><strong>Horizontal Slide Separation</strong>: Use <code>---</code> to separate individual slides.</li>
+<li><strong>Code Blocks</strong>: Wrap code in triple backticks for syntax highlighting.</li>
+<li><strong>Others</strong>: Title page image, icon on title, embedded image, citation @zhao06a, colored URLs, numbered figures and tables, multiple columns.</li>
 </ul>
-<p>::::</p>
-<p>:::: {.column width=40%}</p>
-<h2 id="ordered-list">Ordered list</h2>
-<ol>
-<li>First item</li>
-<li>Another item</li>
-<li>A third item</li>
-</ol>
-<p>::::</p>
-<p>:::</p>
 <hr />
 <h1 id="slide-with-image">Slide with Image</h1>
 <p><img alt="physalis\label{fig:physalia}" src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" /></p>
@@ -237,11 +212,33 @@ def hello_world():
 </tr>
 </tbody>
 </table>
-<h1 id="tools-to-render-markdown-slides"><strong>Tools to Render Markdown Slides</strong></h1>
+<hr />
+<h1 id="two-columns">Two columns</h1>
+<p>::: columns</p>
+<p>:::: {.column width=50%}</p>
+<h2 id="bullet-points">Bullet points</h2>
 <ul>
+<li>Point 1</li>
+<li>Point 2</li>
+<li>Point 3</li>
+</ul>
+<p>::::</p>
+<p>:::: {.column width=40%}</p>
+<h2 id="ordered-list">Ordered list</h2>
+<ol>
+<li>First item</li>
+<li>Another item</li>
+<li>A third item</li>
+</ol>
+<p>::::</p>
+<p>:::</p>
+<hr />
+<h1 id="tools-to-render-markdown-slides">Tools to Render Markdown Slides</h1>
+<p>Three of them are indicated here,</p>
+<ul>
+<li><strong>Pandoc</strong>: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.</li>
 <li><strong>Reveal.js</strong>: Use <a href="https://revealjs.com/">Reveal.js</a> for beautiful web-based presentations. Convert your Markdown using <code>reveal-md</code>.</li>
 <li><strong>Marp</strong>: A tool for creating slides directly from Markdown and exporting them to PDF or PowerPoint.</li>
-<li><strong>Pandoc</strong>: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.</li>
 </ul>
 <hr />
 <h1 id="references">References</h1></div>
