@@ -23,7 +23,11 @@ abstract: |
 keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS"]
 ---
 
-# Slide 1 Title
+# Slide 1 Two columns
+
+::: columns
+
+:::: {.column width=50%}
 
 Bullet points
 
@@ -31,11 +35,19 @@ Bullet points
 - Point 2
 - Point 3
 
+::::
+
+:::: {.column width=40%}
+
 Ordered list
 
 1. First item
 2. Another item
 3. A third item
+
+::::
+
+:::
 
 ---
 
