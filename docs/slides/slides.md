@@ -34,7 +34,7 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 4. **Code Blocks**:
    - Wrap code in triple backticks for syntax highlighting.
 5. **Others**:
-   - Multiple columns, embedded images, a citation @zhao06a, colored URLs, numbered figures and tables.
+   - Title page image, icon on titles, multiple columns, embedded images, a citation @zhao06a, colored URLs, numbered figures and tables.
 
 ---
 
