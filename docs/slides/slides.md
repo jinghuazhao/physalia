@@ -68,7 +68,7 @@ Figure \ref{fig:physalia} is shown on last page.
 
 ---
 
-# A table
+# A Table
 
 Table: A summary of files
 
@@ -85,7 +85,7 @@ sunflower.jpg* | sunflower as a logo
 
 ---
 
-# Two columns
+# Two Columns
 
 ::: columns
 
