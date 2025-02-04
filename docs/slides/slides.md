@@ -23,7 +23,22 @@ abstract: |
 keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS"]
 ---
 
-# Slide 1 Two columns
+# **Key Features of the Template**
+
+1. **YAML Front Matter**:
+   - Set metadata like the title, author, theme, and transitions.
+2. **Headings**:
+   - Use `#` for slide titles, `##` or `###` for smaller headers.
+3. **Horizontal Slide Separation**:
+   - Use `---` to separate individual slides.
+4. **Code Blocks**:
+   - Wrap code in triple backticks for syntax highlighting.
+5. **Others**:
+   - Multiple columns, embedded images, a citation @zhao06a, colored URLs, numbered figures and tables.
+
+---
+
+# Two columns
 
 ::: columns
 
@@ -48,21 +63,6 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 ::::
 
 :::
-
----
-
-# **Key Features of the Template**
-
-1. **YAML Front Matter**:
-   - Set metadata like the title, author, theme, and transitions.
-2. **Headings**:
-   - Use `#` for slide titles, `##` or `###` for smaller headers.
-3. **Horizontal Slide Separation**:
-   - Use `---` to separate individual slides.
-4. **Code Blocks**:
-   - Wrap code in triple backticks for syntax highlighting.
-5. **Others**:
-   - Embed images as `![alt text](path)`, vite a paper @zhao06a, color URLs, number figures and tables.
 
 ---
 
