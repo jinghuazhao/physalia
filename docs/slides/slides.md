@@ -23,46 +23,13 @@ abstract: |
 keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS"]
 ---
 
-# **Key Features of the Template**
+# Key Features of the Template
 
-1. **YAML Front Matter**:
-   - Set metadata like the title, author, theme, and transitions.
-2. **Headings**:
-   - Use `#` for slide titles, `##` or `###` for smaller headers.
-3. **Horizontal Slide Separation**:
-   - Use `---` to separate individual slides.
-4. **Code Blocks**:
-   - Wrap code in triple backticks for syntax highlighting.
-5. **Others**:
-   - Title page image, icon on titles, multiple columns, embedded images, a citation @zhao06a, colored URLs, numbered figures and tables.
-
----
-
-# Two columns
-
-::: columns
-
-:::: {.column width=50%}
-
-## Bullet points
-
-- Point 1
-- Point 2
-- Point 3
-
-::::
-
-:::: {.column width=40%}
-
-## Ordered list
-
-1. First item
-2. Another item
-3. A third item
-
-::::
-
-:::
+- **YAML Front Matter**: Set metadata like the title, author, theme, and transitions.
+- **Headings**: Use `#` for slide titles, `##` or `###` for smaller headers.
+- **Horizontal Slide Separation**: Use `---` to separate individual slides.
+- **Code Blocks**: Wrap code in triple backticks for syntax highlighting.
+- **Others**: Title page image, icon on title, embedded image, citation @zhao06a, colored URLs, numbered figures and tables, multiple columns.
 
 ---
 
@@ -116,11 +83,43 @@ slides.pdf | .pdf output
 slides.sh* | Bash command file
 sunflower.jpg* | sunflower as a logo
 
+---
 
-# **Tools to Render Markdown Slides**
+# Two columns
+
+::: columns
+
+:::: {.column width=50%}
+
+## Bullet points
+
+- Point 1
+- Point 2
+- Point 3
+
+::::
+
+:::: {.column width=40%}
+
+## Ordered list
+
+1. First item
+2. Another item
+3. A third item
+
+::::
+
+:::
+
+---
+
+# Tools to Render Markdown Slides
+
+Three of them are indicated here,
+
+- **Pandoc**: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.
 - **Reveal.js**: Use [Reveal.js](https://revealjs.com/) for beautiful web-based presentations. Convert your Markdown using `reveal-md`.
 - **Marp**: A tool for creating slides directly from Markdown and exporting them to PDF or PowerPoint.
-- **Pandoc**: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.
 
 ---
 
