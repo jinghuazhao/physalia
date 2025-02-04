@@ -115,11 +115,12 @@ sunflower.jpg* | sunflower as a logo
 
 # Tools to Render Markdown Slides
 
-Three of them are indicated here,
+Four of them are indicated here,
 
 - **Pandoc**: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.
 - **Reveal.js**: Use [Reveal.js](https://revealjs.com/) for beautiful web-based presentations. Convert your Markdown using `reveal-md`.
 - **Marp**: A tool for creating slides directly from Markdown and exporting them to PDF or PowerPoint.
+- **quarto**: Contains comprehensive facilities for rendering presentations including support for pandoc/Reveal.js, see <https://quarto.org/>.
 
 ---
 
