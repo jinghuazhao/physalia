@@ -1,8 +1,8 @@
 ---
 title: "Genetic Association Analysis with R (II)"
 author: "Jing Hua Zhao"
-date: "31 January 2025"
-institute: "University of Cambridge"
+date: "4 February 2025"
+institute: ""
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
 theme: "metropolis"
@@ -15,6 +15,7 @@ filecolor: red
 fontsize: 16pt
 mainfont: "Palatino"
 monofont: "Courier"
+titlegraphic: ucam.png
 header-includes:
  - \input{premeable.tex}
 abstract: |
