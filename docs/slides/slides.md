@@ -115,10 +115,10 @@ sunflower.jpg* | sunflower as a logo
 
 Four of them are indicated here,
 
-- **Pandoc**: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer.
+- **Pandoc**: Convert Markdown to various formats, including slides in HTML5 or LaTeX Beamer. The current presentation is rendered with v2.18.
 - **Reveal.js**: Use [Reveal.js](https://revealjs.com/) for beautiful web-based presentations. Convert your Markdown using `reveal-md`.
-- **Marp**: A tool for creating slides directly from Markdown and exporting them to PDF or PowerPoint.
-- **quarto**: Contains comprehensive facilities for rendering presentations including support for pandoc/Reveal.js, see <https://quarto.org/>.
+- **Marp**: A tool for creating slides directly from Markdown and the .html in this presentation is rendered with v4.1.1.
+- **quarto**: Contain comprehensive facilities for rendering presentations including support for pandoc/Reveal.js, see <https://quarto.org/>.
 
 ---
 
