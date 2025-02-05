@@ -1,7 +1,7 @@
 ---
 title: "Genetic Association Analysis with R (II)"
 author: "Jing Hua Zhao"
-date: "4 February 2025"
+date: "5 February 2025"
 institute: ""
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
@@ -35,11 +35,11 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 
 # Slide with Image
 
-![physalis\label{fig:physalia}](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg)
+![physalis\label{fig:physalia}](https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg){height=75%}
 
 ---
 
-# Code/Math/Figure Example
+# Code/Math Example
 
 ```python
 # Sample Python code
@@ -63,8 +63,6 @@ $$
     \end{array} \right)
 \end{aligned}
 $$
-
-Figure \ref{fig:physalia} is shown on last page.
 
 ---
 
