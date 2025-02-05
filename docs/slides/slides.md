@@ -109,6 +109,8 @@ sunflower.jpg* | sunflower as a logo
 
 :::
 
+Figure \ref{fig:physalia} can be referred, too!
+
 ---
 
 # Tools to Render Markdown Slides
