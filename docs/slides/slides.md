@@ -1,12 +1,11 @@
 ---
 title: "Genetic Association Analysis with R (II)"
 author: "Jing Hua Zhao"
-date: "5 February 2025"
+date: "6 February 2025"
 institute: ""
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
 theme: "metropolis"
-transition: "transdissolve"
 colorlinks: true
 linkcolor: red
 linkstyle: bold
