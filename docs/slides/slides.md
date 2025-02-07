@@ -1,7 +1,6 @@
 ---
 title: "Genetic Association Analysis with R (II)"
 author: "Jing Hua Zhao"
-date: "6 February 2025"
 institute: ""
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
@@ -28,7 +27,7 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 - **Headings**: Use `#` for slide titles, `##` or `###` for smaller headers.
 - **Horizontal Slide Separation**: Use `---` to separate individual slides.
 - **Code Blocks**: Wrap code in triple backticks for syntax highlighting.
-- **Others**: Title page image, icon on title, embedded image, citation @zhao06a, colored URLs, numbered figures and tables, multiple columns.
+- **Others**: Title page image, icon on title, embedded image, citation @zhao06a, colored URLs, numbered figures and tables, multiple columns, PDF bookmarks.
 
 ---
 
@@ -65,7 +64,7 @@ $$
 
 ---
 
-# A Table
+# A Numbered Table
 
 Table: A summary of files
 

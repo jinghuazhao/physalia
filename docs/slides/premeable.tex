@@ -1,5 +1,6 @@
 \usepackage{graphicx}
 \usepackage{pgfpages}
+\usepackage{hyperref}
 \usetheme{metropolis}
 \setbeamertemplate{background canvas}[vertical shading][top=white,bottom=cyan!30]
 \setbeamertemplate{navigation symbols}{}
@@ -13,14 +14,24 @@
     \hspace*{1em}
     \usebeamerfont{frametitle}\insertframetitle
     \hfill
-    \raisebox{-0.7ex}{\includegraphics[height=0.7cm]{sunflower.jpg}}
+    \raisebox{-0.7ex}{\includegraphics[height=0.7cm]{ucam.png}}
   \end{beamercolorbox}%
 }
 \transdissolve
 \AtBeginSection[]{
   \begin{frame}
     \transdissolve
-    \frametitle{Section Start: \insertsection}
+    \pdfbookmark[1]{\insertsection}{section:\insertsection}
+    \frametitle{\insertsection}
     \vspace{0.5cm}
   \end{frame}
+}
+\setbeamertemplate{frametitle}{%
+  \pdfbookmark[1]{\insertframetitle}{section:\insertframetitle}%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=1ex]{frametitle}
+    \hspace*{1em}
+    \usebeamerfont{frametitle}\insertframetitle
+    \hfill
+    \raisebox{-0.7ex}{\includegraphics[height=0.7cm]{sunflower.jpg}}
+  \end{beamercolorbox}%
 }
