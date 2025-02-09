@@ -67,7 +67,7 @@ $$
 
 # A Numbered Table
 
-Table: A summary of files
+Table:\label{tab:mytable} A summary of files
 
 File | Description
 -----|-----------------------------
@@ -108,7 +108,7 @@ sunflower.jpg* | sunflower as a logo
 
 :::
 
-Figure \ref{fig:physalia} can be referred, too!
+Figure \ref{fig:physalia} and Table \ref{tab:mytable} can be referred, too!
 
 ---
 
