@@ -1,7 +1,8 @@
 ---
-title: "Genetic Association Analysis with R (II)"
+title: "A Template for Markdown Beamer Slides with Pandoc"
 author: "Jing Hua Zhao"
 institute: ""
+date: "9 February 2025"
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
 theme: "metropolis"
