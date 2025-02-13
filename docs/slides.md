@@ -33,7 +33,7 @@ See <a href="slides.html">slides.html</a>.
 Pandoc produces awkward slides, and it is more appealing with other tools,
 
 - online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>, <a href="slides.ppt">slides.ppt</a> with images.
-- smallpdf, <https://smallpdf.com/pdf-to-ppt>, <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion.
+- iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>, <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion.
 
 ## CTAN
 
