@@ -106,6 +106,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#pptx" class="nav-link">pptx</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#ctan" class="nav-link">CTAN</a>
               <ul class="nav flex-column">
               </ul>
@@ -134,6 +138,8 @@ pandoc -t beamer --citeproc --mathjax -s -V theme:metropolis slides.md -o slides
 marp slides.md
 </code></pre>
 <p>See <a href="slides.html">slides.html</a>.</p>
+<h2 id="pptx">pptx</h2>
+<p>Pandoc produces awkward slides, and <a href="slides.pptx">slides.pptx</a> appears more acceptable with smallpdf, <a href="https://smallpdf.com/pdf-to-ppt">https://smallpdf.com/pdf-to-ppt</a>.</p>
 <h2 id="ctan">CTAN</h2>
 <p>This is to make <code>beamerthemegotham.sty</code> available.</p>
 <pre><code class="language-bash">wget https://mirrors.ctan.org/macros/latex/contrib/beamer-contrib/themes/beamertheme-gotham.zip
