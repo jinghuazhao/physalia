@@ -30,7 +30,7 @@ See <a href="slides.html">slides.html</a>.
 
 ## pptx
 
-Pandoc produces awkward slides, and <a href="slides.pptx">slides.pptx</a> appears more acceptable with smallpdf, <https://smallpdf.com/pdf-to-ppt>.
+Pandoc produces awkward slides, but smallpdf, <https://smallpdf.com/pdf-to-ppt>, generates a more acceptable <a href="slides.pptx">slides.pptx</a>.
 
 ## CTAN
 
