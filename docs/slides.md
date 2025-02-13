@@ -32,8 +32,8 @@ See <a href="slides.html">slides.html</a>.
 
 Pandoc produces awkward slides, and it is more appealing with other tools,
 
-- smallpdf, <https://smallpdf.com/pdf-to-ppt>, has OCR in <a href="slides.pptx">slides.pptx</a>.
-- online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>, has image in <a href="slides.ppt">slides.ppt</a>
+- online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>, <a href="slides.ppt">slides.ppt</a> with images.
+- smallpdf, <https://smallpdf.com/pdf-to-ppt>, <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion.
 
 ## CTAN
 
