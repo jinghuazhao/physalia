@@ -28,6 +28,10 @@ marp slides.md
 
 See <a href="slides.html">slides.html</a>.
 
+## pptx
+
+Pandoc produces awkward slides, and <a href="slides.pptx">slides.pptx</a> appears more acceptable with smallpdf, <https://smallpdf.com/pdf-to-ppt>.
+
 ## CTAN
 
 This is to make `beamerthemegotham.sty` available.
