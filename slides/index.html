@@ -106,7 +106,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#pptx" class="nav-link">pptx</a>
+            <li class="nav-item" data-level="2"><a href="#pptpptx" class="nav-link">ppt/pptx</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -138,8 +138,12 @@ pandoc -t beamer --citeproc --mathjax -s -V theme:metropolis slides.md -o slides
 marp slides.md
 </code></pre>
 <p>See <a href="slides.html">slides.html</a>.</p>
-<h2 id="pptx">pptx</h2>
-<p>Pandoc produces awkward slides, but smallpdf, <a href="https://smallpdf.com/pdf-to-ppt">https://smallpdf.com/pdf-to-ppt</a>, generates a more acceptable <a href="slides.pptx">slides.pptx</a>.</p>
+<h2 id="pptpptx">ppt/pptx</h2>
+<p>Pandoc produces awkward slides, and it is more appealing with other tools,</p>
+<ul>
+<li>smallpdf, <a href="https://smallpdf.com/pdf-to-ppt">https://smallpdf.com/pdf-to-ppt</a>, has OCR in <a href="slides.pptx">slides.pptx</a>.</li>
+<li>online-convert, <a href="https://document.online-convert.com/convert/pdf-to-ppt">https://document.online-convert.com/convert/pdf-to-ppt</a>, has image in <a href="slides.ppt">slides.ppt</a></li>
+</ul>
 <h2 id="ctan">CTAN</h2>
 <p>This is to make <code>beamerthemegotham.sty</code> available.</p>
 <pre><code class="language-bash">wget https://mirrors.ctan.org/macros/latex/contrib/beamer-contrib/themes/beamertheme-gotham.zip
