@@ -29,7 +29,7 @@ marp slides.md
 
 See <a href="slides.html">slides.html</a>.
 
-## ppt/pptx
+## ppt/pptx (in situ display with MicroSoft Edge)
 
 Pandoc produces awkward slides, and it is more appealing with other tools,
 
