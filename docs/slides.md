@@ -29,9 +29,9 @@ marp slides.md
 
 See <a href="slides.html">slides.html</a>.
 
-## ppt/pptx (in situ display with MicroSoft Edge)
+## ppt/pptx
 
-Pandoc produces awkward slides, but they are more appealing with other tools,
+Pandoc produces awkward slides, but they are more appealing with other tools (display without download via MicroSoft Edge),
 
 - <a href="slides.ppt">slides.ppt</a> with images by online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>.
 - <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion by iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>.
