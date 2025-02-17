@@ -20,7 +20,7 @@ See <a href="slides.pdf">slides.pdf</a>.
 
 ## html
 
-This could be done as follows via `pandoc` but `marp` appears to be far better,
+This could be done as follows via **pandoc** but **marp** appears to be far better,
 
 ```bash
 module load ceuadmin/node
@@ -31,7 +31,7 @@ See <a href="slides.html">slides.html</a>.
 
 ## ppt/pptx
 
-Pandoc produces awkward slides, which become more appealing with other tools -- they can be viewed without downloading via MicroSoft Edge,
+Slides produced by **pandoc** look awkward but generally acceptable with these tools; they can be viewed via MicroSoft Edge without being downloaded,
 
 - <a href="slides.ppt">slides.ppt</a> with images by online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>.
 - <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion by iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>.
