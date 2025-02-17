@@ -2,7 +2,7 @@
 
 Preentation slides are greatly faciliated by Markdown, as is shown here.
 
-- The template, [slides.md](slides/slides.md)
+- The template, [slides.md](https://raw.githubusercontent.com/jinghuazhao/physalia/refs/heads/master/docs/slides/slides.md)
 - All files: <https://github.com/jinghuazhao/physalia/tree/master/docs/slides>
 
 ## PDF
