@@ -31,12 +31,10 @@ See <a href="slides.html">slides.html</a>.
 
 ## ppt/pptx (in situ display with MicroSoft Edge)
 
-Pandoc produces awkward slides, and it is more appealing with other tools,
+Pandoc produces awkward slides, but they are more appealing with other tools,
 
-- online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>
-    - <a href="slides.ppt">slides.ppt</a> with images.
-- iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>
-    - <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion.
+- <a href="slides.ppt">slides.ppt</a> with images by online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>.
+- <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion by iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>.
 
 ## CTAN
 
