@@ -90,11 +90,11 @@
 <ul class="nav flex-column">
 <li class="nav-item" data-level="1"><a class="nav-link" href="#physalia">physalia</a>
 <ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#how-to-contribute">How to contribute</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#a-summary-of-files">A summary of files</a>
 <ul class="nav flex-column">
 </ul>
 </li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#a-summary-of-files">A summary of files</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#how-to-contribute">How to contribute</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -107,16 +107,6 @@
 <p><img align="right" height="300" src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="150"/></p>
 <h1 id="physalia">physalia</h1>
 <p>The purpose for this repository, named after the Physalia GWAS-course, <a href="https://github.com/jinghuazhao/GWAS-course">https://github.com/jinghuazhao/GWAS-course</a> when in preparation, was to record basic uses of GitHub as well as call for contributions to GitHub repositories.</p>
-<h2 id="how-to-contribute">How to contribute</h2>
-<p>(Adapted from <a href="https://github.com/apress">Apress</a>)</p>
-<p>Efforts are highly welcome as a long-term project, via the following steps:</p>
-<ol>
-<li>Make sure you have a GitHub account.</li>
-<li>Fork a repository.</li>
-<li>Create a new branch on which to make your change, e.g. <code>git checkout -b my_code_contribution</code></li>
-<li>Commit your change. Include a commit message describing the correction. Please note that if your commit message is not clear, the correction will not be accepted.</li>
-<li>Submit a pull request.</li>
-</ol>
 <h2 id="a-summary-of-files">A summary of files</h2>
 <table>
 <thead>
@@ -168,7 +158,64 @@
 </tr>
 </tbody>
 </table>
-<p>For additional information, see GitHub-matters, <a href="https://cambridge-ceu.github.io/GitHub-matters/">https://cambridge-ceu.github.io/GitHub-matters/</a>.</p></div>
+<p>See also GitHub-matters, <a href="https://cambridge-ceu.github.io/GitHub-matters/">https://cambridge-ceu.github.io/GitHub-matters/</a>.</p>
+<h2 id="how-to-contribute">How to contribute</h2>
+<p>(Adapted from <a href="https://github.com/apress">Apress</a>)</p>
+<p>Efforts are highly welcome as a long-term project, via the following steps:</p>
+<ol>
+<li>Make sure you have a GitHub account.</li>
+<li>Fork a repository.</li>
+<li>Create a new branch on which to make your change, e.g. <code>git checkout -b my_code_contribution</code></li>
+<li>Commit your change. Include a commit message describing the correction. Please note that if your commit message is not clear, the correction will not be accepted.</li>
+<li>Submit a pull request.</li>
+</ol>
+<p>More generally, it would be similar to <a href="https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md">these instructions to GDAL</a>.
+Additional information is given in <a href="Notes/">Notes.md</a>. </p>
+<p>The following is <strong>TwoSampleMR/jhz</strong> example. Several steps are necessary,</p>
+<ol>
+<li>Fork TwoSampleMR from <a href="https://github.com/MRCIEU/TwoSampleMR">https://github.com/MRCIEU/TwoSampleMR</a>.</li>
+<li>
+<p>Clone the package locally, add a fork, add branch, modify files, build the web files,</p>
+<p><code>bash
+git clone https://github.com/MRCIEU/TwoSampleMR
+cd TwoSampleMR
+git remote -v
+git remote add myfork https://github.com/cambridge-ceu/TwoSampleMR.git
+git remote -v
+git checkout -b jhz
+git branch
+git status
+cp -r ../tests/man/figures man
+cp ../tests/pkgdown/* pkgdown
+cp ../tests/README.Rmd .
+rm index.md
+Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'</code>
+3. Add files</p>
+<p><code>bash
+for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
+do
+  echo adding ${f}
+  git add ${f}
+  git commit -m "${f}"
+done
+git add --force docs
+git commit -m "docs"
+git push myfork jhz
+du -h --exclude .git --exclude docs
+git log --oneline</code></p>
+</li>
+<li>
+<p>Pull request</p>
+<p>We go to <a href="https://github.com/cambridge-ceu/TwoSampleMR">https://github.com/cambridge-ceu/TwoSampleMR</a>, Click <code>Compare &amp; pull request</code> which takes us to 
+<a href="https://github.com/MRCIEU/TwoSampleMR/pulls">https://github.com/MRCIEU/TwoSampleMR/pulls</a>, with the following parameters,</p>
+<ul>
+<li>Base repository: MRCIEU/TwoSampleMR</li>
+<li>Base branch: main (or the target branch, e.g., master)</li>
+<li>Head repository: cambridge-ceu/TwoSampleMR</li>
+<li>Head branch: jhz</li>
+</ul>
+</li>
+</ol></div>
 </div>
 </div>
 <footer class="col-md-12">
@@ -250,5 +297,5 @@
 </html>
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2025-02-22 16:03:05.962173+00:00
+Build Date UTC : 2025-02-22 19:14:52.290356+00:00
 -->
