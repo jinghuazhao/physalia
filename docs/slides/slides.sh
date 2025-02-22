@@ -12,3 +12,8 @@ pandoc -t revealjs --citeproc --mathjax -s -V theme:metropolis -s slides.md -o s
 # marp
 module load ceuadmin/node
 marp slides.md
+
+# video
+# -ss 00:00:01: Snapshot at 1 second into the video
+# -vframes 1: Save 1 frame as poster-image.jpg
+ffmpeg -i plum-popcorn.mp4 -ss 00:00:01 -vframes 1 poster-image.jpg

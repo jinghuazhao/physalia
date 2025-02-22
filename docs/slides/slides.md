@@ -131,6 +131,8 @@ Four of them are indicated here,
 
 ```{=latex}
 \movie[height=432pt,width=864pt,poster,showcontrols]{not supported for PDF}{plum-popcorn.mp4}
+\href{run:plum-popcorn.mp4}{\color{blue}\underline{Click to play video}}.
+\includegraphics[width=864pt,height=432pt]{poster-image.jpg}
 ```
 
 ---
