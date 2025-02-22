@@ -28,7 +28,7 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 - **Headings**: Use `#` for slide titles, `##` or `###` for smaller headers.
 - **Horizontal Slide Separation**: Use `---` to separate individual slides.
 - **Code Blocks**: Wrap code in triple backticks for syntax highlighting.
-- **10 Others**: Title page image, icon on title, background shading, embedded image, citation @zhao06a, colored URLs, figure numbering, table numbering, multiple columns, page / total numbering.
+- **11 Others**: Title page image, icon on title, background shading, embedded image, citation @zhao06a, colored URLs, figure numbering, table numbering, multiple columns, page / total numbering, link to videos.
 
 ---
 
@@ -123,13 +123,13 @@ Four of them are indicated here,
 
 ---
 
-# Videos for Marp
+# Videos
 
 <video width="640" height="360" controls>
   <source src="plum-popcorn.mp4" type="video/mp4">
 </video>
 
-![\href{plum-popcorn.mp4}{\color{red}\underline{Video}}\label{fig:plum-popcorn}](poster-image.jpg){height=85%}
+![\href{plum-popcorn.mp4}{\color{red}\underline{Video}}\label{fig:plum-popcorn}](poster-image.jpg)
 
 ---
 
