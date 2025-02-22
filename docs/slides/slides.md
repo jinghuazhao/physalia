@@ -125,7 +125,7 @@ Four of them are indicated here,
 
 # Videos
 
-<video width="640" height="360" controls>
+<video width="784" height="528" controls>
   <source src="plum-popcorn.mp4" type="video/mp4">
 </video>
 
