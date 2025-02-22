@@ -2,7 +2,7 @@
 title: "A Template for Markdown Beamer Slides with Pandoc"
 author: "Jing Hua Zhao"
 institute: ""
-date: "9 February 2025"
+date: "22 February 2025"
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
 theme: "metropolis"
@@ -120,6 +120,21 @@ Four of them are indicated here,
 - **Marp**: A tool for creating slides directly from Markdown and the .html in this presentation is rendered with v4.1.1.
 - **Reveal.js**: Use [Reveal.js](https://revealjs.com/) for beautiful web-based presentations. A wonderful demo is by **quarto** below.
 - **quarto**: Contain comprehensive facilities for rendering presentations including support for pandoc/Reveal.js, see <https://quarto.org/>.
+
+---
+
+# Videos for Marp
+
+The following fails to work with PDF
+
+`header-includes:
+  - \usepackage{multimedia}
+\movie[width=640,height=360,poster,showcontrols]{Your browser does not support the video tag.}{plum-popcorn.mp4}`
+
+<video width="640" height="360" controls>
+  <source src="plum-popcorn.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
