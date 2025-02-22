@@ -130,9 +130,9 @@ Four of them are indicated here,
 </video>
 
 ```{=latex}
-\movie[height=432pt,width=864pt,poster,showcontrols]{not supported for PDF}{plum-popcorn.mp4}
 \includegraphics[width=864pt,height=432pt]{poster-image.jpg}
 \href{plum-popcorn.mp4}{\color{blue}\underline{Click to play video}}
+\movie[height=432pt,width=864pt,poster,showcontrols]{not supported for PDF}{plum-popcorn.mp4}
 ```
 
 ---
