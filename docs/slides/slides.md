@@ -127,7 +127,6 @@ Four of them are indicated here,
 
 <video width="640" height="360" controls>
   <source src="plum-popcorn.mp4" type="video/mp4">
-  Video tag is not supported.
 </video>
 
 `header-includes:
