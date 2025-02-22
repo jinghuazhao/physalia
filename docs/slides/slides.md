@@ -129,7 +129,7 @@ Four of them are indicated here,
   <source src="plum-popcorn.mp4" type="video/mp4">
 </video>
 
-\movie[width=864pt,height=576pt,poster,showcontrols]{Video tag is not supported for PDF.}{plum-popcorn.mp4}
+\movie[height=432pt,width=864pt,poster,showcontrols]{not supported for PDF}{plum-popcorn.mp4}
 
 ---
 
