@@ -129,11 +129,11 @@ The following fails to work with PDF
 
 `header-includes:
   - \usepackage{multimedia}
-\movie[width=640,height=360,poster,showcontrols]{Your browser does not support the video tag.}{plum-popcorn.mp4}`
+\movie[width=640,height=360,poster,showcontrols]{Video tag is not supported.}{plum-popcorn.mp4}`
 
 <video width="640" height="360" controls>
   <source src="plum-popcorn.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Video tag is not supported.
 </video>
 
 ---
