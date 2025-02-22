@@ -16,4 +16,5 @@ marp slides.md
 # video
 # -ss 00:00:01: Snapshot at 1 second into the video
 # -vframes 1: Save 1 frame as poster-image.jpg
+module load ceuadmin/ffmpeg
 ffmpeg -i plum-popcorn.mp4 -ss 00:00:01 -vframes 1 poster-image.jpg
