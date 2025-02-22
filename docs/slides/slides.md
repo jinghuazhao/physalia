@@ -129,7 +129,7 @@ Four of them are indicated here,
   <source src="plum-popcorn.mp4" type="video/mp4">
 </video>
 
-![\href{plum-popcorn.mp4}{\color{red}\underline{Plum and Popcorn on 18/2/2025}}\label{fig:plum-popcorn}](poster-image.jpg)
+![\href{plum-popcorn.mp4}{Plum and Popcorn on 18/2/2025\color{red}\underline{Click to play}}\label{fig:plum-popcorn}](poster-image.jpg)
 
 ---
 
