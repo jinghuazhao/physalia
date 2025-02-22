@@ -129,7 +129,9 @@ Four of them are indicated here,
   <source src="plum-popcorn.mp4" type="video/mp4">
 </video>
 
+```{=latex}
 \movie[height=432pt,width=864pt,poster,showcontrols]{not supported for PDF}{plum-popcorn.mp4}
+```
 
 ---
 
