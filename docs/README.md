@@ -33,14 +33,8 @@ Efforts are highly welcome as a long-term project, via the following steps:
 4. Commit your change. Include a commit message describing the correction. Please note that if your commit message is not clear, the correction will not be accepted.
 5. Submit a pull request.
 
-
-1. Make sure you have a GitHub account.
-2. Fork a repository.
-3. Create a new branch on which to make your change, e.g. `git checkout -b your_initials_or_description`
-4. Commit your change. Include a commit message describing the correction. Please note that if your commit message is not clear, the correction will not be accepted.
-5. Submit a pull request from your_initials_or_description.
-
-Additional information is given in [Notes.md](Notes.md). More generally, it would be similar to [these instructions to GDAL](https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md).
+More generally, it would be similar to [these instructions to GDAL](https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md).
+Additional information is given in [Notes.md](Notes.md). 
 
 The following is **TwoSampleMR/jhz** example. Several steps are necessary,
 
