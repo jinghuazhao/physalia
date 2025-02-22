@@ -124,6 +124,11 @@
               </ul>
             </li>
             
+            <li class="nav-item" data-level="1"><a href="#videos-for-marp" class="nav-link">Videos for Marp</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
             <li class="nav-item" data-level="1"><a href="#references" class="nav-link">References</a>
               <ul class="nav flex-column">
               </ul>
@@ -241,6 +246,17 @@ def hello_world():
 <li><strong>Reveal.js</strong>: Use <a href="https://revealjs.com/">Reveal.js</a> for beautiful web-based presentations. A wonderful demo is by <strong>quarto</strong> below.</li>
 <li><strong>quarto</strong>: Contain comprehensive facilities for rendering presentations including support for pandoc/Reveal.js, see <a href="https://quarto.org/">https://quarto.org/</a>.</li>
 </ul>
+<hr />
+<h1 id="videos-for-marp">Videos for Marp</h1>
+<p>The following fails to work with PDF</p>
+<p><code>header-includes:
+  - \usepackage{multimedia}
+\movie[width=640,height=360,poster,showcontrols]{Your browser does not support the video tag.}{plum-popcorn.mp4}</code></p>
+<video width="640" height="360" controls>
+  <source src="plum-popcorn.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <hr />
 <h1 id="references">References</h1></div>
             </div>
