@@ -1,5 +1,3 @@
-<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="150" height="300" align="right">
-
 # physalia
 
 The purpose for this repository, named after the Physalia GWAS-course, <https://github.com/jinghuazhao/GWAS-course> when in preparation, was to record basic uses of GitHub as well as call for contributions to GitHub repositories.
@@ -20,6 +18,8 @@ The purpose for this repository, named after the Physalia GWAS-course, <https://
  [docs.sh](docs.sh) | batch file for add/commit/push operations
 
 See also GitHub-matters, <https://cambridge-ceu.github.io/GitHub-matters/>.
+
+<img src="https://animaldiversity.org/collections/contributors/Grzimek_inverts/Hydrozoa/Physalia_physalis_polyp/medium.jpg" width="150" height="300" align="right">
 
 ## How to contribute 
 
