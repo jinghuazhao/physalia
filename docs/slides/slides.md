@@ -125,16 +125,14 @@ Four of them are indicated here,
 
 # Videos for Marp
 
-The following fails to work with PDF
-
-`header-includes:
-  - \usepackage{multimedia}
-\movie[width=640,height=360,poster,showcontrols]{Video tag is not supported.}{plum-popcorn.mp4}`
-
 <video width="640" height="360" controls>
   <source src="plum-popcorn.mp4" type="video/mp4">
   Video tag is not supported.
 </video>
+
+`header-includes:
+  - \usepackage{multimedia}
+\movie[width=640,height=360,poster,showcontrols]{Video tag is not supported for PDF.}{plum-popcorn.mp4}`
 
 ---
 
