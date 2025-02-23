@@ -56,6 +56,7 @@ The following is **TwoSampleMR/jhz** example. Several steps are necessary,
     rm index.md
     Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
     ```
+
 3. Add files
 
     ```bash
