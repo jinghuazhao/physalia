@@ -36,42 +36,44 @@ Efforts are highly welcome as a long-term project, via the following steps:
 See also [instructions to GDAL](https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md).
 Additional information is given in [Notes.md](Notes.md). 
 
-The following is **TwoSampleMR/jhz** example. Several steps are necessary,
+## TwoSampleMR/jhz
+
+Several steps are necessary,
 
 1. Fork TwoSampleMR from <https://github.com/MRCIEU/TwoSampleMR>.
 2. Clone the package locally, add a fork, add branch, modify files, build the web files,
 
-    ```bash
-    git clone https://github.com/MRCIEU/TwoSampleMR
-    cd TwoSampleMR
-    git remote -v
-    git remote add myfork https://github.com/cambridge-ceu/TwoSampleMR.git
-    git remote -v
-    git checkout -b jhz
-    git branch
-    git status
-    cp -r ../tests/man/figures man
-    cp ../tests/pkgdown/* pkgdown
-    cp ../tests/README.Rmd .
-    rm index.md
-    Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
-    ```
+```bash
+git clone https://github.com/MRCIEU/TwoSampleMR
+cd TwoSampleMR
+git remote -v
+git remote add myfork https://github.com/cambridge-ceu/TwoSampleMR.git
+git remote -v
+git checkout -b jhz
+git branch
+git status
+cp -r ../tests/man/figures man
+cp ../tests/pkgdown/* pkgdown
+cp ../tests/README.Rmd .
+rm index.md
+Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
+```
 
 3. Add files
 
-    ```bash
-    for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
-    do
-      echo adding ${f}
-      git add ${f}
-      git commit -m "${f}"
-    done
-    git add --force docs
-    git commit -m "docs"
-    git push myfork jhz
-    du -h --exclude .git --exclude docs
-    git log --oneline
-    ```
+```bash
+for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
+do
+  echo adding ${f}
+  git add ${f}
+  git commit -m "${f}"
+done
+git add --force docs
+git commit -m "docs"
+git push myfork jhz
+du -h --exclude .git --exclude docs
+git log --oneline
+```
 
 4. Pull request
 
