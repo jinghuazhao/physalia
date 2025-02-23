@@ -176,11 +176,10 @@
 <p>See also <a href="https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md">instructions to GDAL</a>.
 Additional information is given in <a href="Notes/">Notes.md</a>. </p>
 <h2 id="twosamplemrjhz">TwoSampleMR/jhz</h2>
-<p>Several steps are necessary,</p>
-<ol>
-<li>Fork TwoSampleMR from <a href="https://github.com/MRCIEU/TwoSampleMR">https://github.com/MRCIEU/TwoSampleMR</a>.</li>
-<li>Clone the package locally, add a fork, add branch, modify files, build the web files,</li>
-</ol>
+<p>It appears you're seeking assistance with the formatting of section numbers in your document. Here's a revised version with corrected section numbering:</p>
+<p><strong>Several steps are necessary:</strong></p>
+<p><strong>1. Fork TwoSampleMR from <a href="https://github.com/MRCIEU/TwoSampleMR">https://github.com/MRCIEU/TwoSampleMR</a>.</strong></p>
+<p><strong>2. Clone the package locally, add a fork, add a branch, modify files, and build the web files:</strong></p>
 <pre><code class="language-bash">git clone https://github.com/MRCIEU/TwoSampleMR
 cd TwoSampleMR
 git remote -v
@@ -195,10 +194,8 @@ cp ../tests/README.Rmd .
 rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 </code></pre>
-<p>where we copy/replace files from the <code>tests/</code> counterpart created locally.</p>
-<ol>
-<li>Add files</li>
-</ol>
+<p><em>Note: In this step, we copy/replace files from the <code>tests/</code> directory created locally.</em></p>
+<p><strong>3. Add files:</strong></p>
 <pre><code class="language-bash">for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
 do
   echo adding ${f}
@@ -211,23 +208,19 @@ git push myfork jhz
 du -h --exclude .git --exclude docs
 git log --oneline
 </code></pre>
-<ol>
-<li>Pull request</li>
-</ol>
-<p>We go to <a href="https://github.com/cambridge-ceu/TwoSampleMR">https://github.com/cambridge-ceu/TwoSampleMR</a>, Click <code>Compare &amp; pull request</code> which takes us to 
-<a href="https://github.com/MRCIEU/TwoSampleMR/pulls">https://github.com/MRCIEU/TwoSampleMR/pulls</a>, with the following parameters,</p>
+<p><strong>4. Create a pull request:</strong></p>
 <ul>
-<li>Base repository: MRCIEU/TwoSampleMR</li>
-<li>Base branch: main (or the target branch, e.g., master)</li>
-<li>Head repository: cambridge-ceu/TwoSampleMR</li>
-<li>
-<p>Head branch: jhz</p>
-</li>
-<li>
-<p>Artist's impression</p>
-</li>
+<li>Navigate to <a href="https://github.com/cambridge-ceu/TwoSampleMR">https://github.com/cambridge-ceu/TwoSampleMR</a>.</li>
+<li>Click <code>Compare &amp; pull request</code>, which will redirect you to <a href="https://github.com/MRCIEU/TwoSampleMR/pulls">https://github.com/MRCIEU/TwoSampleMR/pulls</a>, with the following parameters:</li>
+<li><strong>Base repository:</strong> MRCIEU/TwoSampleMR</li>
+<li><strong>Base branch:</strong> main (or the target branch, e.g., master)</li>
+<li><strong>Head repository:</strong> cambridge-ceu/TwoSampleMR</li>
+<li><strong>Head branch:</strong> jhz</li>
 </ul>
-<p>See <a href="https://cambridge-ceu.github.io/TwoSampleMR/">https://cambridge-ceu.github.io/TwoSampleMR/</a> (with a logo) compared to <a href="https://mrcieu.github.io/TwoSampleMR/">https://mrcieu.github.io/TwoSampleMR/</a>.</p></div>
+<p><strong>5. View the artist's impression:</strong></p>
+<ul>
+<li>Visit <a href="https://cambridge-ceu.github.io/TwoSampleMR/">https://cambridge-ceu.github.io/TwoSampleMR/</a> (with a logo) and compare it to <a href="https://mrcieu.github.io/TwoSampleMR/">https://mrcieu.github.io/TwoSampleMR/</a>.</li>
+</ul></div>
 </div>
 </div>
 <footer class="col-md-12">
@@ -309,5 +302,5 @@ git log --oneline
 </html>
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2025-02-23 10:27:36.892880+00:00
+Build Date UTC : 2025-02-23 10:31:28.520286+00:00
 -->
