@@ -81,3 +81,7 @@ The following is **TwoSampleMR/jhz** example. Several steps are necessary,
     * Base branch: main (or the target branch, e.g., master)
     * Head repository: cambridge-ceu/TwoSampleMR
     * Head branch: jhz
+
+5. Artist's impression
+
+    See <https://cambridge-ceu.github.io/TwoSampleMR/> compared to <https://mrcieu.github.io/TwoSampleMR/>.
