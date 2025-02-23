@@ -28,7 +28,7 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 - **Headings**: Use `#` for slide titles, `##` or `###` for smaller headers.
 - **Horizontal Slide Separation**: Use `---` to separate individual slides.
 - **Code Blocks**: Wrap code in triple backticks for syntax highlighting.
-- **11 Others**: Title page image, icon on title, background shading, embedded image, citation @zhao06a, colored URLs, figure numbering, table numbering, multiple columns, page / total numbering, link to videos.
+- **A Dozen Others**: Bookmarks, title page image, icon on title, background shading, embedded image, citation @zhao06a, colored URLs, figure numbering, table numbering, multiple columns, page / total numbering, link to videos.
 
 ---
 
