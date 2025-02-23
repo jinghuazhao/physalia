@@ -38,10 +38,14 @@ Additional information is given in [Notes.md](Notes.md).
 
 ## TwoSampleMR/jhz
 
-Several steps are necessary,
+It appears you're seeking assistance with the formatting of section numbers in your document. Here's a revised version with corrected section numbering:
 
-1. Fork TwoSampleMR from <https://github.com/MRCIEU/TwoSampleMR>.
-2. Clone the package locally, add a fork, add branch, modify files, build the web files,
+**Several steps are necessary:**
+
+**1. Fork TwoSampleMR from <https://github.com/MRCIEU/TwoSampleMR>.**
+
+**2. Clone the package locally, add a fork, add a branch, modify files, and build the web files:**
+
 ```bash
 git clone https://github.com/MRCIEU/TwoSampleMR
 cd TwoSampleMR
@@ -57,9 +61,11 @@ cp ../tests/README.Rmd .
 rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 ```
-where we copy/replace files from the `tests/` counterpart created locally.
 
-3. Add files
+*Note: In this step, we copy/replace files from the `tests/` directory created locally.*
+
+**3. Add files:**
+
 ```bash
 for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
 do
@@ -74,16 +80,15 @@ du -h --exclude .git --exclude docs
 git log --oneline
 ```
 
-4. Pull request
+**4. Create a pull request:**
 
-We go to <https://github.com/cambridge-ceu/TwoSampleMR>, Click `Compare & pull request` which takes us to 
-<https://github.com/MRCIEU/TwoSampleMR/pulls>, with the following parameters,
+- Navigate to <https://github.com/cambridge-ceu/TwoSampleMR>.
+- Click `Compare & pull request`, which will redirect you to <https://github.com/MRCIEU/TwoSampleMR/pulls>, with the following parameters:
+  - **Base repository:** MRCIEU/TwoSampleMR
+  - **Base branch:** main (or the target branch, e.g., master)
+  - **Head repository:** cambridge-ceu/TwoSampleMR
+  - **Head branch:** jhz
 
-* Base repository: MRCIEU/TwoSampleMR
-* Base branch: main (or the target branch, e.g., master)
-* Head repository: cambridge-ceu/TwoSampleMR
-* Head branch: jhz
+**5. View the artist's impression:**
 
-5. Artist's impression
-
-See <https://cambridge-ceu.github.io/TwoSampleMR/> (with a logo) compared to <https://mrcieu.github.io/TwoSampleMR/>.
+- Visit <https://cambridge-ceu.github.io/TwoSampleMR/> (with a logo) and compare it to <https://mrcieu.github.io/TwoSampleMR/>.
