@@ -189,8 +189,10 @@ cp -r ../tests/man/figures man
 cp ../tests/pkgdown/* pkgdown
 cp ../tests/README.Rmd .
 rm index.md
-Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'</code>
-3. Add files</p>
+Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'</code></p>
+</li>
+<li>
+<p>Add files</p>
 <p><code>bash
 for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
 do
@@ -301,5 +303,5 @@ git log --oneline</code></p>
 </html>
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2025-02-23 10:18:56.255531+00:00
+Build Date UTC : 2025-02-23 10:20:23.530444+00:00
 -->
