@@ -38,7 +38,7 @@ keywords: ["Genetic Association", "R Programming", "Statistical Genetics", "GWAS
 
 ---
 
-# Code/Math \texorpdfstring{($a^2+b^2=c^2$)}{(a^2+b^2=c^2)} Example
+# Code/Math \texorpdfstring{($ \phi(x,y) $)}{( \phi(x,y) )} Example
 
 ```python
 # Sample Python code
