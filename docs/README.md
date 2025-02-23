@@ -59,6 +59,8 @@ rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 ```
 
+where we copy/replace files from the `tests/` counterpart created locally.
+
 3. Add files
 
 ```bash
@@ -77,14 +79,14 @@ git log --oneline
 
 4. Pull request
 
-    We go to <https://github.com/cambridge-ceu/TwoSampleMR>, Click `Compare & pull request` which takes us to 
-    <https://github.com/MRCIEU/TwoSampleMR/pulls>, with the following parameters,
+We go to <https://github.com/cambridge-ceu/TwoSampleMR>, Click `Compare & pull request` which takes us to 
+<https://github.com/MRCIEU/TwoSampleMR/pulls>, with the following parameters,
 
-    * Base repository: MRCIEU/TwoSampleMR
-    * Base branch: main (or the target branch, e.g., master)
-    * Head repository: cambridge-ceu/TwoSampleMR
-    * Head branch: jhz
+* Base repository: MRCIEU/TwoSampleMR
+* Base branch: main (or the target branch, e.g., master)
+* Head repository: cambridge-ceu/TwoSampleMR
+* Head branch: jhz
 
 5. Artist's impression
 
-    See <https://cambridge-ceu.github.io/TwoSampleMR/> (with a logo) compared to <https://mrcieu.github.io/TwoSampleMR/>.
+See <https://cambridge-ceu.github.io/TwoSampleMR/> (with a logo) compared to <https://mrcieu.github.io/TwoSampleMR/>.
