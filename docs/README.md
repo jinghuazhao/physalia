@@ -84,4 +84,4 @@ The following is **TwoSampleMR/jhz** example. Several steps are necessary,
 
 5. Artist's impression
 
-    See <https://cambridge-ceu.github.io/TwoSampleMR/> compared to <https://mrcieu.github.io/TwoSampleMR/>.
+    See <https://cambridge-ceu.github.io/TwoSampleMR/> (with a logo) compared to <https://mrcieu.github.io/TwoSampleMR/>.
