@@ -98,6 +98,10 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#twosamplemrjhz">TwoSampleMR/jhz</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -171,13 +175,13 @@
 </ol>
 <p>See also <a href="https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md">instructions to GDAL</a>.
 Additional information is given in <a href="Notes/">Notes.md</a>. </p>
-<p>The following is <strong>TwoSampleMR/jhz</strong> example. Several steps are necessary,</p>
+<h2 id="twosamplemrjhz">TwoSampleMR/jhz</h2>
+<p>Several steps are necessary,</p>
 <ol>
 <li>Fork TwoSampleMR from <a href="https://github.com/MRCIEU/TwoSampleMR">https://github.com/MRCIEU/TwoSampleMR</a>.</li>
-<li>
-<p>Clone the package locally, add a fork, add branch, modify files, build the web files,</p>
-<p><code>bash
-git clone https://github.com/MRCIEU/TwoSampleMR
+<li>Clone the package locally, add a fork, add branch, modify files, build the web files,</li>
+</ol>
+<pre><code class="language-bash">git clone https://github.com/MRCIEU/TwoSampleMR
 cd TwoSampleMR
 git remote -v
 git remote add myfork https://github.com/cambridge-ceu/TwoSampleMR.git
@@ -189,12 +193,12 @@ cp -r ../tests/man/figures man
 cp ../tests/pkgdown/* pkgdown
 cp ../tests/README.Rmd .
 rm index.md
-Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'</code></p>
-</li>
-<li>
-<p>Add files</p>
-<p><code>bash
-for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
+Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
+</code></pre>
+<ol>
+<li>Add files</li>
+</ol>
+<pre><code class="language-bash">for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
 do
   echo adding ${f}
   git add ${f}
@@ -204,8 +208,9 @@ git add --force docs
 git commit -m "docs"
 git push myfork jhz
 du -h --exclude .git --exclude docs
-git log --oneline</code></p>
-</li>
+git log --oneline
+</code></pre>
+<ol>
 <li>
 <p>Pull request</p>
 <p>We go to <a href="https://github.com/cambridge-ceu/TwoSampleMR">https://github.com/cambridge-ceu/TwoSampleMR</a>, Click <code>Compare &amp; pull request</code> which takes us to 
@@ -303,5 +308,5 @@ git log --oneline</code></p>
 </html>
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2025-02-23 10:20:23.530444+00:00
+Build Date UTC : 2025-02-23 10:23:29.162089+00:00
 -->
