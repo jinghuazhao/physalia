@@ -42,7 +42,6 @@ Several steps are necessary,
 
 1. Fork TwoSampleMR from <https://github.com/MRCIEU/TwoSampleMR>.
 2. Clone the package locally, add a fork, add branch, modify files, build the web files,
-
 ```bash
 git clone https://github.com/MRCIEU/TwoSampleMR
 cd TwoSampleMR
@@ -58,11 +57,9 @@ cp ../tests/README.Rmd .
 rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 ```
-
 where we copy/replace files from the `tests/` counterpart created locally.
 
 3. Add files
-
 ```bash
 for f in .github .gitignore .Rbuildignore $(ls)# .Rinstignore
 do
