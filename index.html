@@ -195,6 +195,7 @@ cp ../tests/README.Rmd .
 rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 </code></pre>
+<p>where we copy/replace files from the <code>tests/</code> counterpart created locally.</p>
 <ol>
 <li>Add files</li>
 </ol>
@@ -211,22 +212,22 @@ du -h --exclude .git --exclude docs
 git log --oneline
 </code></pre>
 <ol>
-<li>
-<p>Pull request</p>
+<li>Pull request</li>
+</ol>
 <p>We go to <a href="https://github.com/cambridge-ceu/TwoSampleMR">https://github.com/cambridge-ceu/TwoSampleMR</a>, Click <code>Compare &amp; pull request</code> which takes us to 
 <a href="https://github.com/MRCIEU/TwoSampleMR/pulls">https://github.com/MRCIEU/TwoSampleMR/pulls</a>, with the following parameters,</p>
 <ul>
 <li>Base repository: MRCIEU/TwoSampleMR</li>
 <li>Base branch: main (or the target branch, e.g., master)</li>
 <li>Head repository: cambridge-ceu/TwoSampleMR</li>
-<li>Head branch: jhz</li>
-</ul>
+<li>
+<p>Head branch: jhz</p>
 </li>
 <li>
 <p>Artist's impression</p>
-<p>See <a href="https://cambridge-ceu.github.io/TwoSampleMR/">https://cambridge-ceu.github.io/TwoSampleMR/</a> (with a logo) compared to <a href="https://mrcieu.github.io/TwoSampleMR/">https://mrcieu.github.io/TwoSampleMR/</a>.</p>
 </li>
-</ol></div>
+</ul>
+<p>See <a href="https://cambridge-ceu.github.io/TwoSampleMR/">https://cambridge-ceu.github.io/TwoSampleMR/</a> (with a logo) compared to <a href="https://mrcieu.github.io/TwoSampleMR/">https://mrcieu.github.io/TwoSampleMR/</a>.</p></div>
 </div>
 </div>
 <footer class="col-md-12">
@@ -308,5 +309,5 @@ git log --oneline
 </html>
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2025-02-23 10:23:29.162089+00:00
+Build Date UTC : 2025-02-23 10:25:59.878482+00:00
 -->
