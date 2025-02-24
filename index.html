@@ -189,9 +189,9 @@ git checkout -b jhz
 git branch
 git status
 cp -r ../tests/man/figures man
-cp ../tests/pkgdown/* pkgdown
+cp -r ../tests/pkgdown/favicon pkgdown
+mv index.md pkgdown
 cp ../tests/README.Rmd .
-rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 </code></pre>
 <p><em>Note: In this step, we copy/replace files from the <code>tests/</code> directory created locally.</em></p>
@@ -302,5 +302,5 @@ git log --oneline
 </html>
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2025-02-23 17:45:23.139242+00:00
+Build Date UTC : 2025-02-24 19:05:46.253846+00:00
 -->
