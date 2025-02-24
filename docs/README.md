@@ -56,9 +56,9 @@ git checkout -b jhz
 git branch
 git status
 cp -r ../tests/man/figures man
-cp ../tests/pkgdown/* pkgdown
+cp -r ../tests/pkgdown/favicon pkgdown
+mv index.md pkgdown
 cp ../tests/README.Rmd .
-rm index.md
 Rscript -e 'knitr::knit("README.Rmd");library(pkgdown);build_site()'
 ```
 
