@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>physalia</title>
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Hugging Face - physalia</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Bash.min.js"></script>
@@ -29,7 +29,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="/.">physalia</a>
+                <a class="navbar-brand" href="..">physalia</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -40,25 +40,25 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="/." class="nav-link"></a>
+                                <a href=".." class="nav-link"></a>
                             </li>
                             <li class="navitem">
-                                <a href="/api/" class="nav-link">API</a>
+                                <a href="../api/" class="nav-link">API</a>
                             </li>
                             <li class="navitem">
-                                <a href="/IDE/" class="nav-link">IDE</a>
+                                <a href="../IDE/" class="nav-link">IDE</a>
                             </li>
                             <li class="navitem">
-                                <a href="/Notes/" class="nav-link">Notes</a>
+                                <a href="../Notes/" class="nav-link">Notes</a>
                             </li>
                             <li class="navitem">
-                                <a href="/slides/" class="nav-link">Slides</a>
+                                <a href="../slides/" class="nav-link">Slides</a>
                             </li>
                             <li class="navitem">
-                                <a href="/tests/" class="nav-link">Tests</a>
+                                <a href="../tests/" class="nav-link">Tests</a>
                             </li>
-                            <li class="navitem">
-                                <a href="/HuggingFace/" class="nav-link">Hugging Face</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Hugging Face</a>
                             </li>
                         </ul>
 
@@ -69,6 +69,16 @@
                             </a>
                         </li>
                             <li class="nav-item">
+                                <a rel="prev" href="../tests/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="https://github.com/jinghuazhao/physalia" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
                             </li>
                     </ul>
@@ -78,15 +88,66 @@
 
         <div class="container">
             <div class="row">
-
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
     </div>
 
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#hugging-face" class="nav-link">Hugging Face</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#threads-of-documentation" class="nav-link">Threads of documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#git-and-git-lfs" class="nav-link">git and git-lfs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
+<h1 id="hugging-face">Hugging Face</h1>
+<p>Web: <a href="https://huggingface.co/">https://huggingface.co/</a></p>
+<h2 id="threads-of-documentation">Threads of documentation</h2>
+<ol>
+<li>New model repository, <a href="https://huggingface.co/new">https://huggingface.co/new</a></li>
+<li>Hub documentation, <a href="https://huggingface.co/docs/hub/index">https://huggingface.co/docs/hub/index</a></li>
+<li>Programming access, <a href="https://huggingface.co/docs/huggingface_hub/index">https://huggingface.co/docs/huggingface_hub/index</a></li>
+</ol>
+<h2 id="git-and-git-lfs">git and git-lfs</h2>
+<p>To create a repository from the CLI using a token from
+<a href="https://huggingface.co/settings/tokens">https://huggingface.co/settings/tokens</a> and git-lfs from
+<a href="https://git-lfs.github.com">https://git-lfs.github.com</a>.</p>
+<pre><code class="language-bash"># In place if transformers or datasets are installed
+pip install huggingface_hub
+# Log in using a token
+huggingface-cli login
+# Create a model or dataset repo from the CLI if needed
+huggingface-cli repo create repo_name --type {model, dataset, space}
+# Clone the model, dataset or Space locally
+git lfs install
+git clone https://huggingface.co/username/repo_name                     
+# add, commit and push any file, including large files.
+# save files via `.save_pretrained()` or move them here
+git add .
+git commit -m &quot;commit from $USER&quot;
+git push
+</code></pre>
+<p>In most cases with the compatible libraries, the repo will be accessible from code
+through its identifier: username/repo_name, e.g., for a transformers model with:</p>
+<pre><code>tokenizer = AutoTokenizer.from_pretrained(&quot;username/repo_name&quot;)
+model = AutoModel.from_pretrained(&quot;username/repo_name&quot;)
+</code></pre></div>
             </div>
         </div>
 
@@ -94,17 +155,17 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="/js/jquery-3.6.0.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
         <script>
-            var base_url = "/",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/js/base.js"></script>
-        <script src="/javascripts/config.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../javascripts/config.js"></script>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script src="/search/main.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
