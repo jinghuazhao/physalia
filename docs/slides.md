@@ -36,7 +36,7 @@ Slides produced by **pandoc** look awkward but generally acceptable with these t
 - <a href="slides.ppt">slides.ppt</a> with images by online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>.
 - <a href="slides.pptx">slides.pptx</a> with OCR but <100% math conversion by iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>.
 
-It appears that Foxit (<https://www.foxit.com/pdf-to-ppt/>) handles mathematical formula better than Adobe Acrobat (<https://www.adobe.com/uk/acrobat/online/pdf-to-ppt.html>).
+It appears that **Foxit** (<https://www.foxit.com/pdf-to-ppt/>) handles mathematical formula better than Adobe **Acrobat** (<https://www.adobe.com/uk/acrobat/online/pdf-to-ppt.html>).
 
 ## CTAN
 
