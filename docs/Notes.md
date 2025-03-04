@@ -78,6 +78,18 @@ Additional information on npm (Node Package Manager) is available from <https://
 
 Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from <https://nodejs.org/en/download/>.
 
+## Markdown to ipynb
+
+```bash
+pip install notedown
+pip install ipython
+pip install nbconvert
+notedown DeepSeek.md > DeepSeek.ipynb
+jupyter nbconvert --to html --execute DeepSeek.ipynb
+```
+
+where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html.
+
 ## MarkDown editor
 
 One may prefer Typora, available from <https://typora.io/>. In particular, it supports mermaid, e.g., <https://mermaid-js.github.io/mermaid-live-editor/>. The following is an example generated from the link to SVG,
