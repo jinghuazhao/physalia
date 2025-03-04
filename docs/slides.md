@@ -33,15 +33,15 @@ See <a href="slides.html">slides.html</a>.
 
 Slides produced by **pandoc** look awkward but generally acceptable with these tools; they can be viewed via MicroSoft Edge without being downloaded,
 
-- <a href="slides.ppt">slides.ppt</a> with images by online-convert, <https://document.online-convert.com/convert/pdf-to-ppt>, or PDF2Go, <https://www.pdf2go.com/pdf-to-powerpoint> and TinyWow, <https://tinywow.com/pdf/to-ppt>.
-- <a href="slides.pptx">slides.pptx</a> with OCR but <100% math (slide 4) conversion by iLovePDF, <https://www.ilovepdf.com/pdf_to_powerpoint>.
+- <a href="slides.ppt">slides.ppt</a> with images by [online-convert](https://document.online-convert.com/convert/pdf-to-ppt), or [PDF2Go](https://www.pdf2go.com/pdf-to-powerpoint) and [TinyWow](https://tinywow.com/pdf/to-ppt).
+- <a href="slides.pptx">slides.pptx</a> with OCR but <100% math (slide 4) conversion by [iLovePDF](https://www.ilovepdf.com/pdf_to_powerpoint).
 
 None of the following sofware is perfect with mathematical formula:
 
-* **Acrobat** (<https://www.adobe.com/uk/acrobat/online/pdf-to-ppt.html>) is mediocre and has a paywall.
-* **Foxit** (<https://www.foxit.com/pdf-to-ppt/>) misses the \sum operator.
-* **PDFelement** (<https://pdf.wondershare.com/online-pdf/pdf-to-ppt.html>) gets the \sum right the title wrong.
-* **Sejda** (<https://www.sejda.com/pdf-to-ppt>) is the winner but misaligned with tortured background.
+* [**Acrobat**](https://www.adobe.com/uk/acrobat/online/pdf-to-ppt.html) is mediocre and has a paywall.
+* [**Foxit**](https://www.foxit.com/pdf-to-ppt/) misses the \sum operator.
+* [**PDFelement**](https://pdf.wondershare.com/online-pdf/pdf-to-ppt.html) gets the \sum right the title wrong.
+* [**Sejda**](https://www.sejda.com/pdf-to-ppt) is the winner but misaligned with tortured background.
 
 ## CTAN
 
