@@ -40,7 +40,7 @@ None of the following sofware is perfect with mathematical formula:
 
 * [**Acrobat**](https://www.adobe.com/uk/acrobat/online/pdf-to-ppt.html) is mediocre and has a paywall.
 * [**Foxit**](https://www.foxit.com/pdf-to-ppt/) misses the \sum operator.
-* [**PDFelement**](https://pdf.wondershare.com/online-pdf/pdf-to-ppt.html) gets the \sum right the title wrong.
+* [**PDFelement**](https://pdf.wondershare.com/online-pdf/pdf-to-ppt.html) gets the \sum right but the title wrong.
 * [**Sejda**](https://www.sejda.com/pdf-to-ppt) is the winner but misaligned with tortured background.
 
 ## CTAN
