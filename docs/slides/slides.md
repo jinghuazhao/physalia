@@ -2,7 +2,7 @@
 title: "A Template for Markdown Beamer Slides with Pandoc"
 author: "Jing Hua Zhao"
 institute: ""
-date: "23 February 2025"
+date: "29 March 2025"
 bibliography: REFERENCES.bib
 csl: nature-genetics.csl
 theme: "metropolis"
