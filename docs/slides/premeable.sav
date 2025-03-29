@@ -27,7 +27,7 @@
   \pdfbookmark[1]{\insertframenumber. \insertframetitle}{frame:\insertframenumber}
   \begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=1ex]{frametitle}
     \hspace*{1em}
-    \usebeamerfont{frametitle}\insertframetitle\par
+    \usebeamerfont{frametitle}\insertframetitle
     \hfill
     \raisebox{-0.7ex}{\frametitleimage}
   \end{beamercolorbox}%
