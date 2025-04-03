@@ -4,18 +4,19 @@ The purpose for this repository, named after the Physalia GWAS-course, <https://
 
 ## A summary of files
 
- **File** | **Description**
- -----|---------------------------------------------------------------------------
- [api.md](api.md) | Command-line repository creation
- [IDE.md](IDE.md) | GUI for GitHub repository maintenance
- [Notes.md](Notes.md) | Important notes
- [slides.md](slides.md) | A showcase of Markdown slides
- [tests.md](tests.md) | Tests of MathJax and mermaid
- [README.md](README.md) | this file
- [csd3.sh](csd3.sh) | A package-building example
- [setup.sh](setup.sh) | setup for a standard repository
- [ssh.sh](ssh.sh) | setup for SSH
- [docs.sh](docs.sh) | batch file for add/commit/push operations
+ **Menu item** | **File** | **Description**
+ --------------|-----|---------------------------------------------------------------------------
+ API | [api.md](api.md) | Command-line repository creation
+ IDE | [IDE.md](IDE.md) | GUI for GitHub repository maintenance
+ Notes | [Notes.md](Notes.md) | Important notes
+ Slides | [slides.md](slides.md) | A showcase of Markdown slides
+ Tests | [tests.md](tests.md) | Tests of MathJax and mermaid
+ Hugging Face
+ |[README.md](README.md) | this file
+ |[csd3.sh](csd3.sh) | A package-building example
+ |[setup.sh](setup.sh) | setup for a standard repository
+ |[ssh.sh](ssh.sh) | setup for SSH
+ |[docs.sh](docs.sh) | batch file for add/commit/push operations
 
 See also GitHub-matters, <https://cambridge-ceu.github.io/GitHub-matters/>.
 
