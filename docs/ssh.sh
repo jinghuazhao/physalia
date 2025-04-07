@@ -11,8 +11,8 @@ ls -al ~/.ssh
 xclip < ~/.ssh/id_rsa.pub
 # paste into GitHub "personal account" SSH/GPG settings
 # copy repository address from `Code`/ssh of a repository and replace url from its .git/config
-# clip described at GitHub is actually a Windows application
-# clip < ~/.ssh/id_rsa.pub
+# xclip described at GitHub is actually a Windows application
+# xclip < ~/.ssh/id_rsa.pub
 # sudo apt install xsel
 
 # Check that you are connecting to the correct server
