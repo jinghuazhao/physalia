@@ -33,6 +33,24 @@ sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 sudo mount -t drvfs U: /mnt/u
 ```
 
+## Markitdown
+
+Available from <>https://github.com/microsoft/markitdown, it is a Python utility for converting various files to Markdown.
+
+It now supports the following file types,
+
+- PDF
+- PowerPoint
+- Word
+- Excel
+- Images (EXIF metadata and OCR)
+- Audio (EXIF metadata and speech transcription)
+- HTML
+- Text-based formats (CSV, JSON, XML)
+- ZIP files (iterates over contents)
+- Youtube URLs
+- EPubs
+
 ## MarkDown code extraction
 
 To extract `bash` code from GitHub markdown, the following is helpful,
@@ -86,9 +104,10 @@ pip install ipython
 pip install nbconvert
 notedown DeepSeek.md > DeepSeek.ipynb
 jupyter nbconvert --to html --execute DeepSeek.ipynb
+jupyter nbconvert DeepSeek.ipynb --to script
 ```
 
-where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html.
+where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html. The Python script is also obtained later on.
 
 ## MarkDown editor
 
