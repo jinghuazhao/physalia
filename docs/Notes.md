@@ -35,7 +35,7 @@ sudo mount -t drvfs U: /mnt/u
 
 ## Markitdown
 
-Available from <>https://github.com/microsoft/markitdown, it is a Python utility for converting various files to Markdown.
+Available from <https://github.com/microsoft/markitdown>, it is a Python utility for converting various files to Markdown.
 
 It now supports the following file types,
 
