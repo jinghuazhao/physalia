@@ -104,6 +104,10 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#markitdown">Markitdown</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 <li class="nav-item" data-level="2"><a class="nav-link" href="#markdown-code-extraction">MarkDown code extraction</a>
 <ul class="nav flex-column">
 </ul>
@@ -167,6 +171,22 @@ sudo umount /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 sudo mount -t drvfs U: /mnt/u
 </code></pre>
+<h2 id="markitdown">Markitdown</h2>
+<p>Available from &lt;&gt;https://github.com/microsoft/markitdown, it is a Python utility for converting various files to Markdown.</p>
+<p>It now supports the following file types,</p>
+<ul>
+<li>PDF</li>
+<li>PowerPoint</li>
+<li>Word</li>
+<li>Excel</li>
+<li>Images (EXIF metadata and OCR)</li>
+<li>Audio (EXIF metadata and speech transcription)</li>
+<li>HTML</li>
+<li>Text-based formats (CSV, JSON, XML)</li>
+<li>ZIP files (iterates over contents)</li>
+<li>Youtube URLs</li>
+<li>EPubs</li>
+</ul>
 <h2 id="markdown-code-extraction">MarkDown code extraction</h2>
 <p>To extract <code>bash</code> code from GitHub markdown, the following is helpful,</p>
 <pre><code class="language-bash">sudo apt install npm
@@ -210,8 +230,9 @@ pip install ipython
 pip install nbconvert
 notedown DeepSeek.md &gt; DeepSeek.ipynb
 jupyter nbconvert --to html --execute DeepSeek.ipynb
+jupyter nbconvert DeepSeek.ipynb --to script
 </code></pre>
-<p>where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html.</p>
+<p>where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html. The Python script is also obtained later on.</p>
 <h2 id="markdown-editor">MarkDown editor</h2>
 <p>One may prefer Typora, available from <a href="https://typora.io/">https://typora.io/</a>. In particular, it supports mermaid, e.g., <a href="https://mermaid-js.github.io/mermaid-live-editor/">https://mermaid-js.github.io/mermaid-live-editor/</a>. The following is an example generated from the link to SVG,</p>
 <p><img alt="" src="https://tinyurl.com/y6cmwvn6"/></p>
