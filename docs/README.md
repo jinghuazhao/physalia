@@ -56,9 +56,7 @@ A pull request is made and the branch now merged into the master branch.
 
 ### TwoSampleMR/jhz
 
-It appears you're seeking assistance with the formatting of section numbers in your document. Here's a revised version with corrected section numbering:
-
-**Several steps are necessary:**
+Several steps are necessary:
 
 **1. Fork TwoSampleMR from <https://github.com/MRCIEU/TwoSampleMR>.**
 
