@@ -37,7 +37,24 @@ Efforts are highly welcome as a long-term project, via the following steps:
 See also [instructions to GDAL](https://github.com/OSGeo/gdal/blob/master/CONTRIBUTING.md).
 Additional information is given in [Notes.md](Notes.md). 
 
-## TwoSampleMR/jhz
+### Ultimate-Neural-Network-Programming-with-Python/jhz
+
+This exemplifies use of GitHub CLI, <https://cli.github.com/>.
+
+```bash
+module load ceuadmin/cli/2.76.2
+gh auth login
+gh auth status
+gh repo fork OrangeAVA/Ultimate-Neural-Network-Programming-with-Python --org cambridge-ceu
+cd Ultimate-Neural-Network-Programming-with-Python
+git checkout -b jhz
+# correct typos, modify file paths, rename model/att_net.py, ...
+git push --set-upstream origin jhz
+```
+
+A pull request is made and the branch now merged into the master branch.
+
+### TwoSampleMR/jhz
 
 It appears you're seeking assistance with the formatting of section numbers in your document. Here's a revised version with corrected section numbering:
 
