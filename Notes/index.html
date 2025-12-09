@@ -112,7 +112,7 @@
 <ul class="nav flex-column">
 </ul>
 </li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#markdown-to-ipynb">Markdown to ipynb</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#markdown-ipynb">Markdown &lt;==&gt; ipynb</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -224,13 +224,14 @@ if (process.argv.length &gt;= 3) {
 </code></pre>
 <p>Additional information on npm (Node Package Manager) is available from <a href="https://www.w3schools.com/whatis/whatis_npm.asp">https://www.w3schools.com/whatis/whatis_npm.asp</a>.</p>
 <p>Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>.</p>
-<h2 id="markdown-to-ipynb">Markdown to ipynb</h2>
+<h2 id="markdown-ipynb">Markdown &lt;==&gt; ipynb</h2>
 <pre><code class="language-bash">pip install notedown
 pip install ipython
 pip install nbconvert
 notedown DeepSeek.md &gt; DeepSeek.ipynb
 jupyter nbconvert --to html --execute DeepSeek.ipynb
 jupyter nbconvert DeepSeek.ipynb --to script
+jupyter nbconvert --to markdown Chapter8.ipynb
 </code></pre>
 <p>where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html. The Python script is also obtained later on.</p>
 <h2 id="markdown-editor">MarkDown editor</h2>
