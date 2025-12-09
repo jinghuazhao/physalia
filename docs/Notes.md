@@ -96,7 +96,7 @@ Additional information on npm (Node Package Manager) is available from <https://
 
 Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine, available from <https://nodejs.org/en/download/>.
 
-## Markdown to ipynb
+## Markdown <==> ipynb
 
 ```bash
 pip install notedown
@@ -105,6 +105,7 @@ pip install nbconvert
 notedown DeepSeek.md > DeepSeek.ipynb
 jupyter nbconvert --to html --execute DeepSeek.ipynb
 jupyter nbconvert DeepSeek.ipynb --to script
+jupyter nbconvert --to markdown Chapter8.ipynb
 ```
 
 where the Markdown document is converted to Jupyter notebook, which is executed before converted to .html. The Python script is also obtained later on.
